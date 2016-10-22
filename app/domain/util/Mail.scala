@@ -7,7 +7,7 @@ import play.api.libs.json.Json
 /**
   * Created by kuminga on 2016/09/01.
   */
-case class Mail(orgId: String,
+case class Mail(siteId: String,
                 id: String,
                 key: String,
                 value: String,

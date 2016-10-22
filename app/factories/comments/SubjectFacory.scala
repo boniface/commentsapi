@@ -8,8 +8,10 @@ import org.joda.time.DateTime
   */
 object SubjectFacory {
 
-  def createSubject(value:Map[String,String],date:DateTime){
-
+  def createSubject(value:Map[String,String],date:DateTime): Subject ={
+    Subject(siteId = value("siteId"),subjectId = value("subjectId"),name = value("name"),url = value("url"),date)
   }
+
+
 
 }
