@@ -6,8 +6,8 @@
 		module="commentsapi$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		conf="pom"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160929170155"/>
+		confs="universal, universal-docs, universal-src, docker, linux, compile, runtime, test, provided, optional, windows, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20161019090854"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
