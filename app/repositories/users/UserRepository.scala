@@ -1,12 +1,17 @@
 package repositories.users
 
+import java.sql.ResultSet
+
 import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
-import com.websudos.phantom.dsl._
+import com.websudos.phantom.dsl.{Session, _}
 import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.users.User
+import org.h2.engine.Session
+import play.api.libs.iteratee.Iteratee
+import views.html.helper.select
 
 import scala.concurrent.Future
 
@@ -60,7 +65,7 @@ object UserRepository extends UserRepository with RootConnector {
       .value(_.password, user.password)
       .value(_.siteId, user.siteId)
       .value(_.screenName, user.screenName)
-      .future()
+        .future()
   }
 
   def getUserByEmail(siteId: String, email: String): Future[Option[User]] = {

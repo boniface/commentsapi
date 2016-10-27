@@ -18,3 +18,4 @@ case class UserLogActivities(emailId: String,
 object UserLogActivities {
   implicit val userlogactFmt = Json.format[UserLogActivities]
 }
+

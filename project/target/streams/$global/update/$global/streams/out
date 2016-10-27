@@ -1,11 +1,11 @@
-[info] Updating {file:/home/hashcode/hashprojects/backend/commentsapi/project/}commentsapi-build...
-[debug] :: resolving dependencies :: default#commentsapi-build;0.1-SNAPSHOT
+[info] Updating {file:/C:/Users/fatimam/Desktop/commentsapi-1/project/}commentsapi-1-build...
+[debug] :: resolving dependencies :: default#commentsapi-1-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-plugin;2.5.8 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.5.8 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#sbt-plugin;2.5.8
@@ -1220,7 +1220,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-native-packager;1.1.4 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-native-packager;1.1.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-native-packager;1.1.4
@@ -1255,7 +1255,7 @@
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.1.4->org.apache.ant#ant;1.9.6 [compile->master]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-coffeescript;1.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-coffeescript;1.0.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-coffeescript;1.0.0
@@ -1285,7 +1285,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-less;1.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-less;1.1.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-less;1.1.0
@@ -1357,7 +1357,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-jshint;1.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-jshint;1.0.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-jshint;1.0.4
@@ -1410,7 +1410,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-rjs;1.0.8 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-rjs;1.0.8 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-rjs;1.0.8
@@ -1445,7 +1445,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-digest;1.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-digest;1.1.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-digest;1.1.1
@@ -1454,7 +1454,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-mocha;1.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-mocha;1.1.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-mocha;1.1.0
@@ -1498,7 +1498,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
 [info] Resolving org.irundaia.sbt#sbt-sassify;1.4.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.irundaia.sbt#sbt-sassify;1.4.6 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.irundaia.sbt#sbt-sassify;1.4.6
@@ -1894,9 +1894,9 @@
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->compile]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.nativelibs4java#jnaerator-runtime;0.12 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->compile]
@@ -2886,8 +2886,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -2905,7 +2905,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->org.webjars#less-node;2.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -2947,7 +2947,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->org.webjars#jshint-node;2.6.3-2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -2976,7 +2976,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->compile]
@@ -2999,12 +2999,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->org.webjars#mocha;1.17.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -3028,7 +3028,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.2.2 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.play#play-json_2.10;2.4.6 [compile->default(compile)]
@@ -3336,10 +3336,10 @@
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->compile]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.nativelibs4java#jnaerator-runtime;0.12 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->compile]
@@ -4319,8 +4319,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -4338,7 +4338,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->org.webjars#less-node;2.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -4380,7 +4380,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->org.webjars#jshint-node;2.6.3-2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -4409,7 +4409,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->compile]
@@ -4432,12 +4432,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->org.webjars#mocha;1.17.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -4461,7 +4461,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.2.2 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.play#play-json_2.10;2.4.6 [compile->default(compile)]
@@ -4769,12 +4769,12 @@
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->compile]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.nativelibs4java#jnaerator-runtime;0.12 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.11 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.11
@@ -5597,11 +5597,11 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->compile]
@@ -6581,8 +6581,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -6600,7 +6600,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->org.webjars#less-node;2.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -6642,7 +6642,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->org.webjars#jshint-node;2.6.3-2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -6671,7 +6671,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->compile]
@@ -6694,12 +6694,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->org.webjars#mocha;1.17.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -6723,7 +6723,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.2.2 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.play#play-json_2.10;2.4.6 [compile->default(compile)]
@@ -7030,13 +7030,13 @@
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->compile]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.nativelibs4java#jnaerator-runtime;0.12 [compile->master]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile]
@@ -7641,10 +7641,10 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->compile]
@@ -8624,8 +8624,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -8643,7 +8643,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->org.webjars#less-node;2.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -8685,7 +8685,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->org.webjars#jshint-node;2.6.3-2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -8714,7 +8714,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->compile]
@@ -8737,12 +8737,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->org.webjars#mocha;1.17.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -8766,7 +8766,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.2.2 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.play#play-json_2.10;2.4.6 [compile->default(compile)]
@@ -9073,13 +9073,13 @@
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->compile]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.nativelibs4java#jnaerator-runtime;0.12 [compile->master]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.8->com.typesafe.play#sbt-routes-compiler_2.10;2.5.8 [compile->compile]
@@ -10059,8 +10059,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-native-packager;1.1.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -10078,7 +10078,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-less;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->org.webjars#less-node;2.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -10120,7 +10120,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-jshint;1.0.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->org.webjars#jshint-node;2.6.3-2 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -10149,7 +10149,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->com.typesafe.sbt#sbt-js-engine;1.1.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-rjs;1.0.8 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->compile]
@@ -10172,12 +10172,12 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-mocha;1.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->org.webjars#mocha;1.17.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
@@ -10201,7 +10201,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.irundaia.sbt#sbt-sassify;1.4.6 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.2.2 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.play#play-json_2.10;2.4.6 [compile->default(compile)]
@@ -10508,13 +10508,13 @@
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.nativelibs4java#jnaerator-runtime;0.12->net.java.dev.jna#jna;4.1.0 [runtime->compile]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.nativelibs4java#jnaerator-runtime;0.12 [compile->master]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile]
@@ -11119,18 +11119,18 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#commentsapi-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies for default#commentsapi-1-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default]
@@ -11148,8 +11148,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -11162,11 +11162,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#commentsapi-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#commentsapi-1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
 [debug] all callers are evicted for org.tukaani#xz;1.0: evicting too
 [debug] all callers are evicted for org.tukaani#xz;1.0: evicting too
 [debug] all callers are evicted for org.tukaani#xz;1.0: evicting too
@@ -11175,7 +11175,14 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.typesafe.play#sbt-plugin;2.5.8!sbt-plugin.jar
-[debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-native-packager;1.1.4!sbt-native-packager.jar
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar
+[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar ...
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar
+[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar.sha1
+[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.1.4/jars/sbt-native-packager.jar
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.1.4!sbt-native-packager.jar (173630ms)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-coffeescript;1.0.0!sbt-coffeescript.jar
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-less;1.1.0!sbt-less.jar
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-jshint;1.0.4!sbt-jshint.jar
@@ -11314,19 +11321,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2820ms :: artifacts dl 79ms
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-compile.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-runtime.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-test.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT provided produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-provided.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT optional produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-optional.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile-internal produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-compile-internal.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime-internal produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-runtime-internal.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test-internal produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-test-internal.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT plugin produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-plugin.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT sources produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-sources.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT docs produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-docs.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT pom produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-pom.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT scala-tool produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-scala-tool.xml
-[debug] 	resolve done (2820ms resolve - 79ms download)
+[debug] :: resolution report :: resolve 4656ms :: artifacts dl 185386ms
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT compile produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-compile.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT runtime produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-runtime.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT test produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-test.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT provided produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-provided.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT optional produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-optional.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT compile-internal produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-compile-internal.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-runtime-internal.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT test-internal produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-test-internal.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT plugin produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-plugin.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT sources produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-sources.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT docs produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-docs.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT pom produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-pom.xml
+[debug] 	report for default#commentsapi-1-build;0.1-SNAPSHOT scala-tool produced in C:\Users\fatimam\Desktop\commentsapi-1\project\target\resolution-cache\reports\default-commentsapi-1-build-scala-tool.xml
+[debug] 	resolve done (4656ms resolve - 185386ms download)
 [info] Done updating.

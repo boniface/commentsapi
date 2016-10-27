@@ -2,12 +2,13 @@ package repositories.util
 
 import domain.util.Token
 import org.scalatest.{FeatureSpec, GivenWhenThen}
+import repositories.Util.TokenRepository
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
 /**
-  * Created by kuminga on 2016/09/07.
+  *
   */
 class TokenTest extends FeatureSpec with GivenWhenThen{
   feature("Create Token") {

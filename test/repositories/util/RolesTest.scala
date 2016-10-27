@@ -2,6 +2,7 @@ package repositories.util
 
 import domain.util.Roles
 import org.scalatest.{FeatureSpec, GivenWhenThen}
+import repositories.Util.RolesRepository
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
@@ -21,7 +22,7 @@ class RolesTest extends FeatureSpec with GivenWhenThen{
       val privileges=Set("admin", "user")
       Then("Add gender ")
       val roletext = Roles(id,name)
-      val roleRepo = RoleRepository
+      val roleRepo = RolesRepository
       roleRepo.save(roletext)
       Then("Display All ")
       val displayAllroles= Await.result(roleRepo.getAllRoles, 2 minutes)

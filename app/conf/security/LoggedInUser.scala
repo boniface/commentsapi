@@ -1,5 +1,9 @@
 package conf.security
 
+import domain.users.User
+import services.users.UserService
+import services.util.TokenService
+
 import scala.concurrent.Future
 
 /**
