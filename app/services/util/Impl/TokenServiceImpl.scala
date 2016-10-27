@@ -5,19 +5,21 @@ import java.util.UUID
 import authentikat.jwt.{JsonWebToken, JwtClaimsSet, JwtHeader}
 import com.datastax.driver.core.ResultSet
 import com.github.nscala_time.time.Imports._
+import conf.security.Credential
 import conf.util.Util
+import domain.users.{User, UserGeneratedToken}
 import domain.util.Token
-import repositories.util.TokenRepository
+import repositories.Util.TokenRepository
+
 import services.Service
+import services.users.UserService
 import services.util.TokenService
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 import scala.util.{Failure, Success, Try}
 
-/**
-  * Created by hashcode on 2016/09/09.
-  */
+
 class TokenServiceImpl extends TokenService with Service {
   override def save(token: Token): Future[ResultSet] = {
     TokenRepository.save(token)
@@ -35,7 +37,7 @@ class TokenServiceImpl extends TokenService with Service {
             for {
               token <- generateToken(user, credential) if credential.password.isBcrypted(user.password)
               saveToken <- save(Token(getTokenId(token), token)) if credential.password.isBcrypted(user.password)
-            } yield UserGeneratedToken(token, "SUCCEED", "USER AUTHENTICATED", Set(user.orgCode))
+            } yield UserGeneratedToken(token, "SUCCEED", "USER AUTHENTICATED", Set(user.siteId))
           }
           checkAccounts match {
             case Success(foundUsers) => foundUsers
@@ -50,7 +52,7 @@ class TokenServiceImpl extends TokenService with Service {
         }
       }
       case accounts@(user :: tail) => {
-        val organisations = (accounts map (user => user.orgCode)).toSet
+        val organisations = (accounts map (user => user.siteId)).toSet
         Future {
           UserGeneratedToken("NONE", "MULTIPLE", "MULTIPLE ACCOUNTS FOUND", organisations)
         }
@@ -130,7 +132,7 @@ class TokenServiceImpl extends TokenService with Service {
     val signature = Future {
       credential.email
     }
-    val userRole = UserService.apply.getUserRole(user.orgCode,user.email) map (role => {
+    val userRole = UserService.apply.getUserRole(user.siteId,user.email) map (role => {
       role map (e => e.roleId)
     })
 
@@ -141,7 +143,7 @@ class TokenServiceImpl extends TokenService with Service {
 
     tokenSignatureAndRoles map (tokenValues => {
       val claims = JwtClaimsSet(Map(
-        "iss" -> user.orgCode,
+        "iss" -> user.siteId,
         "sub" -> user.email,
         "role" -> tokenValues._2, //getOrElse("")
         "exp" -> DateTime.now.plusHours(12).getMillis,
