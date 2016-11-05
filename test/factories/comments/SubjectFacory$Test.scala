@@ -12,7 +12,7 @@ class SubjectFactory$Test extends FunSuite {
   test("testCreateSubject") {
       val values = Map("siteId"->"id","subjectId"->"Terrorism","name"->"Tebogo","url"->"10.18.8.9")
       val dates = new DateTime
-    val getSubject = SubjectFacory.createSubject(values,dates)
+    val getSubject = SubjectFactory.createSubject(values,dates)
     assert(getSubject == Subject(siteId = "id",subjectId = "Terrorism",name = "Tebogo",url = "10.18.8.9",dates))
   }
 
