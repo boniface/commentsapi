@@ -1,12 +1,13 @@
 package repositories.comments
 
+import com.websudos.phantom.CassandraTable
+import com.websudos.phantom.connectors.{KeySpace, RootConnector}
+import com.websudos.phantom.dsl._
+import com.websudos.phantom.reactivestreams.iteratee.Iteratee
 import conf.connection.DataConnection
-import domain.comments.{Subject, Abuse, Comment}
-import domain.users.User
-import io.netty.util.concurrent.Future
-import org.h2.engine.Session
-import org.h2.result.Row
-import views.html.helper.select
+import domain.comments.Subject
+
+import scala.concurrent.Future
 
 /**
   * Created by Bonga on 10/28/2016.
@@ -19,7 +20,7 @@ class SubjectRepository  extends CassandraTable[SubjectRepository, Subject]{
   object subjectId extends StringColumn(this) with PrimaryKey[String]
   object name extends StringColumn(this)
   object url extends StringColumn(this)
-  object date extends StringColumn(this)
+  object date extends DateTimeColumn(this)
 
   override def fromRow(r: Row): Subject = {
     Subject(
@@ -27,7 +28,7 @@ class SubjectRepository  extends CassandraTable[SubjectRepository, Subject]{
       subjectId(r),
       name(r),
       url(r),
-      date(r),
+      date(r)
 
     )
   }
@@ -51,11 +52,11 @@ object SubjectRepository extends SubjectRepository with RootConnector {
       .future()
   }
 
-  def getSubjectBySubjectId(siteId: String, subjectId: String): Future[Option[Abuse]] = {
+  def getSubjectBySubjectId(siteId: String, subjectId: String): Future[Option[Subject]] = {
     select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
   }
 
-  def getSiteSubject(siteId: String): Future[Seq[User]] = {
+  def getSiteSubject(siteId: String): Future[Seq[Subject]] = {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
   }
 

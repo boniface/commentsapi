@@ -1,13 +1,14 @@
 package repositories.comments
 
+
+import com.websudos.phantom.CassandraTable
+import com.websudos.phantom.connectors.{KeySpace, RootConnector}
+import com.websudos.phantom.dsl._
 import conf.connection.DataConnection
-import domain.comments.{ResponseStatus, CommentStatus}
-import domain.users.User
-import io.netty.util.concurrent.Future
-import org.h2.engine.Session
-import org.h2.result.Row
+import domain.comments.ResponseStatus
 import play.api.libs.iteratee.Iteratee
-import views.html.helper.select
+
+import scala.concurrent.Future
 
 /**
   * Created by Bonga on 10/28/2016.
@@ -16,15 +17,15 @@ import views.html.helper.select
 class ResponseStatusRepository  extends CassandraTable[ResponseStatusRepository, ResponseStatus]{
 
 
-  object responsetId extends StringColumn(this) with PartitionKey[String]
+  object responseId extends StringColumn(this) with PrimaryKey[String]
   object status extends StringColumn(this)
-  object date extends StringColumn(this)
+  object date extends DateTimeColumn(this)
 
   override def fromRow(r: Row): ResponseStatus = {
     ResponseStatus(
-      responsetId(r),
+      responseId(r),
       status(r),
-      date(r),
+      date(r)
 
     )
   }
@@ -40,18 +41,18 @@ object ResponseStatusRepository extends ResponseStatusRepository with RootConnec
 
   def save(responseStatus: ResponseStatus): Future[ResultSet] = {
     insert
-      .value(_.responsetId, responseStatus.responsetId)
+      .value(_.responseId, responseStatus.responseId)
       .value(_. status, responseStatus.status)
       .value(_.date, responseStatus.date)
       .future()
   }
 
-  def getResponsetByResponseId(responsetId: String): Future[Option[CommentStatus]] = {
-    select.where(_.siteId eqs siteId).and(_.responsetId eqs responsetId).one()
+  def getResponsetByResponseId(responsetId: String): Future[Option[ResponseStatus]] = {
+    select.where(_.responseId eqs responsetId).one()
   }
 
-  def getSiteResponsetId(responsetId: String): Future[Seq[User]] = {
-    select.where(_.siteId eqs responsetId).fetchEnumerator() run Iteratee.collect()
+  def getSiteResponsetId(responseId: String): Future[Seq[ResponseStatus]] = {
+    select.where(_.responseId eqs responseId).fetchEnumerator() run Iteratee.collect()
   }
 
 }

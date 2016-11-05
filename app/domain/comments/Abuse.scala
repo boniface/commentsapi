@@ -8,9 +8,11 @@ import play.api.libs.json.Json
   */
 case class Abuse(siteId:String,
                  subjectId:String,
-                 abuseId:String, details:String,
+                 abuseId:String,
+                 details:String,
                  commentIdOrResponseId:String,
-                 emailId:String, date:DateTime)
+                 emailId:String,
+                 date:DateTime)
 object Abuse{
   implicit val abuseFmt =Json.format[Abuse]
 
