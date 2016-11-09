@@ -975,7 +975,7 @@
       <workItem from="1478206317657" duration="441000" />
       <workItem from="1478245275227" duration="420000" />
       <workItem from="1478335819279" duration="12243000" />
-      <workItem from="1478706371734" duration="335000" />
+      <workItem from="1478706371734" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1476857972317</created>
@@ -1033,7 +1033,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478706702192</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated Repo to Remove Wrong Committed Files">
+      <created>1478706721253</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1478706721253</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1042,7 +1049,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72712000" />
+    <option name="totallyTimeSpent" value="72739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1055" extended-state="0" />
