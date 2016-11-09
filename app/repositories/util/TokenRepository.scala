@@ -6,48 +6,50 @@ import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
-import domain.util.Keys
+import domain.util.Token
 
 import scala.concurrent.Future
 
 /**
- * Created by /**
-  * Created by kuminga on 2016/08/29.
+  * Created by hashcode on 2015/06/09.
   */
- */
-sealed class KeysRepository extends CassandraTable[KeysRepository, Keys] {
+class TokenRepository extends CassandraTable[TokenRepository, Token] {
 
   object id extends StringColumn(this) with PartitionKey[String]
 
-  object value extends StringColumn(this)
+  object tokenValue extends StringColumn(this)
 
-  override def fromRow(row: Row): Keys = {
-    Keys(
+  override def fromRow(row: Row): Token = {
+    Token(
       id(row),
-      value(row)
+      tokenValue(row)
     )
   }
 }
 
-object KeysRepository extends KeysRepository with RootConnector {
-  override lazy val tableName = "tokenkeys"
+object TokenRepository extends TokenRepository with RootConnector {
+  override lazy val tableName = "tokens"
 
   override implicit def space: KeySpace = DataConnection.keySpace
 
   override implicit def session: Session = DataConnection.session
 
 
-  def save(key: Keys): Future[ResultSet] = {
+  def save(token: Token): Future[ResultSet] = {
     insert
-      .value(_.id, key.id)
-      .value(_.value, key.value)
+      .value(_.id, token.id)
+      .value(_.tokenValue, token.tokenValue)
+      .ttl(12000)
       .future()
   }
-  def getKeyById(id: String): Future[Option[Keys]] = {
+
+  def getTokenById(id: String): Future[Option[Token]] = {
     select.where(_.id eqs id).one()
+
   }
-  def getAllkeys: Future[Seq[Keys]] = {
+
+  def getAllTokens: Future[Seq[Token]] = {
     select.fetchEnumerator() run Iteratee.collect()
   }
-  
+
 }
