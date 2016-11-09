@@ -861,7 +861,7 @@
       <workItem from="1476857789662" duration="1390000" />
       <workItem from="1476859273267" duration="2003000" />
       <workItem from="1476861753730" duration="11060000" />
-      <workItem from="1478706097953" duration="154000" />
+      <workItem from="1478706097953" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1476857972317</created>
@@ -919,7 +919,21 @@
       <option name="project" value="LOCAL" />
       <updated>1478706211995</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated with Sample Code">
+      <created>1478706256070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1478706256070</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated with Sample Code">
+      <created>1478706308231</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1478706308231</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -928,7 +942,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34956000" />
+    <option name="totallyTimeSpent" value="35024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1055" extended-state="0" />
@@ -1202,6 +1216,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+          <folding>
+            <element signature="e#27#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,6 +1233,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
           <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,6 +1248,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="51" column="51" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,6 +1256,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
           <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+          <folding>
+            <element signature="e#27#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
