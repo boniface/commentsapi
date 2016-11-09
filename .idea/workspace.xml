@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d65a5c65-a8fb-46e0-8afa-5b5289210663" name="Default" comment="Updated Repo to Remove Wrong Committed Files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/factories/comments/CommentStatusFactory.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/factories/comments/ResponseStatusFactory.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/sites/AdminStatusRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/sites/AdministratorHistoryRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/sites/AdministratorsRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/sites/SiteRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/repositories/syslog/SystemLogEventsRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/CommentService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/CommentServiceImpl.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/AdminStatusService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/AdministratorHistoryService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/AdministratorsService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/impl/AdminStatusServiceImpl.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/impl/AdministratorHistoryServiceImpl.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/impl/AdministratorsServiceImpl.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/impl/SitesServiceImpl.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/sites/sitesService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/factories/comments/CommentStatusFactoryTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/factories/comments/ResponseStatusFactoryTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/repositories/util/sites/SitesTest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/services/util/SitesServiceTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/factories/comments/CommentsFactory.scala" afterPath="$PROJECT_DIR$/app/factories/comments/CommentFactory.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/factories/comments/SubjectFacory.scala" afterPath="$PROJECT_DIR$/app/factories/comments/SubjectFactory.scala" />
+    <list default="true" id="d65a5c65-a8fb-46e0-8afa-5b5289210663" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
@@ -37,13 +9,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/comments/Abuse.scala" afterPath="$PROJECT_DIR$/app/domain/comments/Abuse.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/factories/votes/VoteFactory.scala" afterPath="$PROJECT_DIR$/app/factories/votes/VoteFactory.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/comments/CommentRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/comments/CommentRepository.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/users/UserRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/users/UserRepository.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/commentsapi-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/commentsapi-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/commentsapi-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/commentsapi-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-commentsapi-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-commentsapi-build-compile-internal.xml" />
@@ -109,9 +75,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/factories/comments/SubjectFacory$Test.scala" afterPath="$PROJECT_DIR$/test/factories/comments/SubjectFacory$Test.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/factories/votes/VoteFactory$Test.scala" afterPath="$PROJECT_DIR$/test/factories/votes/VoteFactory$Test.scala" />
     </list>
+    <list id="aa221cf7-e75b-405e-8bc3-2a094dfce30f" name="Failed commit: Default" comment="Updated Repo to Remove Wrong Committed Files" />
     <ignored path="commentsapi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1011,7 +976,7 @@
       <workItem from="1478206317657" duration="441000" />
       <workItem from="1478245275227" duration="420000" />
       <workItem from="1478335819279" duration="12243000" />
-      <workItem from="1478706371734" duration="206000" />
+      <workItem from="1478706371734" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1476857972317</created>
@@ -1055,7 +1020,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476862606512</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated Repo to Remove Wrong Committed Files">
+      <created>1478706678975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1478706678975</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1064,7 +1036,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72583000" />
+    <option name="totallyTimeSpent" value="72694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1055" extended-state="0" />
