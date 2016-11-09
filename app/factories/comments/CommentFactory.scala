@@ -1,18 +1,18 @@
 package factories.comments
-import domain.comments.{Comment, Subject}
+
+import domain.comments.Comment
 import org.joda.time.DateTime
 
 /**
-  * Created by Bonga on 9/27/2016.
+  * Created by Bonga on 10/27/2016.
   */
+object CommentFactory {
 
-object CommentsFactory {
 
-  def getComments (value:Map[String,String],dates:DateTime): Comment ={
+  def getComment (value:Map[String,String],dates:DateTime): Comment ={
     Comment(siteId = value("siteId"),subjectId = value("subjectId"),
       commentId = value("commentId"),emailId = value("emailId"),
       ipaddress = value("ipaddress"),comment = value("comment"),date = dates)
 
-    }
-
+  }
 }

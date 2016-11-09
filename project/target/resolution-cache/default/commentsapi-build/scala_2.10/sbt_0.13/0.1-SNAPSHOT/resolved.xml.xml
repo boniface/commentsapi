@@ -4,7 +4,7 @@
 		module="commentsapi-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161019090559"
+		publication="20161103225623"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
