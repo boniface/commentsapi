@@ -6,11 +6,9 @@ import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
-import domain.comments.Abuse
+
 import domain.users.User
-import org.h2.engine.Session
-import org.h2.result.Row
-import views.html.helper.select
+
 
 import scala.concurrent.Future
 
@@ -23,59 +21,56 @@ import scala.concurrent.Future
   * password: String
   */
 
-class CommentRepository extends CassandraTable[CommentRepository, Abuse] {
+class UserRepository extends CassandraTable[UserRepository, User] {
 
   object siteId extends StringColumn(this) with PartitionKey[String]
 
-  object subjectId extends StringColumn(this) with PrimaryKey[String]
+  object email extends StringColumn(this) with PrimaryKey[String]
 
-  object commentOrResponse extends StringColumn(this)
+  object screenName extends StringColumn(this)
 
-  object abuseId extends OptionalStringColumn(this)
+  object firstname extends OptionalStringColumn(this)
 
-  object details extends OptionalStringColumn(this)
+  object lastName extends OptionalStringColumn(this)
 
-  object emailId extends StringColumn(this)
+  object password extends StringColumn(this)
 
-  object date extends StringColumn(this)
-
-
-  override def fromRow(r: Row): Abuse = {
-    Abuse(
+  override def fromRow(r: Row): User = {
+    User(
       siteId(r),
-      subjectId(r),
-      commentOrResponse(r),
-      abuseId(r),
-      emailId(r),
-      date(r)
+      email(r),
+      screenName(r),
+      firstname(r),
+      lastName(r),
+      password(r)
     )
   }
 }
 
-object CommentRepository extends CommentRepository with RootConnector {
+object UserRepository extends UserRepository with RootConnector {
 
-  override lazy val tableName = "abuse"
+  override lazy val tableName = "users"
 
   override implicit def space: KeySpace = DataConnection.keySpace
 
   override implicit def session: Session = DataConnection.session
 
-  def save(abuse: Abuse): Future[ResultSet] = {
+  def save(user: User): Future[ResultSet] = {
     insert
-      .value(_.subjectId, abuse.subjectId)
-      .value(_.commentOrResponse, abuse.commentOrResponse)
-      .value(_.abuseId, abuse.abuseId)
-      .value(_.emailId, abuse.emailId)
-      .value(_.siteId, abuse.siteId)
-      .value(_.date, abuse.date)
+      .value(_.siteId, user.siteId)
+      .value(_.email, user.email)
+      .value(_.screenName, user.screenName)
+      .value(_.firstname, user.firstname)
+      .value(_.lastName, user.siteId)
+      .value(_.password, user.password)
       .future()
   }
 
-  def getUserBySubject(siteId: String, subjectId: String): Future[Option[User]] = {
-    select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
+  def getSiteUser(siteId: String, email: String): Future[Option[User]] = {
+    select.where(_.siteId eqs siteId).and(_.email eqs email).one()
   }
 
-  def getSiteAbuse(siteId: String): Future[Seq[User]] = {
+  def getSiteUsers(siteId: String): Future[Seq[User]] = {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
   }
 }

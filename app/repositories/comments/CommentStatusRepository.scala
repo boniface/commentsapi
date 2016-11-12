@@ -1,13 +1,13 @@
 package repositories.comments
 
 
+import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
-import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
-import com.websudos.phantom.keys.PrimaryKey
-import domain.comments.CommentStatus
+import com.websudos.phantom.keys.PartitionKey
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
-import play.api.libs.iteratee.Iteratee
+import domain.comments.CommentStatus
 import scala.concurrent.Future
 
 
