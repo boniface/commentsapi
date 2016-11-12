@@ -11,8 +11,7 @@ case class User(siteId:String,
                 firstname:Option[String],
                 lastName:Option[String],
                 password: String
-               ) {
-}
+               )
 
 object User {
   implicit val userFmt = Json.format[User]
