@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Bonga\Desktop\commentsapi\conf\application.conf,C:\Users\Bonga\Desktop\commentsapi\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\Users\Bonga\Desktop\commentsapi\conf\logback.xml,C:\Users\Bonga\Desktop\commentsapi\target\scala-2.11\classes\logback.xml)
+[debug] 	(C:\Users\Bonga\Desktop\commentsapi\conf\routes,C:\Users\Bonga\Desktop\commentsapi\target\scala-2.11\classes\routes)
