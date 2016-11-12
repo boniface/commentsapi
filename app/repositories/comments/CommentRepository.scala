@@ -70,9 +70,20 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
       select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
     }
 
-    def getSiteComment(siteId: String): Future[Seq[Comment]] = {
-      select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+    def getSiteComment(siteId: String): Future[Option[Comment]] = {
+      select.where(_.siteId eqs siteId).one()
     }
+
+    def getAllComment: Future[Seq[Comment]] = {
+      select.all().fetch()
+    }
+
+
+    def deleteAll: Future[ResultSet] = {
+      delete.future()
+
+    }
+
 
 
 }

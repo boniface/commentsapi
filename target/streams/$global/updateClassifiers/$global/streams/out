@@ -23517,670 +23517,163 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.5.0!HikariCP.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.chuusai\shapeless_2.11\2.2.5\srcs\shapeless_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.2.5/shapeless_2.11-2.2.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.2.5/shapeless_2.11-2.2.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.2.5/shapeless_2.11-2.2.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.2.5/shapeless_2.11-2.2.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.2.5/shapeless_2.11-2.2.5-sources.jar
-[info] 	[SUCCESSFUL ] com.chuusai#shapeless_2.11;2.2.5!shapeless_2.11.jar(src) (2691ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-protobuf_2.11\2.4.3\srcs\akka-protobuf_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.3/akka-protobuf_2.11-2.4.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.3/akka-protobuf_2.11-2.4.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.3/akka-protobuf_2.11-2.4.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.3/akka-protobuf_2.11-2.4.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.3/akka-protobuf_2.11-2.4.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.11;2.4.3!akka-protobuf_2.11.jar(src) (2465ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\machinist_2.11\0.4.1\srcs\machinist_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#machinist_2.11;0.4.1!machinist_2.11.jar(src) (1144ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-dsl_2.11\1.28.13\srcs\phantom-dsl_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.28.13/phantom-dsl_2.11-1.28.13-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.28.13/phantom-dsl_2.11-1.28.13-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.28.13/phantom-dsl_2.11-1.28.13-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.28.13/phantom-dsl_2.11-1.28.13-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.28.13/phantom-dsl_2.11-1.28.13-sources.jar
-[info] 	[SUCCESSFUL ] com.websudos#phantom-dsl_2.11;1.28.13!phantom-dsl_2.11.jar(src) (1702ms)
+[debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.11;2.2.5!shapeless_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.3!akka-protobuf_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.11;0.4.1!machinist_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.websudos#phantom-dsl_2.11;1.28.13!phantom-dsl_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;1.0.8!netty-reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.7.6!jackson-annotations.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-jvm_2.11\0.7.2\srcs\cats-jvm_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.7.2/cats-jvm_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.7.2/cats-jvm_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.7.2/cats-jvm_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.7.2/cats-jvm_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.7.2/cats-jvm_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-jvm_2.11;0.7.2!cats-jvm_2.11.jar(src) (1073ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.thoughtworks.paranamer\paranamer\2.8\srcs\paranamer-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar
-[info] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src) (1146ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-jvm_2.11;0.7.2!cats-jvm_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.5.8!play-datacommons_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.mpilquist\simulacrum_2.11\0.8.0\srcs\simulacrum_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.8.0/simulacrum_2.11-0.8.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.8.0/simulacrum_2.11-0.8.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.8.0/simulacrum_2.11-0.8.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.8.0/simulacrum_2.11-0.8.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.8.0/simulacrum_2.11-0.8.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.mpilquist#simulacrum_2.11;0.8.0!simulacrum_2.11.jar(src) (1088ms)
+[debug] 	[NOT REQUIRED] com.github.mpilquist#simulacrum_2.11;0.8.0!simulacrum_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.5.8!build-link.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\discipline_2.11\0.4\srcs\discipline_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#discipline_2.11;0.4!discipline_2.11.jar(src) (1143ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-kernel-laws_2.11\0.7.2\srcs\cats-kernel-laws_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.7.2/cats-kernel-laws_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.7.2/cats-kernel-laws_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.7.2/cats-kernel-laws_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.7.2/cats-kernel-laws_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.7.2/cats-kernel-laws_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel-laws_2.11;0.7.2!cats-kernel-laws_2.11.jar(src) (1112ms)
+[debug] 	[NOT REQUIRED] org.typelevel#discipline_2.11;0.4!discipline_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel-laws_2.11;0.7.2!cats-kernel-laws_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.21!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.0.41.Final!netty-codec-http.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\catalysts-platform_2.11\0.0.2\srcs\catalysts-platform_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#catalysts-platform_2.11;0.0.2!catalysts-platform_2.11.jar(src) (1159ms)
+[debug] 	[NOT REQUIRED] org.typelevel#catalysts-platform_2.11;0.0.2!catalysts-platform_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.5.8!play-functional_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.springframework\spring-beans\4.2.7.RELEASE\srcs\spring-beans-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/springframework/spring-beans/4.2.7.RELEASE/spring-beans-4.2.7.RELEASE-sources.jar
-[info] 	[SUCCESSFUL ] org.springframework#spring-beans;4.2.7.RELEASE!spring-beans.jar(src) (3620ms)
+[debug] 	[NOT REQUIRED] org.springframework#spring-beans;4.2.7.RELEASE!spring-beans.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.monix\monix_2.11\2.0.0\srcs\monix_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/monix/monix_2.11/2.0.0/monix_2.11-2.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/monix/monix_2.11/2.0.0/monix_2.11-2.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix_2.11/2.0.0/monix_2.11-2.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix_2.11/2.0.0/monix_2.11-2.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/monix/monix_2.11/2.0.0/monix_2.11-2.0.0-sources.jar
-[info] 	[SUCCESSFUL ] io.monix#monix_2.11;2.0.0!monix_2.11.jar(src) (1102ms)
+[debug] 	[NOT REQUIRED] io.monix#monix_2.11;2.0.0!monix_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-akka_2.11;0.2.1!ssl-config-akka_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.7.6!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.asynchttpclient#netty-resolver-dns;2.0.11!netty-resolver-dns.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.6!jackson-datatype-jdk8.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\javax.el\javax.el-api\3.0.0\srcs\javax.el-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0-sources.jar
-[info] 	[SUCCESSFUL ] javax.el#javax.el-api;3.0.0!javax.el-api.jar(src) (1572ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.karelcemus\play-redis_2.11\1.2.0\srcs\play-redis_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/karelcemus/play-redis_2.11/1.2.0/play-redis_2.11-1.2.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/karelcemus/play-redis_2.11/1.2.0/play-redis_2.11-1.2.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/karelcemus/play-redis_2.11/1.2.0/play-redis_2.11-1.2.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/karelcemus/play-redis_2.11/1.2.0/play-redis_2.11-1.2.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/karelcemus/play-redis_2.11/1.2.0/play-redis_2.11-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.karelcemus#play-redis_2.11;1.2.0!play-redis_2.11.jar(src) (1323ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.monix\monix-reactive_2.11\2.0.0\srcs\monix-reactive_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/monix/monix-reactive_2.11/2.0.0/monix-reactive_2.11-2.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.11/2.0.0/monix-reactive_2.11-2.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.11/2.0.0/monix-reactive_2.11-2.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-reactive_2.11/2.0.0/monix-reactive_2.11-2.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/monix/monix-reactive_2.11/2.0.0/monix-reactive_2.11-2.0.0-sources.jar
-[info] 	[SUCCESSFUL ] io.monix#monix-reactive_2.11;2.0.0!monix-reactive_2.11.jar(src) (2253ms)
+[debug] 	[NOT REQUIRED] javax.el#javax.el-api;3.0.0!javax.el-api.jar(src)
+[debug] 	[NOT REQUIRED] com.github.karelcemus#play-redis_2.11;1.2.0!play-redis_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.monix#monix-reactive_2.11;2.0.0!monix-reactive_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.asynchttpclient#async-http-client;2.0.11!async-http-client.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.11;1.1.1!twirl-api_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams-http;1.0.8!netty-reactive-streams-http.jar(src)
 [debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.json4s\json4s-ast_2.11\3.4.0\srcs\json4s-ast_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.4.0/json4s-ast_2.11-3.4.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.4.0/json4s-ast_2.11-3.4.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.4.0/json4s-ast_2.11-3.4.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.4.0/json4s-ast_2.11-3.4.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.11/3.4.0/json4s-ast_2.11-3.4.0-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-ast_2.11;3.4.0!json4s-ast_2.11.jar(src) (1135ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.json4s\json4s-scalap_2.11\3.4.0\srcs\json4s-scalap_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.4.0/json4s-scalap_2.11-3.4.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.4.0/json4s-scalap_2.11-3.4.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.4.0/json4s-scalap_2.11-3.4.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.4.0/json4s-scalap_2.11-3.4.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-scalap_2.11/3.4.0/json4s-scalap_2.11-3.4.0-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-scalap_2.11;3.4.0!json4s-scalap_2.11.jar(src) (1116ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.reflections\reflections\0.9.10\srcs\reflections-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/reflections/reflections/0.9.10/reflections-0.9.10-sources.jar
-[info] 	[SUCCESSFUL ] org.reflections#reflections;0.9.10!reflections.jar(src) (1274ms)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.4.0!json4s-ast_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.4.0!json4s-scalap_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.reflections#reflections;0.9.10!reflections.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.11;2.5.8!play-jdbc-api_2.11.jar(src)
 [debug] 	[NOT REQUIRED] oauth.signpost#signpost-core;1.2.1.2!signpost-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.21!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.5.8!play-netty-utils.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.json4s\json4s-native_2.11\3.4.0\srcs\json4s-native_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.4.0/json4s-native_2.11-3.4.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.4.0/json4s-native_2.11-3.4.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.4.0/json4s-native_2.11-3.4.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.4.0/json4s-native_2.11-3.4.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.4.0/json4s-native_2.11-3.4.0-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-native_2.11;3.4.0!json4s-native_2.11.jar(src) (1127ms)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.4.0!json4s-native_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.11;2.5.8!play-netty-server_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-streams-experimental_2.11\2.4.6\srcs\play-streams-experimental_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams-experimental_2.11/2.4.6/play-streams-experimental_2.11-2.4.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams-experimental_2.11/2.4.6/play-streams-experimental_2.11-2.4.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams-experimental_2.11/2.4.6/play-streams-experimental_2.11-2.4.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams-experimental_2.11/2.4.6/play-streams-experimental_2.11-2.4.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams-experimental_2.11/2.4.6/play-streams-experimental_2.11-2.4.6-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams-experimental_2.11;2.4.6!play-streams-experimental_2.11.jar(src) (1376ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-streams-experimental_2.11;2.4.6!play-streams-experimental_2.11.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.5.8!play-jdbc_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.getclump\clump_2.11\0.0.11\srcs\clump_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/getclump/clump_2.11/0.0.11/clump_2.11-0.0.11-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/getclump/clump_2.11/0.0.11/clump_2.11-0.0.11-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/getclump/clump_2.11/0.0.11/clump_2.11-0.0.11-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/getclump/clump_2.11/0.0.11/clump_2.11-0.0.11-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/getclump/clump_2.11/0.0.11/clump_2.11-0.0.11-sources.jar
-[info] 	[SUCCESSFUL ] io.getclump#clump_2.11;0.0.11!clump_2.11.jar(src) (1098ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.scalaz\scalaz-core_2.11\7.2.6\srcs\scalaz-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.6/scalaz-core_2.11-7.2.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.6/scalaz-core_2.11-7.2.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.6/scalaz-core_2.11-7.2.6-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.6/scalaz-core_2.11-7.2.6-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.6/scalaz-core_2.11-7.2.6-sources.jar
-[info] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.11;7.2.6!scalaz-core_2.11.jar(src) (2252ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.esotericsoftware\kryo\3.0.3\srcs\kryo-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3-sources.jar
-[info] 	[SUCCESSFUL ] com.esotericsoftware#kryo;3.0.3!kryo.jar(src) (1611ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.esotericsoftware\reflectasm\1.10.1\srcs\reflectasm-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.10.1/reflectasm-1.10.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.10.1/reflectasm-1.10.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.10.1/reflectasm-1.10.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.10.1/reflectasm-1.10.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/1.10.1/reflectasm-1.10.1-sources.jar
-[info] 	[SUCCESSFUL ] com.esotericsoftware#reflectasm;1.10.1!reflectasm.jar(src) (1154ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml\classmate\1.1.0\srcs\classmate-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml#classmate;1.1.0!classmate.jar(src) (1203ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-macros_2.11\0.7.2\srcs\cats-macros_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.7.2/cats-macros_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.7.2/cats-macros_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.7.2/cats-macros_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.7.2/cats-macros_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.7.2/cats-macros_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.11;0.7.2!cats-macros_2.11.jar(src) (1178ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-reactivestreams_2.11\1.28.13\srcs\phantom-reactivestreams_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.28.13/phantom-reactivestreams_2.11-1.28.13-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.28.13/phantom-reactivestreams_2.11-1.28.13-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.28.13/phantom-reactivestreams_2.11-1.28.13-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.28.13/phantom-reactivestreams_2.11-1.28.13-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.28.13/phantom-reactivestreams_2.11-1.28.13-sources.jar
-[info] 	[SUCCESSFUL ] com.websudos#phantom-reactivestreams_2.11;1.28.13!phantom-reactivestreams_2.11.jar(src) (1971ms)
+[debug] 	[NOT REQUIRED] io.getclump#clump_2.11;0.0.11!clump_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.2.6!scalaz-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.esotericsoftware#kryo;3.0.3!kryo.jar(src)
+[debug] 	[NOT REQUIRED] com.esotericsoftware#reflectasm;1.10.1!reflectasm.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml#classmate;1.1.0!classmate.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.11;0.7.2!cats-macros_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.websudos#phantom-reactivestreams_2.11;1.28.13!phantom-reactivestreams_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.asynchttpclient#netty-resolver;2.0.11!netty-resolver.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\de.svenkubiak\jBCrypt\0.4\srcs\jBCrypt-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/de/svenkubiak/jBCrypt/0.4/jBCrypt-0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/de/svenkubiak/jBCrypt/0.4/jBCrypt-0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/de/svenkubiak/jBCrypt/0.4/jBCrypt-0.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/de/svenkubiak/jBCrypt/0.4/jBCrypt-0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/de/svenkubiak/jBCrypt/0.4/jBCrypt-0.4-sources.jar
-[info] 	[SUCCESSFUL ] de.svenkubiak#jBCrypt;0.4!jBCrypt.jar(src) (1109ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.twitter\util-core_2.11\6.22.0\srcs\util-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/twitter/util-core_2.11/6.22.0/util-core_2.11-6.22.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/twitter/util-core_2.11/6.22.0/util-core_2.11-6.22.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/util-core_2.11/6.22.0/util-core_2.11-6.22.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/twitter/util-core_2.11/6.22.0/util-core_2.11-6.22.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/twitter/util-core_2.11/6.22.0/util-core_2.11-6.22.0-sources.jar
-[info] 	[SUCCESSFUL ] com.twitter#util-core_2.11;6.22.0!util-core_2.11.jar(src) (1758ms)
+[debug] 	[NOT REQUIRED] de.svenkubiak#jBCrypt;0.4!jBCrypt.jar(src)
+[debug] 	[NOT REQUIRED] com.twitter#util-core_2.11;6.22.0!util-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.11;2.5.8!play-streams_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\net.jpountz.lz4\lz4\1.3.0\srcs\lz4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] net.jpountz.lz4#lz4;1.3.0!lz4.jar(src) (1285ms)
+[debug] 	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.slf4j\log4j-over-slf4j\1.7.21\srcs\log4j-over-slf4j-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#log4j-over-slf4j;1.7.21!log4j-over-slf4j.jar(src) (1142ms)
+[debug] 	[NOT REQUIRED] org.slf4j#log4j-over-slf4j;1.7.21!log4j-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.4!joda-time.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm\5.0.3\srcs\asm-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.3!asm.jar(src) (2844ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.nscala-time\nscala-time_2.11\2.12.0\srcs\nscala-time_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/2.12.0/nscala-time_2.11-2.12.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/2.12.0/nscala-time_2.11-2.12.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/2.12.0/nscala-time_2.11-2.12.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/2.12.0/nscala-time_2.11-2.12.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/2.12.0/nscala-time_2.11-2.12.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;2.12.0!nscala-time_2.11.jar(src) (1290ms)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
+[debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;2.12.0!nscala-time_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.0.41.Final!netty-buffer.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.monix\monix-eval_2.11\2.0.0\srcs\monix-eval_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/monix/monix-eval_2.11/2.0.0/monix-eval_2.11-2.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.11/2.0.0/monix-eval_2.11-2.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.11/2.0.0/monix-eval_2.11-2.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-eval_2.11/2.0.0/monix-eval_2.11-2.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/monix/monix-eval_2.11/2.0.0/monix-eval_2.11-2.0.0-sources.jar
-[info] 	[SUCCESSFUL ] io.monix#monix-eval_2.11;2.0.0!monix-eval_2.11.jar(src) (1295ms)
+[debug] 	[NOT REQUIRED] io.monix#monix-eval_2.11;2.0.0!monix-eval_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.squareup.okhttp3\okhttp\3.4.1\srcs\okhttp-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.4.1/okhttp-3.4.1-sources.jar
-[info] 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.4.1!okhttp.jar(src) (1579ms)
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.4.1!okhttp.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.4.10!akka-slf4j_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-remote_2.11\2.4.3\srcs\akka-remote_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.3/akka-remote_2.11-2.4.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.3/akka-remote_2.11-2.4.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.3/akka-remote_2.11-2.4.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.3/akka-remote_2.11-2.4.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.3/akka-remote_2.11-2.4.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.11;2.4.3!akka-remote_2.11.jar(src) (1287ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\net.jodah\typetools\0.4.4\srcs\typetools-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/net/jodah/typetools/0.4.4/typetools-0.4.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/net/jodah/typetools/0.4.4/typetools-0.4.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/jodah/typetools/0.4.4/typetools-0.4.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/net/jodah/typetools/0.4.4/typetools-0.4.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/net/jodah/typetools/0.4.4/typetools-0.4.4-sources.jar
-[info] 	[SUCCESSFUL ] net.jodah#typetools;0.4.4!typetools.jar(src) (1074ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.monix\monix-types_2.11\2.0.0\srcs\monix-types_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0.0/monix-types_2.11-2.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0.0/monix-types_2.11-2.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0.0/monix-types_2.11-2.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0.0/monix-types_2.11-2.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/monix/monix-types_2.11/2.0.0/monix-types_2.11-2.0.0-sources.jar
-[info] 	[SUCCESSFUL ] io.monix#monix-types_2.11;2.0.0!monix-types_2.11.jar(src) (1249ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.4.3!akka-remote_2.11.jar(src)
+[debug] 	[NOT REQUIRED] net.jodah#typetools;0.4.4!typetools.jar(src)
+[debug] 	[NOT REQUIRED] io.monix#monix-types_2.11;2.0.0!monix-types_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.6!jackson-datatype-jsr310.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.7.6!jackson-databind.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.uncommons.maths\uncommons-maths\1.2.2a\srcs\uncommons-maths-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar
-[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src) (1135ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.5\srcs\scala-xml_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src) (1231ms)
+[debug] 	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.5.8!play-exceptions.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.netty\netty\3.10.3.Final\srcs\netty-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar
-[info] 	[SUCCESSFUL ] io.netty#netty;3.10.3.Final!netty.jar(src) (2647ms)
+[debug] 	[NOT REQUIRED] io.netty#netty;3.10.3.Final!netty.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.5.8!play-cache_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.apache.tomcat\tomcat-servlet-api\8.0.33\srcs\tomcat-servlet-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.33/tomcat-servlet-api-8.0.33-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.33/tomcat-servlet-api-8.0.33-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.33/tomcat-servlet-api-8.0.33-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.33/tomcat-servlet-api-8.0.33-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.33/tomcat-servlet-api-8.0.33-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.tomcat#tomcat-servlet-api;8.0.33!tomcat-servlet-api.jar(src) (1462ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.springframework\spring-context\4.2.7.RELEASE\srcs\spring-context-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/springframework/spring-context/4.2.7.RELEASE/spring-context-4.2.7.RELEASE-sources.jar
-[info] 	[SUCCESSFUL ] org.springframework#spring-context;4.2.7.RELEASE!spring-context.jar(src) (2429ms)
+[debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.33!tomcat-servlet-api.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-context;4.2.7.RELEASE!spring-context.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.5.8!play-json_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.21!jul-to-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-core\3.0.2\srcs\cassandra-driver-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.0.2/cassandra-driver-core-3.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.0.2/cassandra-driver-core-3.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.0.2/cassandra-driver-core-3.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.0.2/cassandra-driver-core-3.0.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.0.2/cassandra-driver-core-3.0.2-sources.jar
-[info] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-core;3.0.2!cassandra-driver-core.jar(src) (1848ms)
+[debug] 	[NOT REQUIRED] com.datastax.cassandra#cassandra-driver-core;3.0.2!cassandra-driver-core.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.monix\monix-execution_2.11\2.0.0\srcs\monix-execution_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/monix/monix-execution_2.11/2.0.0/monix-execution_2.11-2.0.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.11/2.0.0/monix-execution_2.11-2.0.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.11/2.0.0/monix-execution_2.11-2.0.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/monix/monix-execution_2.11/2.0.0/monix-execution_2.11-2.0.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/monix/monix-execution_2.11/2.0.0/monix-execution_2.11-2.0.0-sources.jar
-[info] 	[SUCCESSFUL ] io.monix#monix-execution_2.11;2.0.0!monix-execution_2.11.jar(src) (1385ms)
+[debug] 	[NOT REQUIRED] io.monix#monix-execution_2.11;2.0.0!monix-execution_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.0!guice.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats_2.11\0.7.2\srcs\cats_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.7.2/cats_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.7.2/cats_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.7.2/cats_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.7.2/cats_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.7.2/cats_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats_2.11;0.7.2!cats_2.11.jar(src) (1138ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats_2.11;0.7.2!cats_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec;4.0.41.Final!netty-codec.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\catalysts-macros_2.11\0.0.2\srcs\catalysts-macros_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#catalysts-macros_2.11;0.0.2!catalysts-macros_2.11.jar(src) (1075ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\javax.validation\validation-api\1.1.0.Final\srcs\validation-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar
-[info] 	[SUCCESSFUL ] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src) (1201ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\io.dropwizard.metrics\metrics-core\3.1.2\srcs\metrics-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar
-[info] 	[SUCCESSFUL ] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(src) (1139ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\filters-helpers_2.11\2.5.8\srcs\filters-helpers_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.8/filters-helpers_2.11-2.5.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.8/filters-helpers_2.11-2.5.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.8/filters-helpers_2.11-2.5.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.8/filters-helpers_2.11-2.5.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.8/filters-helpers_2.11-2.5.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.11;2.5.8!filters-helpers_2.11.jar(src) (1163ms)
+[debug] 	[NOT REQUIRED] org.typelevel#catalysts-macros_2.11;0.0.2!catalysts-macros_2.11.jar(src)
+[debug] 	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar(src)
+[debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.11;2.5.8!filters-helpers_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.h2database#h2;1.4.192!h2.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.jboss.logging\jboss-logging\3.2.1.Final\srcs\jboss-logging-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.2.1.Final/jboss-logging-3.2.1.Final-sources.jar
-[info] 	[SUCCESSFUL ] org.jboss.logging#jboss-logging;3.2.1.Final!jboss-logging.jar(src) (1203ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.json4s\json4s-jackson_2.11\3.4.0\srcs\json4s-jackson_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.4.0/json4s-jackson_2.11-3.4.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.4.0/json4s-jackson_2.11-3.4.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.4.0/json4s-jackson_2.11-3.4.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.4.0/json4s-jackson_2.11-3.4.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.11/3.4.0/json4s-jackson_2.11-3.4.0-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-jackson_2.11;3.4.0!json4s-jackson_2.11.jar(src) (1071ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-kernel_2.11\0.7.2\srcs\cats-kernel_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.7.2/cats-kernel_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.7.2/cats-kernel_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.7.2/cats-kernel_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.7.2/cats-kernel_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.7.2/cats-kernel_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.11;0.7.2!cats-kernel_2.11.jar(src) (1185ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.sun.mail\javax.mail\1.5.2\srcs\javax.mail-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/sun/mail/javax.mail/1.5.2/javax.mail-1.5.2-sources.jar
-[info] 	[SUCCESSFUL ] com.sun.mail#javax.mail;1.5.2!javax.mail.jar(src) (2135ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.squareup.okio\okio\1.9.0\srcs\okio-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/squareup/okio/okio/1.9.0/okio-1.9.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.9.0/okio-1.9.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.9.0/okio-1.9.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.9.0/okio-1.9.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/squareup/okio/okio/1.9.0/okio-1.9.0-sources.jar
-[info] 	[SUCCESSFUL ] com.squareup.okio#okio;1.9.0!okio.jar(src) (1207ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.springframework\spring-core\4.2.7.RELEASE\srcs\spring-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/springframework/spring-core/4.2.7.RELEASE/spring-core-4.2.7.RELEASE-sources.jar
-[info] 	[SUCCESSFUL ] org.springframework#spring-core;4.2.7.RELEASE!spring-core.jar(src) (2014ms)
+[debug] 	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.2.1.Final!jboss-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.4.0!json4s-jackson_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.11;0.7.2!cats-kernel_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.sun.mail#javax.mail;1.5.2!javax.mail.jar(src)
+[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.9.0!okio.jar(src)
+[debug] 	[NOT REQUIRED] org.springframework#spring-core;4.2.7.RELEASE!spring-core.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.11!ehcache-core.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport;4.0.41.Final!netty-transport.jar(src)
 [debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\diesel-engine_2.11\0.3.0\srcs\diesel-engine_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/snapshots/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/snapshots/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://dl.bintray.com/scalaz/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://dl.bintray.com/scalaz/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://dl.bintray.com/content/softprops/maven/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://dl.bintray.com/content/softprops/maven/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://chrisdinn.github.io/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://chrisdinn.github.io/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried https://oss.sonatype.org/content/groups/scala-tools/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Forbidden url=https://oss.sonatype.org/content/groups/scala-tools/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried https://oss.sonatype.org/content/repositories/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://oss.sonatype.org/content/repositories/staging/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://download.java.net/maven/2/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://download.java.net/maven/2/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried http://maven.twttr.com/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://maven.twttr.com/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 		tried https://dl.bintray.com/websudos/oss-releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[info] downloading https://dl.bintray.com/websudos/oss-releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar ...
-[debug] 	Websudos releases: downloading https://dl.bintray.com/websudos/oss-releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[debug] 	Websudos releases: downloading https://dl.bintray.com/websudos/oss-releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar.sha1
-[debug] sha1 OK for https://dl.bintray.com/websudos/oss-releases/com/websudos/diesel-engine_2.11/0.3.0/diesel-engine_2.11-0.3.0-sources.jar
-[info] 	[SUCCESSFUL ] com.websudos#diesel-engine_2.11;0.3.0!diesel-engine_2.11.jar(src) (2116ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.objenesis\objenesis\2.1\srcs\objenesis-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
-[info] 	[SUCCESSFUL ] org.objenesis#objenesis;2.1!objenesis.jar(src) (2502ms)
+[debug] 	[NOT REQUIRED] com.websudos#diesel-engine_2.11;0.3.0!diesel-engine_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-ws_2.11;2.5.8!play-ws_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-core_2.11\0.7.2\srcs\cats-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.7.2/cats-core_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.7.2/cats-core_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.7.2/cats-core_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.7.2/cats-core_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.7.2/cats-core_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.11;0.7.2!cats-core_2.11.jar(src) (1767ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\me.lessis\base64_2.11\0.2.0\srcs\base64_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/me/lessis/base64_2.11/0.2.0/base64_2.11-0.2.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/me/lessis/base64_2.11/0.2.0/base64_2.11-0.2.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/me/lessis/base64_2.11/0.2.0/base64_2.11-0.2.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/me/lessis/base64_2.11/0.2.0/base64_2.11-0.2.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/me/lessis/base64_2.11/0.2.0/base64_2.11-0.2.0-sources.jar
-[info] 	[SUCCESSFUL ] me.lessis#base64_2.11;0.2.0!base64_2.11.jar(src) (1092ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-extras\3.0.2\srcs\cassandra-driver-extras-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.0.2/cassandra-driver-extras-3.0.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.0.2/cassandra-driver-extras-3.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.0.2/cassandra-driver-extras-3.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.0.2/cassandra-driver-extras-3.0.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.0.2/cassandra-driver-extras-3.0.2-sources.jar
-[info] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-extras;3.0.2!cassandra-driver-extras.jar(src) (1300ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.yaml\snakeyaml\1.16\srcs\snakeyaml-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.16/snakeyaml-1.16-sources.jar
-[info] 	[SUCCESSFUL ] org.yaml#snakeyaml;1.16!snakeyaml.jar(src) (1339ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.11;0.7.2!cats-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] me.lessis#base64_2.11;0.2.0!base64_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.datastax.cassandra#cassandra-driver-extras;3.0.2!cassandra-driver-extras.jar(src)
+[debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.16!snakeyaml.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport-native-epoll;4.0.41.Final!netty-transport-native-epoll.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.11;2.5.8!play-server_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play_2.11;2.5.8!play_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\javax.activation\activation\1.1.1\srcs\activation-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar
-[info] 	[SUCCESSFUL ] javax.activation#activation;1.1.1!activation.jar(src) (1196ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.json4s\json4s-core_2.11\3.4.0\srcs\json4s-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.4.0/json4s-core_2.11-3.4.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.4.0/json4s-core_2.11-3.4.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.4.0/json4s-core_2.11-3.4.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.4.0/json4s-core_2.11-3.4.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-core_2.11/3.4.0/json4s-core_2.11-3.4.0-sources.jar
-[info] 	[SUCCESSFUL ] org.json4s#json4s-core_2.11;3.4.0!json4s-core_2.11.jar(src) (1252ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-free_2.11\0.7.2\srcs\cats-free_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.7.2/cats-free_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.7.2/cats-free_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.7.2/cats-free_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.7.2/cats-free_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.7.2/cats-free_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-free_2.11;0.7.2!cats-free_2.11.jar(src) (1098ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.hibernate\hibernate-validator\5.2.4.Final\srcs\hibernate-validator-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final-sources.jar
-[info] 	[SUCCESSFUL ] org.hibernate#hibernate-validator;5.2.4.Final!hibernate-validator.jar(src) (1771ms)
+[debug] 	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.4.0!json4s-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-free_2.11;0.7.2!cats-free_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.hibernate#hibernate-validator;5.2.4.Final!hibernate-validator.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.scalacheck\scalacheck_2.11\1.12.5\srcs\scalacheck_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar(src) (1225ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.digital-achiever\brando_2.11\3.0.3\srcs\brando_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/snapshots/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/snapshots/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] 		tried http://dl.bintray.com/scalaz/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://dl.bintray.com/scalaz/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] 		tried http://dl.bintray.com/content/softprops/maven/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://dl.bintray.com/content/softprops/maven/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] 		tried http://chrisdinn.github.io/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[info] downloading http://chrisdinn.github.io/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar ...
-[debug] 	Brando Repository: downloading http://chrisdinn.github.io/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[debug] 	Brando Repository: downloading http://chrisdinn.github.io/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar.sha1
-[debug] sha1 OK for http://chrisdinn.github.io/releases/com/digital-achiever/brando_2.11/3.0.3/brando_2.11-3.0.3-sources.jar
-[info] 	[SUCCESSFUL ] com.digital-achiever#brando_2.11;3.0.3!brando_2.11.jar(src) (1666ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-java_2.11\2.5.8\srcs\play-java_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.5.8/play-java_2.11-2.5.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.5.8/play-java_2.11-2.5.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.5.8/play-java_2.11-2.5.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.5.8/play-java_2.11-2.5.8-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.5.8/play-java_2.11-2.5.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-java_2.11;2.5.8!play-java_2.11.jar(src) (1287ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.jason-goodwin\authentikat-jwt_2.11\0.4.3\srcs\authentikat-jwt_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.11/0.4.3/authentikat-jwt_2.11-0.4.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.11/0.4.3/authentikat-jwt_2.11-0.4.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.11/0.4.3/authentikat-jwt_2.11-0.4.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.11/0.4.3/authentikat-jwt_2.11-0.4.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/jason-goodwin/authentikat-jwt_2.11/0.4.3/authentikat-jwt_2.11-0.4.3-sources.jar
-[info] 	[SUCCESSFUL ] com.jason-goodwin#authentikat-jwt_2.11;0.4.3!authentikat-jwt_2.11.jar(src) (1273ms)
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.digital-achiever#brando_2.11;3.0.3!brando_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.11;2.5.8!play-java_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.jason-goodwin#authentikat-jwt_2.11;0.4.3!authentikat-jwt_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-connectors_2.11\1.28.13\srcs\phantom-connectors_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.28.13/phantom-connectors_2.11-1.28.13-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.28.13/phantom-connectors_2.11-1.28.13-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.28.13/phantom-connectors_2.11-1.28.13-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.28.13/phantom-connectors_2.11-1.28.13-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.28.13/phantom-connectors_2.11-1.28.13-sources.jar
-[info] 	[SUCCESSFUL ] com.websudos#phantom-connectors_2.11;1.28.13!phantom-connectors_2.11.jar(src) (1244ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.esotericsoftware\minlog\1.3.0\srcs\minlog-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] com.esotericsoftware#minlog;1.3.0!minlog.jar(src) (1087ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-laws_2.11\0.7.2\srcs\cats-laws_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.7.2/cats-laws_2.11-0.7.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.7.2/cats-laws_2.11-0.7.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.7.2/cats-laws_2.11-0.7.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.7.2/cats-laws_2.11-0.7.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.7.2/cats-laws_2.11-0.7.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-laws_2.11;0.7.2!cats-laws_2.11.jar(src) (1265ms)
+[debug] 	[NOT REQUIRED] com.websudos#phantom-connectors_2.11;1.28.13!phantom-connectors_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.esotericsoftware#minlog;1.3.0!minlog.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-laws_2.11;0.7.2!cats-laws_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.10!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-common;4.0.41.Final!netty-common.jar(src)
 [debug] 	[NOT REQUIRED] org.asynchttpclient#netty-codec-dns;2.0.11!netty-codec-dns.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.esotericsoftware.kryo\kryo\2.24.0\srcs\kryo-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0-sources.jar
-[info] 	[SUCCESSFUL ] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(src) (1259ms)
+[debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.10!akka-stream_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.5.8!play-iteratees_2.11.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.apache.commons\commons-email\1.4\srcs\commons-email-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-email/1.4/commons-email-1.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-email/1.4/commons-email-1.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-email/1.4/commons-email-1.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-email/1.4/commons-email-1.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-email/1.4/commons-email-1.4-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-email;1.4!commons-email.jar(src) (1174ms)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-email;1.4!commons-email.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-handler;4.0.41.Final!netty-handler.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.esotericsoftware.minlog\minlog\1.2\srcs\minlog-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar
-[info] 	[SUCCESSFUL ] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src) (1055ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.romix.akka\akka-kryo-serialization_2.11\0.4.1\srcs\akka-kryo-serialization_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/romix/akka/akka-kryo-serialization_2.11/0.4.1/akka-kryo-serialization_2.11-0.4.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/romix/akka/akka-kryo-serialization_2.11/0.4.1/akka-kryo-serialization_2.11-0.4.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/romix/akka/akka-kryo-serialization_2.11/0.4.1/akka-kryo-serialization_2.11-0.4.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/romix/akka/akka-kryo-serialization_2.11/0.4.1/akka-kryo-serialization_2.11-0.4.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/romix/akka/akka-kryo-serialization_2.11/0.4.1/akka-kryo-serialization_2.11-0.4.1-sources.jar
-[info] 	[SUCCESSFUL ] com.github.romix.akka#akka-kryo-serialization_2.11;0.4.1!akka-kryo-serialization_2.11.jar(src) (1101ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-logback_2.11\2.5.1\srcs\play-logback_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.5.1/play-logback_2.11-2.5.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.5.1/play-logback_2.11-2.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.5.1/play-logback_2.11-2.5.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.5.1/play-logback_2.11-2.5.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.5.1/play-logback_2.11-2.5.1-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-logback_2.11;2.5.1!play-logback_2.11.jar(src) (1070ms)
+[debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar(src)
+[debug] 	[NOT REQUIRED] com.github.romix.akka#akka-kryo-serialization_2.11;0.4.1!akka-kryo-serialization_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.11;2.5.1!play-logback_2.11.jar(src)
 [debug] 	[NOT REQUIRED] oauth.signpost#signpost-commonshttp4;1.2.1.2!signpost-commonshttp4.jar(src)
 [debug] 	[NOT REQUIRED] org.javassist#javassist;3.20.0-GA!javassist.jar(src)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.t3hnar\scala-bcrypt_2.11\2.5\srcs\scala-bcrypt_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/t3hnar/scala-bcrypt_2.11/2.5/scala-bcrypt_2.11-2.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/t3hnar/scala-bcrypt_2.11/2.5/scala-bcrypt_2.11-2.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/t3hnar/scala-bcrypt_2.11/2.5/scala-bcrypt_2.11-2.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/t3hnar/scala-bcrypt_2.11/2.5/scala-bcrypt_2.11-2.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/t3hnar/scala-bcrypt_2.11/2.5/scala-bcrypt_2.11-2.5-sources.jar
-[info] 	[SUCCESSFUL ] com.github.t3hnar#scala-bcrypt_2.11;2.5!scala-bcrypt_2.11.jar(src) (1183ms)
+[debug] 	[NOT REQUIRED] com.github.t3hnar#scala-bcrypt_2.11;2.5!scala-bcrypt_2.11.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.2!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.4!httpcore.jar(src)
@@ -24236,7 +23729,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 17681ms :: artifacts dl 127079ms
+[debug] :: resolution report :: resolve 29197ms :: artifacts dl 523ms
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT universal produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-universal.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT universal-docs produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-universal-docs.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT universal-src produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-universal-src.xml
@@ -24258,4 +23751,4 @@
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT docs produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-docs.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT pom produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-pom.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-scala-tool.xml
-[debug] 	resolve done (17681ms resolve - 127079ms download)
+[debug] 	resolve done (29197ms resolve - 523ms download)
