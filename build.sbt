@@ -15,8 +15,8 @@ scalaVersion := "2.11.8"
 val PhantomVersion = "1.28.13"
 
 maintainer := "Boniface Kabaso <boniface@kabaso.com>"
-packageSummary in Linux := "Comments  REST API"
-packageDescription := "Comments API Backend "
+packageSummary in Linux := "comments  REST API"
+packageDescription := "comments API Backend "
 serverLoading in Debian := ServerLoader.Systemd
 
 bashScriptExtraDefines ++= Seq(

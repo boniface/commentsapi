@@ -10,19 +10,12 @@ import domain.util.Roles
 
 import scala.concurrent.Future
 
-/**
-  * Created by kuminga on 2016/09/03.
-  */
 class RoleRepository extends CassandraTable[RoleRepository, Roles] {
-
-
   object id extends StringColumn(this) with PartitionKey[String]
-
   object rolename extends StringColumn(this)
 
 
   override def fromRow(r: Row): Roles = {
-
     Roles(
       id(r),
       rolename(r)
@@ -32,11 +25,8 @@ class RoleRepository extends CassandraTable[RoleRepository, Roles] {
 
 object RoleRepository extends RoleRepository with RootConnector {
   override lazy val tableName = "roles"
-
   override implicit def space: KeySpace = DataConnection.keySpace
-
   override implicit def session: Session = DataConnection.session
-
   def save(role: Roles): Future[ResultSet] = {
     insert
       .value(_.id, role.id)
@@ -48,8 +38,7 @@ object RoleRepository extends RoleRepository with RootConnector {
     select.where(_.id eqs id).one()
   }
 
-  def getAllRoles: Future[Seq[Roles]] = {
+  def getRoles: Future[Seq[Roles]] = {
     select.fetchEnumerator() run Iteratee.collect()
   }
-
 }

@@ -2,7 +2,7 @@ package services.votes.impl
 
 import com.datastax.driver.core.ResultSet
 import domain.votes.VoteUp
-import repositories.Votes.VoteUpRepository
+import repositories.votes.VoteUpRepository
 import services.Service
 import services.votes.services.votes.VoteUpService
 

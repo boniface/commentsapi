@@ -39,7 +39,7 @@ class MailRepository extends CassandraTable[MailRepository, Mail] {
 }
 
 object MailRepository extends MailRepository with RootConnector {
-  override lazy val tableName = "mail"
+  override lazy val tableName = "mailsettings"
 
   override implicit def space: KeySpace = DataConnection.keySpace
 

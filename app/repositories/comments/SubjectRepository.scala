@@ -3,7 +3,7 @@ package repositories.comments
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
-import com.websudos.phantom.reactivestreams.iteratee.Iteratee
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.comments.Subject
 
@@ -14,7 +14,6 @@ import scala.concurrent.Future
   */
 
 class SubjectRepository  extends CassandraTable[SubjectRepository, Subject]{
-
 
   object siteId extends StringColumn(this) with PartitionKey[String]
   object subjectId extends StringColumn(this) with PrimaryKey[String]
@@ -36,7 +35,7 @@ class SubjectRepository  extends CassandraTable[SubjectRepository, Subject]{
 
 object SubjectRepository extends SubjectRepository with RootConnector {
 
-  override lazy val tableName = "subject"
+  override lazy val tableName = "subjects"
 
   override implicit def space: KeySpace = DataConnection.keySpace
 
@@ -52,11 +51,11 @@ object SubjectRepository extends SubjectRepository with RootConnector {
       .future()
   }
 
-  def getSubjectBySubjectId(siteId: String, subjectId: String): Future[Option[Subject]] = {
+  def getSubjectById(siteId: String, subjectId: String): Future[Option[Subject]] = {
     select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
   }
 
-  def getSiteSubject(siteId: String): Future[Seq[Subject]] = {
+  def getSiteSubjects(siteId: String): Future[Seq[Subject]] = {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
   }
 

@@ -1,12 +1,13 @@
 package repositories.comments
 
 
+import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
-import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
+import com.websudos.phantom.keys.PartitionKey
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.comments.ResponseStatus
-import play.api.libs.iteratee.Iteratee
 
 import scala.concurrent.Future
 
@@ -17,7 +18,7 @@ import scala.concurrent.Future
 class ResponseStatusRepository  extends CassandraTable[ResponseStatusRepository, ResponseStatus]{
 
 
-  object responseId extends StringColumn(this) with PrimaryKey[String]
+  object responseId extends StringColumn(this) with PartitionKey[String]
   object status extends StringColumn(this)
   object date extends DateTimeColumn(this)
 

@@ -1,6 +1,6 @@
 package repositories.util
 
-import com.datastax.driver.core.{ResultSet, Row}
+import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey

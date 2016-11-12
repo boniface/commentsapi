@@ -1,4 +1,4 @@
-package services.Comments
+package services.comments
 
 /**
   * Created by Bonga on 10/29/2016.

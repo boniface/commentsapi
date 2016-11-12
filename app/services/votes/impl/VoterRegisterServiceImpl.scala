@@ -2,7 +2,7 @@ package services.votes.impl
 
 import com.datastax.driver.core.ResultSet
 import domain.votes.VoterRegister
-import repositories.Votes.VoterRegisterRepository
+import repositories.votes.VoterRegisterRepository
 import services.Service
 import services.votes.VoterRegisterService
 import scala.concurrent.Future

@@ -1,29 +1,26 @@
-package repositories.Votes
+package repositories.votes
 
-import com.datastax.driver.core.{ResultSet, Row}
+import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
-import domain.votes.VoteDown
+import domain.votes.VoteUp
 import scala.concurrent.Future
 
 /**
   * Created by fatimam on 12/11/2016.
-  * commentIdOrResponseId:String,emailId:String,ipaddress:String,count:Int
-
   */
-
-sealed class VoteDownRepository extends CassandraTable[VoteDownRepository, VoteDown] {
+sealed class VoteUpRepository extends CassandraTable[VoteUpRepository, VoteUp] {
 
   object commentIdOrResponseId extends StringColumn(this) with PartitionKey[String]
   object emailId extends StringColumn(this)
   object ipaddress extends StringColumn(this)
   object count extends IntColumn(this)
 
-  override def fromRow(row: Row): VoteDown = {
-    VoteDown(
+  override def fromRow(row: Row): VoteUp = {
+    VoteUp(
       commentIdOrResponseId(row),
       emailId(row),
       ipaddress(row),
@@ -32,27 +29,30 @@ sealed class VoteDownRepository extends CassandraTable[VoteDownRepository, VoteD
   }
 }
 
-object VoteDownRepository extends VoteDownRepository with RootConnector {
-  override lazy val tableName = "votedownkeys"
+object VoteUpRepository extends VoteUpRepository with RootConnector {
+  override lazy val tableName = "voteupkeys"
 
   override implicit def space: KeySpace = DataConnection.keySpace
 
   override implicit def session: Session = DataConnection.session
 
 
-  def save(votedown: VoteDown): Future[ResultSet] = {
+  def save(voteup: VoteUp): Future[ResultSet] = {
     insert
-      .value(_.commentIdOrResponseId, votedown.commentIdOrResponseId)
-      .value(_.emailId, votedown.emailId)
-      .value(_.ipaddress, votedown.ipaddress)
-      .value(_.count, votedown.count)
+      .value(_.commentIdOrResponseId, voteup.commentIdOrResponseId)
+      .value(_.emailId, voteup.emailId)
+      .value(_.ipaddress, voteup.ipaddress)
+      .value(_.count, voteup.count)
       .future()
   }
-  def getVoteDownById(commentIdOrResponseId: String): Future[Option[VoteDown]] = {
+  def getVoteUpById(commentIdOrResponseId: String): Future[Option[VoteUp]] = {
     select.where(_.commentIdOrResponseId eqs commentIdOrResponseId).one()
   }
-  def getAllkeys: Future[Seq[VoteDown]] = {
+  def getAllkeys: Future[Seq[VoteUp]] = {
     select.fetchEnumerator() run Iteratee.collect()
   }
 
 }
+
+
+
