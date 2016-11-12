@@ -1,4 +1,4 @@
-package repositories.Votes
+package repositories.votes
 
 import com.datastax.driver.core.{ResultSet, Row}
 import com.websudos.phantom.CassandraTable
