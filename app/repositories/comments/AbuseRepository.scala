@@ -1,13 +1,13 @@
 package repositories.comments
-
 import com.datastax.driver.core.ResultSet
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.{PrimaryKey, PartitionKey}
 import com.websudos.phantom.{CassandraTable}
 import com.websudos.phantom.connectors.RootConnector
 import conf.connection.DataConnection._
-import domain.comments.Abuse
-import play.api.libs.iteratee.Iteratee
+import conf.connection.DataConnection.session
+import domain.comments.{Comment, Abuse}
+import repositories.comments.CommentRepository._
 import scala.concurrent.Future
 
 /**
@@ -50,12 +50,27 @@ object AbuseRepository extends AbuseRepository with RootConnector {
       .future()
   }
 
+
+
+
   def getAbuseBySubjectId(siteId: String, subjectId: String): Future[Option[Abuse]] = {
     select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
   }
 
-  def getSiteAbuse(siteId: String): Future[Seq[Abuse]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+
+  def getSiteAbuse(siteId: String): Future[Option[Abuse]] = {
+    select.where(_.siteId eqs siteId).one()
   }
+
+  def getAllAbuse: Future[Seq[Abuse]] = {
+    select.all().fetch()
+  }
+
+
+  def deleteAll: Future[ResultSet] = {
+    delete.future()
+
+  }
+
 
 }
