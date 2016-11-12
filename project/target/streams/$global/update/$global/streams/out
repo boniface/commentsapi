@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/Bonga/Desktop/commentsapi/project/}commentsapi-build...
+[info] Updating {file:/C:/Users/Quest/TPproject/commentsapi/project/}commentsapi-build...
 [debug] :: resolving dependencies :: default#commentsapi-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -11314,19 +11314,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 11454ms :: artifacts dl 1200ms
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-compile.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-runtime.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-test.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT provided produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-provided.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT optional produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-optional.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-compile-internal.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-runtime-internal.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test-internal produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-test-internal.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT plugin produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-plugin.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT sources produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-sources.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT docs produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-docs.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT pom produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-pom.xml
-[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Bonga\Desktop\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-scala-tool.xml
-[debug] 	resolve done (11454ms resolve - 1200ms download)
+[debug] :: resolution report :: resolve 7258ms :: artifacts dl 241ms
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-compile.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-runtime.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-test.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT provided produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-provided.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT optional produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-optional.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-compile-internal.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-runtime-internal.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test-internal produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-test-internal.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT plugin produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-plugin.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT sources produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-sources.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT docs produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-docs.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT pom produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-pom.xml
+[debug] 	report for default#commentsapi-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Quest\TPproject\commentsapi\project\target\resolution-cache\reports\default-commentsapi-build-scala-tool.xml
+[debug] 	resolve done (7258ms resolve - 241ms download)
 [info] Done updating.
