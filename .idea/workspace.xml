@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65a5c65-a8fb-46e0-8afa-5b5289210663" name="Default" comment="Updated Repo to Remove Wrong Committed Files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/CommentStatusService.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/ResponseServiceImpl.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/ResponseStatusServiceImpl.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/SubjectServiceImpl.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/ResponseService.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/ResponseStatusService.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/services/Comments/SubjectService.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala" afterPath="$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala" afterPath="$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/commentsapi/commentsapi$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/commentsapi/commentsapi$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/commentsapi/commentsapi$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/commentsapi/commentsapi$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/commentsapi-commentsapi$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/commentsapi-commentsapi$sources_2.11-compile-internal.xml" />
@@ -73,48 +82,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ResponseRepository.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala">
+      <file leaf-file-name="ResponseService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/Comments/ResponseService.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbuseRepository.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="66" column="3" selection-start-line="64" selection-start-column="2" selection-end-line="66" selection-end-column="3" />
-              <folding>
-                <element signature="e#30#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbuseService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/Comments/AbuseService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#27#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentRepository.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/repositories/comments/CommentRepository.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-              <folding>
-                <element signature="e#30#78#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,9 +96,65 @@
         <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <caret line="35" column="3" selection-start-line="13" selection-start-column="1" selection-end-line="35" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseServiceImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/ResponseServiceImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubjectServiceImpl.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/SubjectServiceImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
               <folding>
-                <element signature="e#31#72#0" expanded="true" />
+                <element signature="e#32#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseStatusServiceImpl.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/ResponseStatusServiceImpl.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5359589">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#32#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseStatusService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/Comments/ResponseStatusService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="e#27#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubjectService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/Comments/SubjectService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="1" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#27#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,7 +164,17 @@
         <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/CommentServiceImpl.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <caret line="41" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseStatusRepository.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="e#32#73#0" expanded="true" />
               </folding>
@@ -143,49 +182,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentStatusRepository.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala">
+      <file leaf-file-name="AbuseRepository.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8253425">
-              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
               <folding>
                 <element signature="e#30#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentStatusServiceImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-              <folding>
-                <element signature="e#32#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentStatusService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/Comments/CommentStatusService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding>
-                <element signature="e#27#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/Comments/Comment.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="e#27#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,12 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/repositories/util/KeysRepository.scala" />
-        <option value="$PROJECT_DIR$/app/domain/util/Mail.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/util/MailRepository.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/util/RoleRepository.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/util/TokenRepository.scala" />
-        <option value="$PROJECT_DIR$/app/services/Service.scala" />
         <option value="$PROJECT_DIR$/app/conf/security/Credential.scala" />
         <option value="$PROJECT_DIR$/app/services/TokenService.scala" />
         <option value="$PROJECT_DIR$/app/services/util/TokenService.scala" />
@@ -251,9 +248,6 @@
         <option value="$PROJECT_DIR$/app/factories/comments/SubjectFactory.scala" />
         <option value="$PROJECT_DIR$/app/services/Comments/Impl/RolesID.scala" />
         <option value="$PROJECT_DIR$/app/domain/comments/Abuse.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala" />
         <option value="$PROJECT_DIR$/app/services/Comments/CommentService.scala" />
         <option value="$PROJECT_DIR$/app/services/Comments/Impl/CommentService.scala" />
         <option value="$PROJECT_DIR$/app/services/Comments/Comment.scala" />
@@ -261,11 +255,20 @@
         <option value="$PROJECT_DIR$/app/services/Comments/Abuse.scala" />
         <option value="$PROJECT_DIR$/app/services/Comments/AbuseService.scala" />
         <option value="$PROJECT_DIR$/app/repositories/comments/CommentRepository.scala" />
-        <option value="$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala" />
-        <option value="$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala" />
-        <option value="$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala" />
         <option value="$PROJECT_DIR$/app/services/Comments/CommentStatusService.scala" />
         <option value="$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/ResponseService.scala" />
+        <option value="$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala" />
+        <option value="$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/Impl/ResponseServiceImpl.scala" />
+        <option value="$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/Impl/SubjectServiceImpl.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/SubjectService.scala" />
+        <option value="$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/ResponseStatusService.scala" />
+        <option value="$PROJECT_DIR$/app/services/Comments/Impl/ResponseStatusServiceImpl.scala" />
       </list>
     </option>
   </component>
@@ -312,7 +315,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,10 +414,6 @@
               <option name="myItemId" value="Comments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommentStatusService.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -439,29 +437,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Comment.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commentsapi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commentsapi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comments" />
+              <option name="myItemId" value="Impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,6 +445,7 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1007,7 +984,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1479037895612" />
+    <option name="lastUpdateTimestamp" value="1479051451839" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -1071,7 +1048,8 @@
       <workItem from="1478335819279" duration="12777000" />
       <workItem from="1478948109816" duration="9325000" />
       <workItem from="1478965990556" duration="5913000" />
-      <workItem from="1479037769214" duration="545000" />
+      <workItem from="1479037769214" duration="8298000" />
+      <workItem from="1479051283790" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1476857972317</created>
@@ -1118,11 +1096,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88694000" />
+    <option name="totallyTimeSpent" value="102089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1133,7 +1111,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19548023" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382752" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382752" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24923548" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1233,48 +1211,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/domain/util/Mail.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/util/Roles.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/conf/security/Credential.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/util/TokenService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/users/UserStatus.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/util/Impl/KeyServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/util/Impl/RolesServiceImpl.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1345,13 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/comments/ResponseStatus.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/factories/comments/ResponseStatusFactoryTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1381,13 +1310,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/factories/comments/SubjectFactory.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/factories/comments/ResponseFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
@@ -1492,33 +1414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/comments/Response.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20376712">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala">
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/CommentStatusService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1529,42 +1428,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/Comments/Comment.scala">
+    <entry file="file://$PROJECT_DIR$/app/domain/comments/Response.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#27#68#0" expanded="true" />
-          </folding>
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/app/factories/comments/ResponseFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <element signature="e#32#73#0" expanded="true" />
-          </folding>
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/Comments/AbuseService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/CommentStatusServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
-            <element signature="e#27#68#0" expanded="true" />
+            <element signature="e#31#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/CommentServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Comment.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <caret line="22" column="1" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/repositories/comments/SubjectRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
           <folding>
-            <element signature="e#32#73#0" expanded="true" />
+            <element signature="e#30#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1579,42 +1490,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala">
+    <entry file="file://$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <element signature="e#31#72#0" expanded="true" />
+            <element signature="e#30#71#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/repositories/comments/ResponseRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/comments/ResponseStatus.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/repositories/comments/AbuseRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="3" selection-start-line="64" selection-start-column="2" selection-end-line="66" selection-end-column="3" />
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding>
             <element signature="e#30#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/Comments/CommentStatusService.scala">
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/ResponseService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/CommentServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/ResponseServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/SubjectServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="e#32#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/SubjectService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1" selection-start-line="20" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#27#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/repositories/comments/CommentStatusRepository.scala">
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/ResponseStatusService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8253425">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="e#30#71#0" expanded="true" />
+            <element signature="e#27#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/AbuseServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="3" selection-start-line="13" selection-start-column="1" selection-end-line="35" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/repositories/comments/ResponseStatusRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#32#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/Comments/Impl/ResponseStatusServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5359589">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#32#73#0" expanded="true" />
           </folding>
         </state>
       </provider>

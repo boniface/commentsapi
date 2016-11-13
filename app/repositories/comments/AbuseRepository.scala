@@ -5,9 +5,7 @@ import com.websudos.phantom.keys.{PrimaryKey, PartitionKey}
 import com.websudos.phantom.{CassandraTable}
 import com.websudos.phantom.connectors.RootConnector
 import conf.connection.DataConnection._
-import conf.connection.DataConnection.session
 import domain.comments.{Comment, Abuse}
-import repositories.comments.CommentRepository._
 import scala.concurrent.Future
 
 /**

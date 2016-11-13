@@ -1,13 +1,13 @@
 package repositories.comments
 
 
+import com.datastax.driver.core.ResultSet
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
 import conf.connection.DataConnection
-import domain.comments.ResponseStatus
-import play.api.libs.iteratee.Iteratee
-
+import domain.comments.{Abuse, ResponseStatus}
+import repositories.comments.AbuseRepository._
 import scala.concurrent.Future
 
 /**
@@ -47,13 +47,20 @@ object ResponseStatusRepository extends ResponseStatusRepository with RootConnec
       .future()
   }
 
-  def getResponsetByResponseId(responsetId: String): Future[Option[ResponseStatus]] = {
+  def getResponseStatusByResponseId(responsetId: String): Future[Option[ResponseStatus]] = {
     select.where(_.responseId eqs responsetId).one()
   }
 
-  def getSiteResponsetId(responseId: String): Future[Seq[ResponseStatus]] = {
-    select.where(_.responseId eqs responseId).fetchEnumerator() run Iteratee.collect()
+  def getAllResponseStatus: Future[Seq[ResponseStatus]] = {
+    select.all().fetch()
   }
+
+
+  def deleteAll: Future[ResultSet] = {
+    delete.future()
+
+  }
+
 
 }
 

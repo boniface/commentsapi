@@ -1,11 +1,11 @@
 package repositories.comments
-
+import com.datastax.driver.core.ResultSet
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
-import com.websudos.phantom.reactivestreams.iteratee.Iteratee
 import conf.connection.DataConnection
-import domain.comments.Subject
+import domain.comments.{Abuse, Subject}
+
 
 import scala.concurrent.Future
 
@@ -56,8 +56,18 @@ object SubjectRepository extends SubjectRepository with RootConnector {
     select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
   }
 
-  def getSiteSubject(siteId: String): Future[Seq[Subject]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+  def getSiteSubject(siteId: String): Future[Option[Subject]] = {
+    select.where(_.siteId eqs siteId).one()
+  }
+
+  def getAllSubject: Future[Seq[Subject]] = {
+    select.all().fetch()
+  }
+
+
+  def deleteAll: Future[ResultSet] = {
+    delete.future()
+
   }
 
 }

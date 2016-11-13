@@ -14,8 +14,6 @@ class AbuseServiceImpl extends AbuseService with Service{
   override def getAbuseBySubjectId(id: String): Future[Option[Abuse]] = {
     AbuseRepository.getSiteAbuse(id)
   }
-
-
   override def save(abuse: Abuse): Future[ResultSet] = {
     val abuseService = Abuse(abuse.subjectId,
       abuse.siteId,

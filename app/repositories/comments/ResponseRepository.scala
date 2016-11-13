@@ -1,16 +1,11 @@
 package repositories.comments
-
-
-import com.datastax.driver.core.Row
+import com.datastax.driver.core.{ResultSet, Row}
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
-import domain.comments.Response
-import play.api.libs.iteratee.Iteratee
+import domain.comments.{ResponseStatus, CommentStatus, Response}
 import conf.connection.DataConnection
 import scala.concurrent.Future
-
-
 
 /**
   * Created by Bonga on 10/28/2016.
@@ -62,8 +57,17 @@ object ResponseRepository extends ResponseRepository with RootConnector {
     select.where(_.commentId eqs commentId).and(_.responseId eqs responseId).one()
   }
 
-  def getSiteResponse(commentId: String): Future[Seq[Response]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+  def getSiteResponse(commentId: String): Future[Option[Response]] = {
+    select.where(_.commentId eqs commentId).one()
+  }
+  def getResponse: Future[Seq[Response]] = {
+    select.all().fetch()
+  }
+  def getAllResponse: Future[Seq[Response]] = {
+    select.all().fetch()
   }
 
+  def deleteAll: Future[ResultSet] = {
+    delete.future()
+  }
 }
