@@ -23729,7 +23729,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 29197ms :: artifacts dl 523ms
+[debug] :: resolution report :: resolve 28554ms :: artifacts dl 1186ms
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT universal produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-universal.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT universal-docs produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-universal-docs.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT universal-src produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-universal-src.xml
@@ -23751,4 +23751,4 @@
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT docs produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-docs.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT pom produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-pom.xml
 [debug] 	report for commentsapi#commentsapi$sources_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi$sources_2.11-scala-tool.xml
-[debug] 	resolve done (29197ms resolve - 523ms download)
+[debug] 	resolve done (28554ms resolve - 1186ms download)

@@ -1,13 +1,12 @@
 package repositories.comments
-
-
+import com.datastax.driver.core.ResultSet
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PrimaryKey
-import domain.comments.CommentStatus
+import domain.comments.{Comment, Abuse, CommentStatus}
 import conf.connection.DataConnection
-import play.api.libs.iteratee.Iteratee
+import repositories.comments.AbuseRepository._
 import scala.concurrent.Future
 
 
@@ -49,13 +48,24 @@ object CommentStatusRepository extends CommentStatusRepository with RootConnecto
       .future()
   }
 
-  def getCommentBycommentId(commentsId: String): Future[Option[CommentStatus]] = {
-    select.where(_.commentId eqs commentsId).one()
+  def getCommentStatusBycommentId(commentId: String): Future[Option[CommentStatus]] = {
+    select.where(_.commentId eqs commentId).one()
   }
 
-  def getSiteCommentStatus(commentId: String): Future[Seq[CommentStatus]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+
+  def getSiteCommentStatus(commentId: String): Future[Option[CommentStatus]] = {
+    select.where(_.commentId eqs commentId).one()
   }
+  def getAllCommentStatus: Future[Seq[CommentStatus]] = {
+    select.all().fetch()
+  }
+
+
+  def deleteAll: Future[ResultSet] = {
+    delete.future()
+
+  }
+
 
 
 }
