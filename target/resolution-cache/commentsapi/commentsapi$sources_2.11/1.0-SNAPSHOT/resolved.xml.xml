@@ -4,7 +4,7 @@
 		module="commentsapi$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20161113173652"
+		publication="20161114175321"
 	/>
 	<configurations>
 		<conf name="universal" visibility="public" description=""/>

@@ -1,7 +1,6 @@
-package services.Comments
+package services.comments
 import com.datastax.driver.core.ResultSet
-import com.sun.deploy.nativesandbox.comm.Response
-import services.Comments.Impl.{ResponseServiceImpl, AbuseServiceImpl}
+import domain.comments.Response
 import services.Service
 import scala.concurrent.Future
 
@@ -19,7 +18,12 @@ trait ResponseService {
 }
 
 object ResponseService extends Service {
-  def apply(): ResponseService = new ResponseServiceImpl
+  def apply(): ResponseService = new ResponseService {override def deleteAll: Future[ResultSet] = ???
 
+    override def getAllResponse: Future[Seq[Response]] = ???
 
+    override def save(response: Response): Future[ResultSet] = ???
+
+    override def getResponseByCommentId(id: String): Future[Option[Response]] = ???
+  }
 }

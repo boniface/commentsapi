@@ -1,8 +1,8 @@
-package services.Comments.Impl
+package services.comments.Impl
 import com.datastax.driver.core.ResultSet
 import domain.comments.{Abuse, CommentStatus, Comment}
 import repositories.comments.{AbuseRepository, CommentStatusRepository, CommentRepository}
-import services.Comments.{CommentStatusService, CommentService}
+import services.comments.{CommentStatusService, CommentService}
 import services.Service
 
 import scala.concurrent.Future
@@ -12,8 +12,8 @@ import scala.concurrent.Future
   */
 class CommentStatusServiceImpl extends CommentStatusService with Service {
 
-  override def getCommentStatusBySubjectId(id: String): Future[Option[Abuse]] = {
-    AbuseRepository.getSiteAbuse(id)
+  override def getCommentStatusBySubjectId(id: String): Future[Option[CommentStatus]] = {
+    CommentStatusRepository.getSiteCommentStatus(id)
   }
 
   override def save(commentstatus: CommentStatus): Future[ResultSet] = {

@@ -1,11 +1,9 @@
-package services.Comments.Impl
-
+package services.comments.Impl
 import com.datastax.driver.core.ResultSet
-import domain.comments.{ResponseStatus, Abuse}
-import repositories.comments.{ResponseStatusRepository, AbuseRepository}
-import services.Comments.ResponseStatusService
+import domain.comments.ResponseStatus
+import repositories.comments.{AbuseRepository, ResponseStatusRepository}
+import services.comments.ResponseStatusService
 import services.Service
-
 import scala.concurrent.Future
 
 /**
@@ -13,24 +11,25 @@ import scala.concurrent.Future
   */
 class ResponseStatusServiceImpl  extends ResponseStatusService with Service{
 
-  override def getResponseStatusByResponseId(id: String): Future[Option[Responsestatus]] = {
+
+  override def getResponseStatusBySubjectId(id: String): Future[Option[ResponseStatus]] = {
     ResponseStatusRepository.getSiteResponseStatus(id)
   }
-  override def save(responsestatus: responsestatus): Future[ResultSet] = {
-    val responsestatusService = ResponseStatus(responsestatus.responsetId,
+  override def save(responsestatus: ResponseStatus): Future[ResultSet] = {
+    val responsestatusService = ResponseStatus(responsestatus.responseId,
       responsestatus.status,
       responsestatus.date)
     for {
-      result <- responsestatusRepository.save(responsestatusService)
+      result <- ResponseStatusRepository.save(responsestatusService)
     } yield result
   }
 
-  override def getAllresponsestatus: Future[Seq[responsestatus]] = {
-    responsestatusRepository.getAllAbuse
+  override def getAllResponseStatus: Future[Seq[ResponseStatus]] = {
+    ResponseStatusRepository.getAllResponseStatus
   }
 
   override def deleteAll: Future[ResultSet] = {
-    responsestatusRepository.deleteAll
+    ResponseStatusRepository.deleteAll
   }
 
 }

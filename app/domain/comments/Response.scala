@@ -1,5 +1,4 @@
 package domain.comments
-
 import org.joda.time.DateTime
 import play.api.libs.json.Json
 

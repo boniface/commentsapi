@@ -1,9 +1,9 @@
-package services.Comments.Impl
+package services.comments.Impl
 
 import com.datastax.driver.core.ResultSet
 import domain.comments.{Subject, Comment}
 import repositories.comments.{SubjectRepository, CommentRepository}
-import services.Comments.SubjectService
+import services.comments.SubjectService
 import services.Service
 
 import scala.concurrent.Future

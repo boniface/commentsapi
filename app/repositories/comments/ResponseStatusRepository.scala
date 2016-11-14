@@ -47,8 +47,13 @@ object ResponseStatusRepository extends ResponseStatusRepository with RootConnec
       .future()
   }
 
-  def getResponseStatusByResponseId(responsetId: String): Future[Option[ResponseStatus]] = {
-    select.where(_.responseId eqs responsetId).one()
+  def getResponseStatusByResponseId(responseId: String): Future[Option[ResponseStatus]] = {
+    select.where(_.responseId eqs responseId).one()
+  }
+
+
+  def getSiteResponseStatus(responseId: String): Future[Option[ResponseStatus]] = {
+    select.where(_.responseId eqs responseId).one()
   }
 
   def getAllResponseStatus: Future[Seq[ResponseStatus]] = {

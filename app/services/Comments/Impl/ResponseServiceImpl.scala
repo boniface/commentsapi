@@ -1,8 +1,8 @@
-package services.Comments.Impl
 import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.dsl._
 import domain.comments.Response
 import repositories.comments.ResponseRepository
-import services.Comments.ResponseService
+import services.comments.ResponseService
 import services.Service
 import scala.concurrent.Future
 /**
@@ -14,7 +14,7 @@ class ResponseServiceImpl  extends ResponseService with Service{
     ResponseRepository.getSiteResponse(id)
   }
 
-  override def save(response: Response):Future[ResultSet] = {
+   def save(response: Response):Future[ResultSet] = {
     val responseService = Response(response.commentId,
       response.responseId,
       response.response,
