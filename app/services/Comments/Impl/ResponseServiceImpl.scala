@@ -1,3 +1,4 @@
+package services.comments.Impl
 import com.datastax.driver.core.ResultSet
 import com.websudos.phantom.dsl._
 import domain.comments.Response

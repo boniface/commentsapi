@@ -17,8 +17,6 @@ class CommentServiceImpl extends CommentService with Service {
     CommentRepository.getSiteComment(id)
   }
 
- //override def getCommentyBySubjectId(id:String): Future[Option[Comment]] = ???
-
   override def save(comment: Comment): Future[ResultSet] = {
     val commentService = Comment(comment.subjectId,
       comment.siteId,
