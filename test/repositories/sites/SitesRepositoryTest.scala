@@ -2,11 +2,9 @@ package repositories.sites
 
 import domain.sites.Site
 import org.scalatest.{GivenWhenThen, FeatureSpec}
-import repositories.sites.SiteRepository
-
+import scala.concurrent.duration._
 import scala.concurrent.Await
-import scala.concurrent.duration.Duration
-import scalaz.std.int
+
 
 /**
   * Created by Quest on 2016/10/29.
@@ -21,10 +19,12 @@ class SitesRepositoryTest extends FeatureSpec with GivenWhenThen{
       val name = "youTube"
       val url = "www.youtube.com"
       Then("Create site")
-      val Createdsite = Site(siteId,name,url)
+      val Createsite = Site(siteId,name,url)
       val SiteRepo = SiteRepository
-      SiteRepo.saveSite(Createdsite)
-
+      SiteRepo.saveSite(Createsite)
+      Then("Display All ")
+      val displayTokenId = Await.result(SiteRepo.getSiteByName("132","youTube"), 2 minutes)
+      displayTokenId.foreach(i => println("Site=======>",i))
     }
 
 
