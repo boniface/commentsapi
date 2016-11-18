@@ -1,81 +1,62 @@
 package repositories.users
 
-import com.datastax.driver.core.Row
-import com.websudos.phantom.CassandraTable
-import com.websudos.phantom.dsl._
-import com.websudos.phantom.keys.PartitionKey
-import com.websudos.phantom.reactivestreams._
-import conf.connection.DataConnection
-import domain.comments.Abuse
 import domain.users.User
-import org.h2.engine.Session
-import org.h2.result.Row
-import views.html.helper.select
-
+import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.builder.{Chainned, Unspecified, Unordered, Unlimited}
+import com.websudos.phantom.builder.query.SelectQuery
+import com.websudos.phantom.dsl._
+import com.websudos.phantom.keys.{PrimaryKey}
+import com.websudos.phantom.{CassandraTable}
+import com.websudos.phantom.connectors.RootConnector
+import conf.connection.DataConnection._
+import play.api.libs.iteratee.Iteratee
+import shapeless.HNil
 import scala.concurrent.Future
-
 /**
-  * Created siteId:String,
-  * email: String,
-  * screenName: String,
-  * firstname:Option[String],
-  * lastName:Option[String],
-  * password: String
-  */
+ * Created by Rosie on 2016/11/12.
+ */
+class UserRepository extends CassandraTable[UserRepository, User]{
 
-class CommentRepository extends CassandraTable[CommentRepository, Abuse] {
+  object siteId extends StringColumn(this) with PrimaryKey[String]
+  object email extends StringColumn(this)
+  object screenName extends StringColumn(this)
+  object firstname extends OptionalStringColumn(this)
+  object lastName extends OptionalStringColumn(this)
+  object password extends StringColumn(this)
 
-  object siteId extends StringColumn(this) with PartitionKey[String]
+  override def fromRow(r:Row): User = {
 
-  object subjectId extends StringColumn(this) with PrimaryKey[String]
-
-  object commentOrResponse extends StringColumn(this)
-
-  object abuseId extends OptionalStringColumn(this)
-
-  object details extends OptionalStringColumn(this)
-
-  object emailId extends StringColumn(this)
-
-  object date extends StringColumn(this)
-
-
-  override def fromRow(r: Row): Abuse = {
-    Abuse(
-      siteId(r),
-      subjectId(r),
-      commentOrResponse(r),
-      abuseId(r),
-      emailId(r),
-      date(r)
-    )
+    User(siteId(r),email(r),screenName(r),firstname(r),lastName(r),password(r))
   }
 }
 
-object CommentRepository extends CommentRepository with RootConnector {
+object UserRepository extends UserRepository with RootConnector {
 
-  override lazy val tableName = "abuse"
+  override lazy val tableName = "user"
 
-  override implicit def space: KeySpace = DataConnection.keySpace
+  override implicit def space: KeySpace = keySpace
 
-  override implicit def session: Session = DataConnection.session
+  override implicit def session: Session = session
 
-  def save(abuse: Abuse): Future[ResultSet] = {
+  def save(user: User): Future[ResultSet] = {
     insert
-      .value(_.subjectId, abuse.subjectId)
-      .value(_.commentOrResponse, abuse.commentOrResponse)
-      .value(_.abuseId, abuse.abuseId)
-      .value(_.emailId, abuse.emailId)
-      .value(_.siteId, abuse.siteId)
-      .value(_.date, abuse.date)
+      .value(_.siteId, user.siteId)
+      .value(_.email, user.email)
+      .value(_.screenName, user.screenName)
+      .value(_.firstname,user.firstname)
+      .value(_.lastName, user.lastName)
+      .value(_.password, user.password)
       .future()
   }
 
-  def getUserBySubject(siteId: String, subjectId: String): Future[Option[User]] = {
-    select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
+  def getUserScreenNameBySiteId(siteId: String): Future[Option[User]] = {
+    select.where(_.siteId eqs siteId).one()
   }
 
-  def getSiteAbuse(siteId: String): Future[Seq[User]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+  def getUserByEmail(siteId: String,email:String): Future[Option[User]] = {
+    //select.where(_.siteId eqs siteId).and(_.email eqs email).fetchEnumerator() run Iteratee.collect()
+    select.where(_.siteId eqs siteId).one()
+
   }
+
 }

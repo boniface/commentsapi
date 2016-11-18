@@ -9,7 +9,7 @@ import domain.util.Mail
   */
 object MailFactory {
   def getMail(values:Map[String,String],dates:Date): Mail ={
-    Mail(orgId = values("orgId"),id = values("id"),key = values("key"),
+    Mail(siteId = values("orgId"),id = values("id"),key = values("key"),
       value = values("value"),host = values("host"),port = values("port"),state = values("state"),date = dates)
   }
 }

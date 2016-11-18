@@ -71,7 +71,7 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
     }
 
     def getSiteComment(siteId: String): Future[Seq[Comment]] = {
-      select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+      select.where(_.siteId eqs siteId).fetch()
     }
 
 

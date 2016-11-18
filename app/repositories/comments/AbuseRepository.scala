@@ -55,7 +55,9 @@ object AbuseRepository extends AbuseRepository with RootConnector {
   }
 
   def getSiteAbuse(siteId: String): Future[Seq[Abuse]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+    //select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+    select.where(_.siteId eqs siteId).fetch()
+
   }
 
 }

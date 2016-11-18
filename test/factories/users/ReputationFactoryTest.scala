@@ -8,9 +8,9 @@ import org.scalatest.FunSuite
  */
 class ReputationFactoryTest extends FunSuite{
 
-  test ("getReputation"){
+  test ("getReputation"){    val date = new DateTime(2016,9,27,6,0,0,0)
+
     val emailId = "myemail@gmail.com"
-    val date = new DateTime(2016,9,27,6,0,0,0)
     val value = 4
 
     val reputation = ReputationFactory.getReputation(emailId,date,value)
