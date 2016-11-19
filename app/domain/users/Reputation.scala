@@ -9,5 +9,5 @@ import play.api.libs.json.Json
 case class Reputation(emailId:String, date:DateTime,value:Int)
 
 object Reputation{
-  //implicit val abuseFmt = Json.format[Reputation]
+  implicit val abuseFmt = Json.format[Reputation]
 }

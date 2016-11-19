@@ -1,9 +1,9 @@
 package repositories.comments
-import com.datastax.driver.core.{Row, ResultSet}
+import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
-import com.websudos.phantom.connectors.{KeySpace, RootConnector}
 import com.websudos.phantom.dsl._
-import com.websudos.phantom.reactivestreams.iteratee.Iteratee
+import com.websudos.phantom.keys.PartitionKey
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.comments.Comment
 
@@ -14,6 +14,14 @@ import scala.concurrent.Future
   * Created by Bonga on 10/28/2016.
   */
 
+
+//siteId: String,
+//subjectId: String,
+//commentId: String,
+//comment: String,
+//emailId: String,
+//ipaddress: String,
+//date: DateTime
 class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
 
 
@@ -21,7 +29,7 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
 
   object subjectId extends StringColumn(this) with PrimaryKey[String]
 
-  object commentId extends StringColumn(this)
+  object commentId extends StringColumn(this) with PrimaryKey[String]
 
   object emailId extends StringColumn(this)
 
