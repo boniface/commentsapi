@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Bonga/Desktop/commentsapi/conf/routes
-// @DATE:Wed Sep 28 18:00:20 CAT 2016
+// @SOURCE:/home/hashcode/hashprojects/backend/commentsapi/conf/routes
+// @DATE:Sun Nov 20 14:19:52 SAST 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }

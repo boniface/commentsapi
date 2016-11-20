@@ -4,8 +4,10 @@ import java.io.File
 
 import play.api.libs.json.JsValue
 import play.api.mvc.{AnyContent, MultipartFormData, Request}
+import services.util.TokenService
 
 import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by hashcode on 2016/10/06.

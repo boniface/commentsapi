@@ -1,6 +1,7 @@
 package domain.users
 
-import com.websudos.phantom.dsl.DateTime
+
+import org.joda.time.DateTime
 import play.api.libs.json.Json
 
 /**

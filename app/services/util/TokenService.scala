@@ -2,8 +2,10 @@ package services.util
 
 import com.datastax.driver.core.ResultSet
 import conf.security.Credential
+import domain.users.UserGeneratedToken
 import domain.util.Token
 import services.Service
+import services.util.Impl.TokenServiceImpl
 
 import scala.concurrent.Future
 

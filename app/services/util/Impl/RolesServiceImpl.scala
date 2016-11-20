@@ -21,6 +21,6 @@ class RolesServiceImpl extends RoleService with Service{
   }
 
   override def getAll: Future[Seq[Roles]] = {
-    RoleRepository.getAllRoles
+    RoleRepository.getRoles
   }
 }

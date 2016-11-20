@@ -2,7 +2,7 @@ package services.users.Impl
 
 import com.websudos.phantom.dsl
 import com.websudos.phantom.dsl.ResultSet
-import conf.security.AuthUtil
+import conf.security.{AuthUtil, RolesID}
 import domain.users.{User, UserRole}
 import org.joda.time.DateTime
 import repositories.users.UserRepository
@@ -26,7 +26,7 @@ class UserServiceImpl extends UserService with Service {
   }
 
   override def checkUserAvailability(user: User): Future[Boolean] = {
-    UserRepository.getUserByEmail(user.siteId,user.email) map {
+    UserRepository.getSiteUser(user.siteId,user.email) map {
       case Some(x) => true
       case _ => false
     }
@@ -36,7 +36,7 @@ class UserServiceImpl extends UserService with Service {
 
 
   override def getUserByEmail(orgCode:String,email:String): Future[Option[User]] = {
-    UserRepository.getUserByEmail(orgCode,email)
+    UserRepository.getSiteUser(orgCode,email)
   }
 
   override def updateUser(user: User): Future[ResultSet] = {

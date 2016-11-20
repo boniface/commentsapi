@@ -5,10 +5,14 @@ import java.util.UUID
 import authentikat.jwt.{JsonWebToken, JwtClaimsSet, JwtHeader}
 import com.datastax.driver.core.ResultSet
 import com.github.nscala_time.time.Imports._
+import conf.security.Credential
+import com.github.t3hnar.bcrypt._
 import conf.util.Util
+import domain.users.{User, UserGeneratedToken}
 import domain.util.Token
 import repositories.util.TokenRepository
 import services.Service
+import services.users.UserService
 import services.util.TokenService
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -27,7 +31,7 @@ class TokenServiceImpl extends TokenService with Service {
     val useraccounts = UserService.apply().getUser(credential.email)
     val results = useraccounts map {
       case Nil => Future {
-        UserGeneratedToken("NONE", "FAILED", "USER NOT FOUND", Set[String]())
+        UserGeneratedToken("NONE", "FAILED", "USER NOT FOUND", "NONE")
       }
       case user :: Nil => {
         if (credential.password.isBcrypted(user.password)) {
@@ -35,24 +39,23 @@ class TokenServiceImpl extends TokenService with Service {
             for {
               token <- generateToken(user, credential) if credential.password.isBcrypted(user.password)
               saveToken <- save(Token(getTokenId(token), token)) if credential.password.isBcrypted(user.password)
-            } yield UserGeneratedToken(token, "SUCCEED", "USER AUTHENTICATED", Set(user.orgCode))
+            } yield UserGeneratedToken(token, "SUCCEED", "USER AUTHENTICATED", user.siteId)
           }
           checkAccounts match {
             case Success(foundUsers) => foundUsers
             case Failure(f) => Future {
-              UserGeneratedToken("NONE", "FAILED", "USER NOT FOUND", Set[String]())
+              UserGeneratedToken("NONE", "FAILED", "USER NOT FOUND", "NONE")
             }
           }
         } else {
           Future {
-            UserGeneratedToken("NONE", "FAILED", "WRONG PASSWORD", Set())
+            UserGeneratedToken("NONE", "FAILED", "WRONG PASSWORD", "NONE")
           }
         }
       }
       case accounts@(user :: tail) => {
-        val organisations = (accounts map (user => user.orgCode)).toSet
         Future {
-          UserGeneratedToken("NONE", "MULTIPLE", "MULTIPLE ACCOUNTS FOUND", organisations)
+          UserGeneratedToken("NONE", "MULTIPLE", "MULTIPLE ACCOUNTS FOUND", user.siteId)
         }
       }
     }
@@ -130,7 +133,7 @@ class TokenServiceImpl extends TokenService with Service {
     val signature = Future {
       credential.email
     }
-    val userRole = UserService.apply.getUserRole(user.orgCode,user.email) map (role => {
+    val userRole = UserService.apply.getUserRole(user.siteId,user.email) map (role => {
       role map (e => e.roleId)
     })
 
@@ -141,7 +144,7 @@ class TokenServiceImpl extends TokenService with Service {
 
     tokenSignatureAndRoles map (tokenValues => {
       val claims = JwtClaimsSet(Map(
-        "iss" -> user.orgCode,
+        "iss" -> user.siteId,
         "sub" -> user.email,
         "role" -> tokenValues._2, //getOrElse("")
         "exp" -> DateTime.now.plusHours(12).getMillis,

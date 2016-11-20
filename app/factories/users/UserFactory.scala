@@ -7,7 +7,10 @@ import domain.users.User
 object UserFactory {
 
   def getUser(values:Map[String,String]):User ={
-    User (emailId = values("emailId"),screenName = values("screenName"),password =values("password"),userStatus = values("userStatus") )
+    User (emailId = values("emailId"),
+      screenName = values("screenName"),
+      password =values("password"),
+      userStatus = values("userStatus"),None )
   }
 
 }
