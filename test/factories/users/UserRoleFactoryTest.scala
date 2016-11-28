@@ -1,5 +1,7 @@
 package factories.users
 
+import domain.users.UserRole
+import org.joda.time.DateTime
 import org.scalatest.FunSuite
 
 /**
@@ -8,11 +10,13 @@ import org.scalatest.FunSuite
 class UserRoleFactoryTest extends FunSuite{
   test("getUserRole"){
 
+    val dates = new DateTime(2016,9,27,10,15,0,0)
+
     val values = Map("emailId"->"youremail@gmail.com", "roleId"->"admin")
 
-    val userRole = UserRoleFactory.getUserRole(values)
+    val userRole = UserRoleFactory.getUserRole(values,dates)
 
-//    assert(userRole == UserRole(emailId="youremail@gmail.com", roleId="admin"))
+    assert(userRole == UserRole(emailId="youremail@gmail.com", roleId="admin", date = new DateTime(2016,9,27,10,15,0,0)))
   }
 
 }
