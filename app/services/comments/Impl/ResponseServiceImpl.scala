@@ -4,8 +4,9 @@ import com.datastax.driver.core.ResultSet
 import com.websudos.phantom.dsl._
 import domain.comments.Response
 import repositories.comments.ResponseRepository
-import services.comments.ResponseService
 import services.Service
+import services.comments.ResponseService
+
 import scala.concurrent.Future
 
 /**

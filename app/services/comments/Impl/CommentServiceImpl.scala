@@ -3,8 +3,8 @@ package services.comments.Impl
 import com.datastax.driver.core.ResultSet
 import domain.comments.Comment
 import repositories.comments.CommentRepository
-import services.comments.CommentService
 import services.Service
+import services.comments.CommentService
 
 import scala.concurrent.Future
 

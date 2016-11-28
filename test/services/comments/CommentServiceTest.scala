@@ -1,9 +1,9 @@
 package services.comments
 
-import domain.comments.{Comment, Comment}
+import domain.comments.Comment
 import org.joda.time.DateTime
 import org.scalatest.FunSuite
-import services.comments.CommentService
+
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
