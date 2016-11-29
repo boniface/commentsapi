@@ -26,7 +26,7 @@
 [0m[[0minfo[0m] [0mCompiling 161 Scala sources and 1 Java source to /home/hashcode/hashprojects/backend/commentsapi/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.8[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.8[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 715f843f, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1986a305, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
 [0m[[0mdebug[0m] [0m	-unchecked[0m
@@ -59,20 +59,20 @@
 [0m[[31merror[0m] [0m required: repositories.users.UserRepository => com.websudos.phantom.column.AbstractColumn[java.io.Serializable][0m
 [0m[[31merror[0m] [0m      .value(_.lastName, user.siteId)[0m
 [0m[[31merror[0m] [0m               ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:16: type mismatch;[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:17: type mismatch;[0m
 [0m[[31merror[0m] [0m found   : scala.concurrent.Future[Seq[domain.comments.Abuse]][0m
 [0m[[31merror[0m] [0m required: scala.concurrent.Future[Option[domain.comments.Abuse]][0m
 [0m[[31merror[0m] [0m    AbuseRepository.getSiteAbuse(id)[0m
 [0m[[31merror[0m] [0m                                ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:27: Cannot find an implicit ExecutionContext. You might pass[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:28: Cannot find an implicit ExecutionContext. You might pass[0m
 [0m[[31merror[0m] [0man (implicit ec: ExecutionContext) parameter to your method[0m
 [0m[[31merror[0m] [0mor import scala.concurrent.ExecutionContext.Implicits.global.[0m
 [0m[[31merror[0m] [0m      result <- AbuseRepository.save(abuseService)[0m
 [0m[[31merror[0m] [0m             ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:32: value getAllAbuse is not a member of object repositories.comments.AbuseRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:33: value getAllAbuse is not a member of object repositories.comments.AbuseRepository[0m
 [0m[[31merror[0m] [0m    AbuseRepository.getAllAbuse[0m
 [0m[[31merror[0m] [0m                    ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:36: value deleteAll is not a member of object repositories.comments.AbuseRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/AbuseServiceImpl.scala:37: value deleteAll is not a member of object repositories.comments.AbuseRepository[0m
 [0m[[31merror[0m] [0m    AbuseRepository.deleteAll[0m
 [0m[[31merror[0m] [0m                    ^[0m
 [0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/CommentServiceImpl.scala:17: type mismatch;[0m
@@ -107,29 +107,29 @@
 [0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/CommentStatusServiceImpl.scala:34: value deleteAll is not a member of object repositories.comments.CommentStatusRepository[0m
 [0m[[31merror[0m] [0m    CommentStatusRepository.deleteAll[0m
 [0m[[31merror[0m] [0m                            ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseServiceImpl.scala:17: type mismatch;[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseServiceImpl.scala:18: type mismatch;[0m
 [0m[[31merror[0m] [0m found   : scala.concurrent.Future[Seq[domain.comments.Response]][0m
 [0m[[31merror[0m] [0m required: scala.concurrent.Future[Option[domain.comments.Response]][0m
 [0m[[31merror[0m] [0m    ResponseRepository.getSiteResponse(id)[0m
 [0m[[31merror[0m] [0m                                      ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseServiceImpl.scala:33: value getAllResponse is not a member of object repositories.comments.ResponseRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseServiceImpl.scala:34: value getAllResponse is not a member of object repositories.comments.ResponseRepository[0m
 [0m[[31merror[0m] [0m    ResponseRepository.getAllResponse[0m
 [0m[[31merror[0m] [0m                       ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseServiceImpl.scala:37: value deleteAll is not a member of object repositories.comments.ResponseRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseServiceImpl.scala:38: value deleteAll is not a member of object repositories.comments.ResponseRepository[0m
 [0m[[31merror[0m] [0m    ResponseRepository.deleteAll[0m
 [0m[[31merror[0m] [0m                       ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:17: value getSiteResponseStatus is not a member of object repositories.comments.ResponseStatusRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:18: value getSiteResponseStatus is not a member of object repositories.comments.ResponseStatusRepository[0m
 [0m[[31merror[0m] [0m    ResponseStatusRepository.getSiteResponseStatus(id)[0m
 [0m[[31merror[0m] [0m                             ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:24: Cannot find an implicit ExecutionContext. You might pass[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:25: Cannot find an implicit ExecutionContext. You might pass[0m
 [0m[[31merror[0m] [0man (implicit ec: ExecutionContext) parameter to your method[0m
 [0m[[31merror[0m] [0mor import scala.concurrent.ExecutionContext.Implicits.global.[0m
 [0m[[31merror[0m] [0m      result <- ResponseStatusRepository.save(responsestatusService)[0m
 [0m[[31merror[0m] [0m             ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:29: value getAllResponseStatus is not a member of object repositories.comments.ResponseStatusRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:30: value getAllResponseStatus is not a member of object repositories.comments.ResponseStatusRepository[0m
 [0m[[31merror[0m] [0m    ResponseStatusRepository.getAllResponseStatus[0m
 [0m[[31merror[0m] [0m                             ^[0m
-[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:33: value deleteAll is not a member of object repositories.comments.ResponseStatusRepository[0m
+[0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/ResponseStatusServiceImpl.scala:34: value deleteAll is not a member of object repositories.comments.ResponseStatusRepository[0m
 [0m[[31merror[0m] [0m    ResponseStatusRepository.deleteAll[0m
 [0m[[31merror[0m] [0m                             ^[0m
 [0m[[31merror[0m] [0m/home/hashcode/hashprojects/backend/commentsapi/app/services/comments/Impl/SubjectServiceImpl.scala:18: value getSiteSubject is not a member of object repositories.comments.SubjectRepository[0m
