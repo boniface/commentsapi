@@ -1,31 +1,47 @@
 package repositories.sites
 
+import conf.connection.DataConnection
 import domain.sites.Site
-import org.scalatest.{FeatureSpec, GivenWhenThen}
-import scala.concurrent.duration._
+import org.scalatest.{BeforeAndAfterEach, FunSuite}
+
 import scala.concurrent.Await
+import scala.concurrent.duration._
 
 /**
   * Created by Quest on 2016/11/20.
   */
-class SiteRepoTest extends FeatureSpec with GivenWhenThen {
+class SiteRepoTest extends FunSuite   with BeforeAndAfterEach{
 
-  feature("Create site") {
-    info("Admin add a site")
-    scenario("Admin add new site ") {
-      Given("Given siteId,name,url")
-      val siteId = "101"
-      val name = "youtube"
-      val url = "www.youtube.com"
-      Then("Add site ")
-      val site = Site(siteId, name, url)
-      val siteRepo = SiteRepository
-      siteRepo.saveSite(site)
-      Then("Display All ")
-      val displayAllsites = Await.result(siteRepo.getAllSites, 2 minutes)
-      displayAllsites.foreach(i => println("Sites=======>", i))
-      val displayIdSites = Await.result(siteRepo.getSiteByName(siteId, name), 2 minutes)
-      displayIdSites.foreach(i => println("Sites=======>", i))
-    }
+  implicit val keyspace = DataConnection.keySpace
+  implicit val session = DataConnection.session
+
+  override protected def beforeEach(): Unit = {
+    //Create Table
+    SiteRepository.create.ifNotExists().future()
+  }
+
+  test("testSaveOrUpdate") {
+    val site = Site(
+      "SITEID",
+      "TEST SITE",
+      "www.test.com")
+
+    val result = Await.result(SiteRepository.saveSite(site), 2.minutes)
+    assert(result.isExhausted)
+  }
+
+  test("testGetSIte") {
+    val result = Await.result(SiteRepository.getSiteById("SITEID"), 2.minutes)
+    assert( result.get.name === "TEST SITE")
+  }
+
+  test("testGetAllSites") {
+    val result = Await.result(SiteRepository.getAllSites, 2.minutes)
+    assert( result.size > 0)
+  }
+
+  override protected def afterEach(): Unit = {
+    //Delete All records
+    SiteRepository.truncate().future()
   }
 }

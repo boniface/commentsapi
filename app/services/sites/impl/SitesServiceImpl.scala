@@ -20,10 +20,9 @@ class SitesServiceImpl extends SitesService with Service{
         }yield result
   }
 
-  override def getSiteById(siteId:String,name:String): Future[Option[Site]] = {
-    SiteRepository.getSiteByName(siteId,name)
+  override def getSiteById(siteId:String): Future[Option[Site]] = {
+    SiteRepository.getSiteById(siteId)
   }
-
 
   override def getAllSites:Future[Seq[Site]] = {
     SiteRepository.getAllSites
