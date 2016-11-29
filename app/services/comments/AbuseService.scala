@@ -1,9 +1,9 @@
 package services.comments
 
 import com.datastax.driver.core.ResultSet
-import domain.comments.{Abuse, Comment}
-import services.comments.Impl.{AbuseServiceImpl, CommentServiceImpl}
+import domain.comments.Abuse
 import services.Service
+import services.comments.Impl.AbuseServiceImpl
 
 import scala.concurrent.Future
 
