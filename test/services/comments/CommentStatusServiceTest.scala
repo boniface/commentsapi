@@ -1,8 +1,9 @@
 package services.comments
 
-import domain.comments.{CommentStatus, CommentStatus}
+import domain.comments.CommentStatus
 import org.joda.time.DateTime
 import org.scalatest.FunSuite
+
 import scala.concurrent.Await
 import scala.concurrent.duration._
 

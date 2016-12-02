@@ -1,7 +1,6 @@
 package factories.sites
 
 import domain.sites.Site
-
 import org.scalatest.FunSuite
 
 /**

@@ -12,32 +12,36 @@ import scala.concurrent.Future
 /**
   * Created by Quest on 2016/10/24.
   */
-class AdminStatusRepository extends CassandraTable[AdminStatusRepository,AdminStatus]{
+class AdminStatusRepository extends CassandraTable[AdminStatusRepository, AdminStatus] {
 
   object adminStatusId extends StringColumn(this) with PrimaryKey[String]
+
   object name extends StringColumn(this)
 
-  override def fromRow(r:Row):AdminStatus ={
-    AdminStatus(adminStatusId(r),name(r))
+  override def fromRow(r: Row): AdminStatus = {
+    AdminStatus(adminStatusId(r), name(r))
   }
 }
-object AdminStatusRepository extends AdminStatusRepository with RootConnector{
+
+object AdminStatusRepository extends AdminStatusRepository with RootConnector {
   override lazy val tableName = "adminStatus"
+
   override implicit def space: KeySpace = DataConnection.keySpace
+
   override implicit def session: Session = DataConnection.session
 
-  def save(adminStatus: AdminStatus):Future[ResultSet] = {
+  def save(adminStatus: AdminStatus): Future[ResultSet] = {
     insert
-        .value(_.adminStatusId,adminStatus.adminStatusId)
-        .value(_.name,adminStatus.name)
+      .value(_.adminStatusId, adminStatus.adminStatusId)
+      .value(_.name, adminStatus.name)
       .future()
   }
 
-  def getAdminStatusById(adminStatusId:String):Future[Option[AdminStatus]] ={
+  def getAdminStatusById(adminStatusId: String): Future[Option[AdminStatus]] = {
     select.where(_.adminStatusId eqs adminStatusId).one()
   }
 
-  def deleteById(adminStatusId: String):Future[ResultSet] = {
+  def deleteById(adminStatusId: String): Future[ResultSet] = {
     delete.where(_.adminStatusId eqs adminStatusId).future()
   }
 

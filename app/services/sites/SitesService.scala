@@ -12,7 +12,7 @@ import scala.concurrent.Future
   */
 trait SitesService {
   def save(site: Site): Future[ResultSet]
-  def getSiteById(siteId:String,name:String): Future[Option[Site]]
+  def getSiteById(siteId:String): Future[Option[Site]]
   def getAllSites:Future[Seq[Site]]
   def updateSite(site: Site): Future[ResultSet]
 }

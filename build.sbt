@@ -55,7 +55,7 @@ libraryDependencies += "com.github.karelcemus" %% "play-redis" % "1.2.0"
 libraryDependencies += "com.github.romix.akka" %% "akka-kryo-serialization" % "0.4.1"
 // https://mvnrepository.com/artifact/com.esotericsoftware.kryo/kryo
 libraryDependencies += "com.esotericsoftware.kryo" % "kryo" % "2.24.0"
-libraryDependencies += "org.typelevel" %% "cats" % "0.7.2"
+libraryDependencies += "org.typelevel" %% "cats" % "0.8.1"
 // https://mvnrepository.com/artifact/com.github.nscala-time/nscala-time_2.11
 libraryDependencies += "com.github.nscala-time" % "nscala-time_2.11" % "2.12.0"
 

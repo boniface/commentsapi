@@ -11,6 +11,6 @@ case class Site(siteId: String,
 
 object Site {
 
-  implicit val abuseFmt = Json.format[Site]
+  implicit val siteFmt = Json.format[Site]
 
 }
