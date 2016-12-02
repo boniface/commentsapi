@@ -24,6 +24,8 @@ trait UserService {
 
   def checkUserAvailability(user: User): Future[Boolean]
 
+  def getAllUsers: Future[Seq[User]]
+
   // User Role
   def saveUserRole(userrole: UserRole): Future[ResultSet]
 

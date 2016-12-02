@@ -15,7 +15,7 @@ class CommentStatusController extends Controller {
       val input = request.body
       val entity = Json.fromJson[CommentStatus](input).get
       val response = for {
-        results <-CommentStatusService.apply.save(entity)
+        results <- CommentStatusService.apply.save(entity)
       } yield results
       response.map(ans => Ok(Json.toJson(entity)))
         .recover {
@@ -31,3 +31,4 @@ class CommentStatusController extends Controller {
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
   }
+}
