@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/Bonga/Desktop/commentsapi/}root...
+[info] Updating {file:/C:/Users/Bonga/Pictures/commentsapi/}root...
 [debug] :: resolving dependencies :: commentsapi#commentsapi_2.11;1.0-SNAPSHOT
 [debug] 	confs: [universal, universal-docs, universal-src, docker, linux, compile, runtime, test, provided, optional, windows, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies for commentsapi#commentsapi_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b9e513a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e30d171
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -1960,21 +1960,8 @@
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->org.typelevel#cats_2.11;0.8.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats_2.11;0.8.1 {compile=[default(compile)]}
-[info] Resolving org.typelevel#cats_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats_2.11;0.8.1 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats_2.11;0.8.1!cats_2.11.pom(pom.original) (911ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats_2.11\0.8.1\jars\cats_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats_2.11;0.8.1
+[debug] 	found org.typelevel#cats_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats_2.11;0.8.1
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->org.typelevel#cats_2.11;0.8.1 [compile->runtime]
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->org.typelevel#cats_2.11;0.8.1 [compile->compile]
@@ -1983,21 +1970,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-macros_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-macros_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-macros_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-macros_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-macros_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-macros_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-macros_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-macros_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.11;0.8.1!cats-macros_2.11.pom(pom.original) (880ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-macros_2.11\0.8.1\jars\cats-macros_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-macros_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-macros_2.11;0.8.1
+[debug] 	found org.typelevel#cats-macros_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-macros_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-macros_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-macros_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2005,21 +1979,8 @@
 [debug] == resolving dependencies org.typelevel#cats-macros_2.11;0.8.1->com.github.mpilquist#simulacrum_2.11;0.10.0 [compile->master(compile)]
 [info] Resolving com.github.mpilquist#simulacrum_2.11;0.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.mpilquist#simulacrum_2.11;0.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.github.mpilquist#simulacrum_2.11;0.10.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.github.mpilquist#simulacrum_2.11;0.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.mpilquist\simulacrum_2.11\0.10.0\ivys\ivy.xml
-[debug] 	local: no ivy file found for com.github.mpilquist#simulacrum_2.11;0.10.0
-[debug] 		tried https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom
-[debug] 	public: found md file for com.github.mpilquist#simulacrum_2.11;0.10.0
-[debug] 		=> https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom (0.10.0)
-[debug] downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom
-[debug] 	[SUCCESSFUL ] com.github.mpilquist#simulacrum_2.11;0.10.0!simulacrum_2.11.pom(pom.original) (879ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.mpilquist\simulacrum_2.11\0.10.0\jars\simulacrum_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.jar
-[debug] 	found com.github.mpilquist#simulacrum_2.11;0.10.0 in public
+[debug] sbt-chain: module revision found in cache: com.github.mpilquist#simulacrum_2.11;0.10.0
+[debug] 	found com.github.mpilquist#simulacrum_2.11;0.10.0 in sbt-chain
 [debug] == resolving dependencies org.typelevel#cats-macros_2.11;0.8.1->com.github.mpilquist#simulacrum_2.11;0.10.0 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpilquist#simulacrum_2.11;0.10.0->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies com.github.mpilquist#simulacrum_2.11;0.10.0->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
@@ -2045,21 +2006,8 @@
 [debug] == resolving dependencies org.typelevel#cats-macros_2.11;0.8.1->org.typelevel#machinist_2.11;0.6.1 [compile->master(compile)]
 [info] Resolving org.typelevel#machinist_2.11;0.6.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#machinist_2.11;0.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#machinist_2.11;0.6.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#machinist_2.11;0.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\machinist_2.11\0.6.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#machinist_2.11;0.6.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom
-[debug] 	public: found md file for org.typelevel#machinist_2.11;0.6.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom (0.6.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#machinist_2.11;0.6.1!machinist_2.11.pom(pom.original) (871ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\machinist_2.11\0.6.1\jars\machinist_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar
-[debug] 	found org.typelevel#machinist_2.11;0.6.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#machinist_2.11;0.6.1
+[debug] 	found org.typelevel#machinist_2.11;0.6.1 in sbt-chain
 [debug] == resolving dependencies org.typelevel#cats-macros_2.11;0.8.1->org.typelevel#machinist_2.11;0.6.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#machinist_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.typelevel#machinist_2.11;0.6.1->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
@@ -2082,21 +2030,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-kernel_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-kernel_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-kernel_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-kernel_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-kernel_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-kernel_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-kernel_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-kernel_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.11;0.8.1!cats-kernel_2.11.pom(pom.original) (878ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-kernel_2.11\0.8.1\jars\cats-kernel_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-kernel_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel_2.11;0.8.1
+[debug] 	found org.typelevel#cats-kernel_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-kernel_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-kernel_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-kernel_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2108,21 +2043,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-kernel-laws_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-kernel-laws_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-kernel-laws_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-kernel-laws_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-kernel-laws_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-kernel-laws_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-kernel-laws_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-kernel-laws_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-kernel-laws_2.11;0.8.1!cats-kernel-laws_2.11.pom(pom.original) (864ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-kernel-laws_2.11\0.8.1\jars\cats-kernel-laws_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-kernel-laws_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel-laws_2.11;0.8.1
+[debug] 	found org.typelevel#cats-kernel-laws_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-kernel-laws_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-kernel-laws_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2132,21 +2054,8 @@
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.scalacheck#scalacheck_2.11;1.13.4 [compile->master(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.11;1.13.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalacheck#scalacheck_2.11;1.13.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scalacheck#scalacheck_2.11;1.13.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalacheck#scalacheck_2.11;1.13.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.scalacheck\scalacheck_2.11\1.13.4\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.scalacheck#scalacheck_2.11;1.13.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom
-[debug] 	public: found md file for org.scalacheck#scalacheck_2.11;1.13.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom (1.13.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom
-[debug] 	[SUCCESSFUL ] org.scalacheck#scalacheck_2.11;1.13.4!scalacheck_2.11.pom(pom.original) (879ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.scalacheck\scalacheck_2.11\1.13.4\jars\scalacheck_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar
-[debug] 	found org.scalacheck#scalacheck_2.11;1.13.4 in public
+[debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.13.4
+[debug] 	found org.scalacheck#scalacheck_2.11;1.13.4 in sbt-chain
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.scalacheck#scalacheck_2.11;1.13.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.13.4->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.scalacheck#scalacheck_2.11;1.13.4->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
@@ -2159,21 +2068,8 @@
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.typelevel#discipline_2.11;0.7.2 [compile->master(compile)]
 [info] Resolving org.typelevel#discipline_2.11;0.7.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#discipline_2.11;0.7.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#discipline_2.11;0.7.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#discipline_2.11;0.7.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\discipline_2.11\0.7.2\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#discipline_2.11;0.7.2
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom
-[debug] 	public: found md file for org.typelevel#discipline_2.11;0.7.2
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom (0.7.2)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#discipline_2.11;0.7.2!discipline_2.11.pom(pom.original) (859ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\discipline_2.11\0.7.2\jars\discipline_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.jar
-[debug] 	found org.typelevel#discipline_2.11;0.7.2 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#discipline_2.11;0.7.2
+[debug] 	found org.typelevel#discipline_2.11;0.7.2 in sbt-chain
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.typelevel#discipline_2.11;0.7.2 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#discipline_2.11;0.7.2->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
 [debug] == resolving dependencies org.typelevel#discipline_2.11;0.7.2->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
@@ -2182,21 +2078,8 @@
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.typelevel#catalysts-platform_2.11;0.0.5 [compile->master(compile)]
 [info] Resolving org.typelevel#catalysts-platform_2.11;0.0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#catalysts-platform_2.11;0.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#catalysts-platform_2.11;0.0.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#catalysts-platform_2.11;0.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\catalysts-platform_2.11\0.0.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#catalysts-platform_2.11;0.0.5
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom
-[debug] 	public: found md file for org.typelevel#catalysts-platform_2.11;0.0.5
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom (0.0.5)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#catalysts-platform_2.11;0.0.5!catalysts-platform_2.11.pom(pom.original) (878ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\catalysts-platform_2.11\0.0.5\jars\catalysts-platform_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.jar
-[debug] 	found org.typelevel#catalysts-platform_2.11;0.0.5 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#catalysts-platform_2.11;0.0.5
+[debug] 	found org.typelevel#catalysts-platform_2.11;0.0.5 in sbt-chain
 [debug] 	[0.0.5] org.typelevel#catalysts-platform_2.11;0.0.5
 [debug] == resolving dependencies org.typelevel#cats-kernel-laws_2.11;0.8.1->org.typelevel#catalysts-platform_2.11;0.0.5 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#catalysts-platform_2.11;0.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2204,21 +2087,8 @@
 [debug] == resolving dependencies org.typelevel#catalysts-platform_2.11;0.0.5->org.typelevel#catalysts-macros_2.11;0.0.5 [compile->master(compile)]
 [info] Resolving org.typelevel#catalysts-macros_2.11;0.0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#catalysts-macros_2.11;0.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#catalysts-macros_2.11;0.0.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#catalysts-macros_2.11;0.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\catalysts-macros_2.11\0.0.5\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#catalysts-macros_2.11;0.0.5
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom
-[debug] 	public: found md file for org.typelevel#catalysts-macros_2.11;0.0.5
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom (0.0.5)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#catalysts-macros_2.11;0.0.5!catalysts-macros_2.11.pom(pom.original) (905ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\catalysts-macros_2.11\0.0.5\jars\catalysts-macros_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.jar
-[debug] 	found org.typelevel#catalysts-macros_2.11;0.0.5 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#catalysts-macros_2.11;0.0.5
+[debug] 	found org.typelevel#catalysts-macros_2.11;0.0.5 in sbt-chain
 [debug] 	[0.0.5] org.typelevel#catalysts-macros_2.11;0.0.5
 [debug] == resolving dependencies org.typelevel#catalysts-platform_2.11;0.0.5->org.typelevel#catalysts-macros_2.11;0.0.5 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#catalysts-macros_2.11;0.0.5->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2256,21 +2126,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-core_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-core_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-core_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-core_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-core_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-core_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-core_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-core_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-core_2.11;0.8.1!cats-core_2.11.pom(pom.original) (875ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-core_2.11\0.8.1\jars\cats-core_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-core_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-core_2.11;0.8.1
+[debug] 	found org.typelevel#cats-core_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-core_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-core_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-core_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2298,21 +2155,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-laws_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-laws_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-laws_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-laws_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-laws_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-laws_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-laws_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-laws_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-laws_2.11;0.8.1!cats-laws_2.11.pom(pom.original) (906ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-laws_2.11\0.8.1\jars\cats-laws_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-laws_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-laws_2.11;0.8.1
+[debug] 	found org.typelevel#cats-laws_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-laws_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-laws_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-laws_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2360,21 +2204,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-free_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-free_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-free_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-free_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-free_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-free_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-free_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-free_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-free_2.11;0.8.1!cats-free_2.11.pom(pom.original) (887ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-free_2.11\0.8.1\jars\cats-free_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-free_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-free_2.11;0.8.1
+[debug] 	found org.typelevel#cats-free_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-free_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-free_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-free_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -2402,21 +2233,8 @@
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-jvm_2.11;0.8.1 [compile->master(compile)]
 [info] Resolving org.typelevel#cats-jvm_2.11;0.8.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-jvm_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.typelevel#cats-jvm_2.11;0.8.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.typelevel#cats-jvm_2.11;0.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-jvm_2.11\0.8.1\ivys\ivy.xml
-[debug] 	local: no ivy file found for org.typelevel#cats-jvm_2.11;0.8.1
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.pom
-[debug] 	public: found md file for org.typelevel#cats-jvm_2.11;0.8.1
-[debug] 		=> https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.pom (0.8.1)
-[debug] downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.pom
-[debug] 	[SUCCESSFUL ] org.typelevel#cats-jvm_2.11;0.8.1!cats-jvm_2.11.pom(pom.original) (868ms)
-[debug] 		tried C:\Users\Bonga\.ivy2\local\org.typelevel\cats-jvm_2.11\0.8.1\jars\cats-jvm_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.jar
-[debug] 	found org.typelevel#cats-jvm_2.11;0.8.1 in public
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-jvm_2.11;0.8.1
+[debug] 	found org.typelevel#cats-jvm_2.11;0.8.1 in sbt-chain
 [debug] 	[0.8.1] org.typelevel#cats-jvm_2.11;0.8.1
 [debug] == resolving dependencies org.typelevel#cats_2.11;0.8.1->org.typelevel#cats-jvm_2.11;0.8.1 [compile->compile(*)]
 [debug] == resolving dependencies org.typelevel#cats-jvm_2.11;0.8.1->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
@@ -13174,12 +12992,7 @@
 [debug] 	[NOT REQUIRED] com.github.karelcemus#play-redis_2.11;1.2.0!play-redis_2.11.jar
 [debug] 	[NOT REQUIRED] com.github.romix.akka#akka-kryo-serialization_2.11;0.4.1!akka-kryo-serialization_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.24.0!kryo.jar(bundle)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.8.1/cats_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats_2.11;0.8.1!cats_2.11.jar (1568ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats_2.11;0.8.1!cats_2.11.jar
 [debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;2.12.0!nscala-time_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.11;2.5.1!play-logback_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.11;2.5.8!filters-helpers_2.11.jar
@@ -13289,86 +13102,21 @@
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar
 [debug] 	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.8.1/cats-macros_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.11;0.8.1!cats-macros_2.11.jar (890ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.8.1/cats-kernel_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.11;0.8.1!cats-kernel_2.11.jar (5169ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.8.1/cats-kernel-laws_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel-laws_2.11;0.8.1!cats-kernel-laws_2.11.jar (991ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.8.1/cats-core_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.11;0.8.1!cats-core_2.11.jar (3606ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.8.1/cats-laws_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-laws_2.11;0.8.1!cats-laws_2.11.jar (1801ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.8.1/cats-free_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-free_2.11;0.8.1!cats-free_2.11.jar (992ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.8.1/cats-jvm_2.11-0.8.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-jvm_2.11;0.8.1!cats-jvm_2.11.jar (860ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.jar
-[info] 	[SUCCESSFUL ] com.github.mpilquist#simulacrum_2.11;0.10.0!simulacrum_2.11.jar (949ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.jar
-[info] 	[SUCCESSFUL ] org.typelevel#machinist_2.11;0.6.1!machinist_2.11.jar (887ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.11;0.8.1!cats-macros_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.11;0.8.1!cats-kernel_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel-laws_2.11;0.8.1!cats-kernel-laws_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.11;0.8.1!cats-core_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-laws_2.11;0.8.1!cats-laws_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-free_2.11;0.8.1!cats-free_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-jvm_2.11;0.8.1!cats-jvm_2.11.jar
+[debug] 	[NOT REQUIRED] com.github.mpilquist#simulacrum_2.11;0.10.0!simulacrum_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.11;0.6.1!machinist_2.11.jar
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.jar
-[info] 	[SUCCESSFUL ] org.scalacheck#scalacheck_2.11;1.13.4!scalacheck_2.11.jar (3468ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.jar
-[info] 	[SUCCESSFUL ] org.typelevel#discipline_2.11;0.7.2!discipline_2.11.jar (883ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.jar
-[info] 	[SUCCESSFUL ] org.typelevel#catalysts-platform_2.11;0.0.5!catalysts-platform_2.11.jar (883ms)
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.13.4!scalacheck_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#discipline_2.11;0.7.2!discipline_2.11.jar
+[debug] 	[NOT REQUIRED] org.typelevel#catalysts-platform_2.11;0.0.5!catalysts-platform_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.jar
-[info] 	[SUCCESSFUL ] org.typelevel#catalysts-macros_2.11;0.0.5!catalysts-macros_2.11.jar (868ms)
+[debug] 	[NOT REQUIRED] org.typelevel#catalysts-macros_2.11;0.0.5!catalysts-macros_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-java_2.11;2.5.8!play-java_2.11.jar
 [debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.16!snakeyaml.jar(bundle)
 [debug] 	[NOT REQUIRED] org.hibernate#hibernate-validator;5.2.4.Final!hibernate-validator.jar
@@ -13435,29 +13183,29 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 35796ms :: artifacts dl 24223ms
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-docs produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-docs.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-src produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-src.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docker produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docker.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT linux produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-linux.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT provided produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-provided.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT optional produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-optional.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT windows produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-windows.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT debian produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-debian.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT rpm produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-rpm.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile-internal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime-internal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test-internal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT plugin produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-plugin.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT sources produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-sources.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docs produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docs.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT pom produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-pom.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Bonga\Desktop\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-scala-tool.xml
-[debug] 	resolve done (35796ms resolve - 24223ms download)
+[debug] :: resolution report :: resolve 12809ms :: artifacts dl 476ms
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-docs produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-docs.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-src produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-src.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docker produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docker.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT linux produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-linux.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT provided produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-provided.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT optional produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-optional.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT windows produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-windows.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT debian produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-debian.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT rpm produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-rpm.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile-internal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime-internal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test-internal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT plugin produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-plugin.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT sources produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-sources.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docs produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docs.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT pom produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-pom.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-scala-tool.xml
+[debug] 	resolve done (12809ms resolve - 476ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Here are some of the libraries that were evicted:
