@@ -4,7 +4,7 @@ import com.datastax.driver.core.ResultSet
 import domain.votes.VoteUp
 import repositories.Votes.VoteUpRepository
 import services.Service
-import services.votes.services.votes.VoteUpService
+import services.votes.VoteUpService
 
 import scala.concurrent.Future
 

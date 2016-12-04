@@ -1,8 +1,9 @@
 package services.votes
 
-package services.votes
+
 import com.datastax.driver.core.ResultSet
 import domain.votes.VoteUp
+import services.votes.impl.VoteUpServiceImpl
 
 import scala.concurrent.Future
 
@@ -16,5 +17,10 @@ trait VoteUpService
   def get(id: String): Future[Option[VoteUp]]
 
   def getAll: Future[Seq[VoteUp]]
+
+}
+
+object VoteUpService{
+  def apply(): VoteUpService = new VoteUpServiceImpl
 
 }

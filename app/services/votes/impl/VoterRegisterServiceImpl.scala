@@ -24,3 +24,4 @@ class VoterRegisterServiceImpl extends VoterRegisterService with Service{
   }
 
 }
+
