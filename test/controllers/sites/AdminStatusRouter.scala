@@ -14,12 +14,12 @@ class AdminStatusRouter @Inject()
   extends SimpleRouter {
     override def routes: Routes = {
       case GET(p"/get/adminStatusId") =>
-        adminStatus.getAdminStatus("adminStatusId")
+        adminStatus.getAdminStatusById("adminStatusId")
       case GET(p"/get/all") =>
         adminStatus.getAllAdminStatus
       case POST(p"/create") =>
         adminStatus.createOrUpdate
       case DELETE(p"/del/adminStatusId") =>
-        adminStatus.deleteAdminStatus("adminStatusId")
+        adminStatus.deleteById("adminStatusId")
     }
 }
