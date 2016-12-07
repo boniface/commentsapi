@@ -15,10 +15,10 @@ class AdministratorsRouter @Inject()(administrators: AdministratorsController) e
     case GET(p"/get/siteId") =>
       administrators.getAdministratorsBySiteId("siteId","email")
     case GET(p"/get/all") =>
-      administrators.getAllAdministrators
+      administrators.getAdministrators
     case POST(p"/create") =>
       administrators.createOrUpdate
     case DELETE(p"/del/siteId") =>
-      administrators.delete("siteId")
+      administrators.deleteAdministratorBySiteId("siteId")
   }
 }

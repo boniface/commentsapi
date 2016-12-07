@@ -20,6 +20,6 @@ class AdministratorHistoryRouter @Inject()(admin: AdministratorHistoryController
     case POST(p"/create") =>
       admin.createOrUpdate
     case DELETE(p"/del/all") =>
-      admin.deleteAllHistory
+      admin.deleteAll
   }
 }

@@ -1,21 +1,21 @@
-package controllers.sites
+package controllers.util
 
-import domain.sites.Administrators
+import domain.util.Mail
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
-import services.sites.AdministratorsService
+import services.util.MailService
 
 /**
-  * Created by Quest on 2016/12/01.
+  * Created by Quest on 2016/12/05.
   */
-class AdministratorsController extends Controller{
+class MailController extends Controller{
 
   def createOrUpdate = Action.async(parse.json) {
     request =>
       val input = request.body
-      val entity = Json.fromJson[Administrators](input).get
+      val entity = Json.fromJson[Mail](input).get
       val response = for {
-        results <- AdministratorsService.apply().saveAdministrator(entity)
+        results <- MailService.apply().saveOrUpdate(entity)
       } yield results
       response.map(ans => Ok(Json.toJson(entity)))
         .recover {
@@ -23,31 +23,30 @@ class AdministratorsController extends Controller{
         }
   }
 
-  def getAdministratorsBySiteId(siteId:String,email:String) = Action.async {
+  def getMail(orgId:String,id: String) = Action.async {
     request =>
       val response = for {
-        results <- AdministratorsService.apply().getAdministratorsBySiteId(siteId,email)
+        results <- MailService.apply().get(orgId,id)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
   }
 
-  def deleteAdministratorBySiteId(siteId:String) = Action.async {
+  def getAllMail(orgId:String) = Action.async {
     request =>
       val response = for {
-        results <- AdministratorsService.apply().deleteAdministratorBySiteId(siteId)
+        results <- MailService.apply().getAll(orgId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
   }
 
-  def getAdministrators = Action.async {
+  def getMailer(orgId:String) = Action.async {
     request =>
       val response = for {
-        results <- AdministratorsService.apply().getAdministrators
+        results <- MailService.apply().getMailer(orgId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
   }
-
 }

@@ -13,4 +13,4 @@ GET     /message                    controllers.AsyncController.message
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 #Site Routes
-->         /sites                 controllers.sites.SiteRouter
+->         /sites                   controllers.sites.SiteRouter
