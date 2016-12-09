@@ -18,7 +18,7 @@ class MailRouter @Inject()(mail:MailController)extends SimpleRouter{
       mail.getMailer("orgId")
     case GET(p"/get/all/orgId")=>
       mail.getAllMail("orgId")
-    case GET(p"/get/mail/orgId/id")=>
+    case GET(p"/get/mail")=>
       mail.getMail("orgId","id")
   }
 }
