@@ -1,7 +1,6 @@
 package controllers.sites
 
 import domain.sites.Site
-import org.joda.time.DateTime
 import org.scalatestplus.play._
 import play.api.libs.json.Json
 import play.api.test.Helpers._

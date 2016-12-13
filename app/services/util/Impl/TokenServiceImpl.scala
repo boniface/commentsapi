@@ -33,7 +33,7 @@ class TokenServiceImpl extends TokenService with Service {
       case Nil => Future {
         UserGeneratedToken("NONE", "FAILED", "USER NOT FOUND", "NONE")
       }
-      case user :: Nil => {
+      case user :: Nil =>
         if (credential.password.isBcrypted(user.password)) {
           val checkAccounts = Try {
             for {
@@ -52,11 +52,11 @@ class TokenServiceImpl extends TokenService with Service {
             UserGeneratedToken("NONE", "FAILED", "WRONG PASSWORD", "NONE")
           }
         }
-      }
-      case accounts@(user :: tail) => {
+
+      case accounts@(user :: tail) =>
         Future {
           UserGeneratedToken("NONE", "MULTIPLE", "MULTIPLE ACCOUNTS FOUND", user.siteId)
-        }
+
       }
     }
     results flatMap (result => result)
@@ -133,7 +133,7 @@ class TokenServiceImpl extends TokenService with Service {
     val signature = Future {
       credential.email
     }
-    val userRole = UserService.apply.getUserRole(user.siteId,user.email) map (role => {
+    val userRole = UserService.apply().getUserRole(user.siteId,user.email) map (role => {
       role map (e => e.roleId)
     })
 

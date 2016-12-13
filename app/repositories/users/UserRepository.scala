@@ -61,7 +61,7 @@ object UserRepository extends UserRepository with RootConnector {
       .value(_.email, user.email)
       .value(_.screenName, user.screenName)
       .value(_.firstname, user.firstname)
-      .value(_.lastName, user.siteId)
+      .value(_.lastName, user.lastName)
       .value(_.password, user.password)
       .future()
   }
@@ -72,5 +72,9 @@ object UserRepository extends UserRepository with RootConnector {
 
   def getSiteUsers(siteId: String): Future[Seq[User]] = {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+  }
+
+  def getAllUsers: Future[Seq[User]] = {
+    select.all().fetch()
   }
 }

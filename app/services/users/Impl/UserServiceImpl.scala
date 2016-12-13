@@ -42,7 +42,9 @@ class UserServiceImpl extends UserService with Service {
   override def updateUser(user: User): Future[ResultSet] = {
     UserRepository.save(user)
   }
-
+  override def getAllUsers: Future[Seq[User]] = {
+    UserRepository.getAllUsers
+  }
   override def saveUserRole(userrole: UserRole): Future[ResultSet] = ???
 
 
