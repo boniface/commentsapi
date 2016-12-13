@@ -1,6 +1,6 @@
 package controllers.users
 
-import domain.users.Reputation
+import domain.users.UserRole
 import org.joda.time.DateTime
 import org.scalatestplus.play.{OneAppPerTest, PlaySpec}
 import play.api.libs.json.Json
@@ -8,38 +8,38 @@ import play.api.test.FakeRequest
 import play.api.test.Helpers._
 
 /**
- * Created by Rosie on 2016/12/02.
+ * Created by Rosie on 2016/12/07.
  */
-class ReputationControllerTest extends PlaySpec with OneAppPerTest {
-  val reputation = Reputation(
-    "EMAILID",
-    new DateTime(2016,11,27,6,0,0,0),
-   2)
+class UserRoleControllerTest extends PlaySpec with OneAppPerTest {
+  val role = UserRole(
+    "user@mail.fr",
+    "admin",
+    new DateTime(2016,5,2))
 
   "Routes" should {
 
 
-    "ReputationController" should {
+    "UserRoleController" should {
 
-      "Create User Reputation Object in Controller" in {
-        val request =  route(app, FakeRequest(POST, "/reputation/create")
-          .withJsonBody(Json.toJson(reputation)))
+      "Create User Role Object in Controller" in {
+        val request =  route(app, FakeRequest(POST, "/role/create")
+          .withJsonBody(Json.toJson(role)))
           .get
         status(request) mustBe OK
         contentType(request) mustBe Some("application/json")
         println(" The Content is ", contentAsString(request))
       }
 
-      "Get User Reputaion From Controller" in {
-        val request = route(app, FakeRequest(GET, "/reputation/get/EMAILID")
+      "Get User Role From Controller" in {
+        val request = route(app, FakeRequest(GET, "/role/get/emailId")
         ).get
         status(request) mustBe OK
         contentType(request) mustBe Some("application/json")
         println(" The Output", contentAsJson(request))
       }
 
-      "Get User Reputation From Controller" in {
-        val request = route(app, FakeRequest(GET, "/reputation/get/all")
+      "Get User Role From Controller" in {
+        val request = route(app, FakeRequest(GET, "/role/get/all")
         ).get
         status(request) mustBe OK
         contentType(request) mustBe Some("application/json")
