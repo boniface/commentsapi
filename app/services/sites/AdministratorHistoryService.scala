@@ -12,7 +12,7 @@ import scala.concurrent.Future
   */
 trait AdministratorHistoryService {
 
-  def getAdministratorHistoryByDate(ondate:DateTime): Future[Option[AdministratorHistory]]
+  def getAdministratorHistoryByDate(date:DateTime): Future[Option[AdministratorHistory]]
   def save(administratorHistory: AdministratorHistory):Future[ResultSet]
   def getAllAdministratorsHistory: Future[Seq[AdministratorHistory]]
   def deleteAll:Future[ResultSet]

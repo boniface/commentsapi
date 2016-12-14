@@ -12,7 +12,7 @@ lazy val root = (project in file("."))
 
 scalaVersion := "2.11.8"
 
-val PhantomVersion = "1.28.13"
+val PhantomVersion = "1.29.6"
 
 maintainer := "Boniface Kabaso <boniface@kabaso.com>"
 packageSummary in Linux := "comments  REST API"
@@ -20,8 +20,23 @@ packageDescription := "comments API Backend "
 serverLoading in Debian := ServerLoader.Systemd
 
 bashScriptExtraDefines ++= Seq(
-  """addJava "-Xms1024m"""",
-  """addJava "-Xmx2048m""""
+  """addJava "-Xms8g"""",
+  """addJava "-Xmx8g"""",
+  """addJava "-Xmn3g"""",
+  """addJava "-Xss1024k"""",
+  """addJava "-XX:+UseConcMarkSweepGC"""",
+  """addJava "-XX:+UseParNewGC"""",
+  """addJava "-XX:CMSInitiatingOccupancyFraction=75"""",
+  """addJava "-XX:+UseCMSInitiatingOccupancyOnly"""",
+  """addJava "-XX:+ScavengeBeforeFullGC"""",
+  """addJava "-XX:TargetSurvivorRatio=80"""",
+  """addJava "-XX:SurvivorRatio=8"""",
+  """addJava "-XX:+UseBiasedLocking"""",
+  """addJava "-XX:MaxTenuringThreshold=15"""",
+  """addJava "-XX:ParallelGCThreads=4"""",
+  """addJava "-XX:+OptimizeStringConcat"""",
+  """addJava "-XX:+UseStringCache"""",
+  """addJava "-XX:+DisableExplicitGC""""
 )
 
 libraryDependencies ++= Seq(
