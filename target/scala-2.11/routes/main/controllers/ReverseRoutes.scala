@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/hashcode/hashprojects/backend/commentsapi/conf/routes
-// @DATE:Sun Nov 20 14:19:52 SAST 2016
+// @SOURCE:C:/Users/Administrator/IdeaProjects/commentsapi/conf/routes
+// @DATE:Sun Nov 27 09:03:26 GMT+02:00 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
