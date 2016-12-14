@@ -49,5 +49,5 @@ object AdministratorHistoryRepository extends AdministratorHistoryRepository wit
   def getAdminStatus(emailId: String): Future[Seq[AdministratorHistory]] = {
     select.where(_.emailId eqs emailId).fetchEnumerator() run Iteratee.collect()
   }
-  
+
 }
