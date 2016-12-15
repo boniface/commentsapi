@@ -4,7 +4,7 @@
 		module="commentsapi_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20161214151328"
+		publication="20161214185455"
 	>
 		<description>
 		commentsapi
