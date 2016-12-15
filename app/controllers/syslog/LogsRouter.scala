@@ -10,7 +10,7 @@ import play.api.routing.sird._
 /**
   * Created by Quest on 2016/12/01.
   */
-class SystemLogEventsRouter @Inject()(systemEvents:SystemLogEventsController) extends SimpleRouter{
+class LogsRouter @Inject()(systemEvents:SystemLogEventsController) extends SimpleRouter{
 
   override def routes: Routes = {
     case GET(p"/get/SystemLogEvent/$id") =>
