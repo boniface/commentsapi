@@ -44,7 +44,6 @@ class UserSessionEventControllerTest extends PlaySpec with OneAppPerTest {
         println(" The Output", contentAsJson(request))
       }
 
-
     }
   }
 
