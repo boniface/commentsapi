@@ -2,6 +2,7 @@ package controllers.sites
 
 import javax.inject.Inject
 
+import org.joda.time.DateTime
 import play.api.routing.Router.Routes
 import play.api.routing.SimpleRouter
 import play.api.routing.sird._
@@ -38,24 +39,21 @@ class AdminRouter@Inject()
 
     case POST(p"/history/create") =>
       administratorHistoryController.createOrUpdate
-    case GET(p"/history/get/$siteId") =>
-      administratorHistoryController.getAdministratorHistoryByDate(siteId)
+    case GET(p"/history/get/$date") =>
+      administratorHistoryController.getAdministratorHistoryByDate(new DateTime(date))
     case GET(p"/history/all") =>
       administratorHistoryController.getAllAdministratorsHistory
 
 
-    // Adminstrators
+    // Administrators
 
 
     case POST(p"/create") =>
       administratorsController.createOrUpdate
-    case GET(p"/get/$siteId") =>
-      administratorsController.getAdministratorsBySiteId(siteId)
+    case GET(p"/get/$siteId,$email") =>
+      administratorsController.getAdministratorsBySiteId(siteId,email)
     case GET(p"/all") =>
       administratorsController.getAdministrators
-
-
-
 
   }
 
