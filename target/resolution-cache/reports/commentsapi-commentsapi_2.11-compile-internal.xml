@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="universal, universal-docs, universal-src, docker, linux, compile, runtime, test, provided, optional, windows, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161214151328"/>
+		date="20161216075509"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="filters-helpers_2.11">
 			<revision name="2.5.10" status="release" pubdate="20161118043051" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="152">
@@ -857,7 +857,7 @@
 				<caller organisation="com.datastax.cassandra" name="cassandra-driver-extras" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="3.1.0"/>
 				<caller organisation="com.websudos" name="phantom-connectors_2.11" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="1.29.6"/>
 				<artifacts>
-					<artifact name="cassandra-driver-core" type="jar" ext="jar" status="successful" details="" size="1041820" time="23409" location="/home/hashcode/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-3.1.0.jar">
+					<artifact name="cassandra-driver-core" type="jar" ext="jar" status="no" details="" size="1041820" time="0" location="/home/hashcode/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-3.1.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar"/>
 					</artifact>
 				</artifacts>
