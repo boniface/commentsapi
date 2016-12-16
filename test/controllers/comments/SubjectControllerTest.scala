@@ -1,4 +1,6 @@
 package controllers.comments
+
+import domain.comments.Subject
 import org.joda.time.DateTime
 import org.scalatestplus.play.{OneAppPerTest, PlaySpec}
 import play.api.libs.json.Json
@@ -8,10 +10,10 @@ import play.api.test.Helpers._
 /**
   * Created by Bonga on 12/2/2016.
   */
-class AbuseControllerTest extends PlaySpec with OneAppPerTest{
+class SubjectControllerTest extends PlaySpec with OneAppPerTest{
 
 
-  val Subject = Subject("100", "200", "300", "400", "wwew", "bmabulu@webmail.co.za",DateTime)
+  val subject = Subject("100", "200", "300", "400",DateTime)
 
   "Routes" should {
 
