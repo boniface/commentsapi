@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/Quest/TPproject/commentsapi/}root...
+[info] Updating {file:/C:/Users/Bonga/Pictures/commentsapi/}root...
 [debug] :: resolving dependencies :: commentsapi#commentsapi_2.11;1.0-SNAPSHOT
 [debug] 	confs: [universal, universal-docs, universal-src, docker, linux, compile, runtime, test, provided, optional, windows, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies for commentsapi#commentsapi_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f4e1ad9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bce420
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -74,7 +74,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-server_2.11;2.5.10 {compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-server_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-server_2.11;2.5.10 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-server_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-server_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-server_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-server_2.11;2.5.10
@@ -83,8 +83,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.11;2.5.10!play-server_2.11.pom(pom.original) (885ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-server_2.11\2.5.10\jars\play-server_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.11;2.5.10!play-server_2.11.pom(pom.original) (947ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-server_2.11\2.5.10\jars\play-server_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-server_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-server_2.11;2.5.10 [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play_2.11;2.5.10
@@ -107,8 +107,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.5.10!play_2.11.pom(pom.original) (897ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play_2.11\2.5.10\jars\play_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.5.10!play_2.11.pom(pom.original) (925ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play_2.11\2.5.10\jars\play_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play-server_2.11;2.5.10->com.typesafe.play#play_2.11;2.5.10 [compile->compile(*)]
@@ -133,7 +133,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-iteratees_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-iteratees_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-iteratees_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-iteratees_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-iteratees_2.11;2.5.10
@@ -142,8 +142,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.11;2.5.10!play-iteratees_2.11.pom(pom.original) (827ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-iteratees_2.11\2.5.10\jars\play-iteratees_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.11;2.5.10!play-iteratees_2.11.pom(pom.original) (930ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-iteratees_2.11\2.5.10\jars\play-iteratees_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#play-iteratees_2.11;2.5.10 [compile->compile(*)]
@@ -183,7 +183,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-json_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-json_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-json_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-json_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-json_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-json_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-json_2.11;2.5.10
@@ -192,8 +192,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.5.10!play-json_2.11.pom(pom.original) (808ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-json_2.11\2.5.10\jars\play-json_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.5.10!play-json_2.11.pom(pom.original) (915ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-json_2.11\2.5.10\jars\play-json_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-json_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#play-json_2.11;2.5.10 [compile->compile(*)]
@@ -208,7 +208,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-functional_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-functional_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-functional_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-functional_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-functional_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-functional_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-functional_2.11;2.5.10
@@ -217,8 +217,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.5.10!play-functional_2.11.pom(pom.original) (844ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-functional_2.11\2.5.10\jars\play-functional_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.5.10!play-functional_2.11.pom(pom.original) (886ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-functional_2.11\2.5.10\jars\play-functional_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-functional_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.typesafe.play#play-functional_2.11;2.5.10 [compile->compile(*)]
@@ -231,7 +231,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-datacommons_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-datacommons_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-datacommons_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-datacommons_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-datacommons_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-datacommons_2.11;2.5.10
@@ -240,8 +240,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.11;2.5.10!play-datacommons_2.11.pom(pom.original) (838ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-datacommons_2.11\2.5.10\jars\play-datacommons_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.11;2.5.10!play-datacommons_2.11.pom(pom.original) (913ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-datacommons_2.11\2.5.10\jars\play-datacommons_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.typesafe.play#play-datacommons_2.11;2.5.10 [compile->compile(*)]
@@ -254,7 +254,7 @@
 [debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;2.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving joda-time#joda-time;2.9.6 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: joda-time#joda-time;2.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\joda-time\joda-time\2.9.6\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\joda-time\joda-time\2.9.6\ivys\ivy.xml
 [debug] 	local: no ivy file found for joda-time#joda-time;2.9.6
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.pom
 [debug] 	public: found md file for joda-time#joda-time;2.9.6
@@ -263,8 +263,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.pom
-[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9.6!joda-time.pom(pom.original) (1036ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\joda-time\joda-time\2.9.6\jars\joda-time.jar
+[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9.6!joda-time.pom(pom.original) (1129ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\joda-time\joda-time\2.9.6\jars\joda-time.jar
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar
 [debug] 	found joda-time#joda-time;2.9.6 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->joda-time#joda-time;2.9.6 [compile->compile(*)]
@@ -290,7 +290,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.7.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.7.8\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.7.8\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.core#jackson-core;2.7.8
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom
 [debug] 	public: found md file for com.fasterxml.jackson.core#jackson-core;2.7.8
@@ -299,11 +299,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.7.8!jackson-core.pom(pom.original) (853ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.7.8!jackson-core.pom(pom.original) (934ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.7 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.7.8\bundles\jackson-core.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.7.8\bundles\jackson-core.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.7.8 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.fasterxml.jackson.core#jackson-core;2.7.8 [compile->compile(*)]
@@ -312,7 +312,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.7.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.7.8\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.7.8\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.core#jackson-annotations;2.7.8
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom
 [debug] 	public: found md file for com.fasterxml.jackson.core#jackson-annotations;2.7.8
@@ -321,11 +321,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.7.8!jackson-annotations.pom(pom.original) (826ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.7.8!jackson-annotations.pom(pom.original) (934ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.7 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.7.8\bundles\jackson-annotations.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.7.8\bundles\jackson-annotations.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.7.8 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.fasterxml.jackson.core#jackson-annotations;2.7.8 [compile->compile(*)]
@@ -334,7 +334,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.7.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.7.8\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.7.8\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.core#jackson-databind;2.7.8
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom
 [debug] 	public: found md file for com.fasterxml.jackson.core#jackson-databind;2.7.8
@@ -343,11 +343,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.7.8!jackson-databind.pom(pom.original) (886ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.7.8!jackson-databind.pom(pom.original) (923ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.7 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.7.8\bundles\jackson-databind.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.7.8\bundles\jackson-databind.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.7.8 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.fasterxml.jackson.core#jackson-databind;2.7.8 [compile->compile(*)]
@@ -362,7 +362,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.8\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.8\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.pom
 [debug] 	public: found md file for com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8
@@ -371,11 +371,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8!jackson-datatype-jdk8.pom(pom.original) (871ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8!jackson-datatype-jdk8.pom(pom.original) (917ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.7 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.8\bundles\jackson-datatype-jdk8.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.8\bundles\jackson-datatype-jdk8.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8 [compile->compile(*)]
@@ -388,7 +388,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.8\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.8\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.pom
 [debug] 	public: found md file for com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8
@@ -397,11 +397,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8!jackson-datatype-jsr310.pom(pom.original) (854ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8!jackson-datatype-jsr310.pom(pom.original) (896ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.7 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.8\bundles\jackson-datatype-jsr310.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.8\bundles\jackson-datatype-jsr310.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar
 [debug] 	found com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 in public
 [debug] == resolving dependencies com.typesafe.play#play-json_2.11;2.5.10->com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8 [compile->compile(*)]
@@ -414,7 +414,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-netty-utils;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-netty-utils;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-netty-utils;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-netty-utils\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-netty-utils\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-netty-utils;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-netty-utils;2.5.10
@@ -423,8 +423,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-netty-utils;2.5.10!play-netty-utils.pom(pom.original) (876ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-netty-utils\2.5.10\jars\play-netty-utils.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-netty-utils;2.5.10!play-netty-utils.pom(pom.original) (885ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-netty-utils\2.5.10\jars\play-netty-utils.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.jar
 [debug] 	found com.typesafe.play#play-netty-utils;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#play-netty-utils;2.5.10 [compile->compile(*)]
@@ -455,7 +455,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-streams_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-streams_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-streams_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-streams_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-streams_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-streams_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-streams_2.11;2.5.10
@@ -464,8 +464,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.11;2.5.10!play-streams_2.11.pom(pom.original) (842ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-streams_2.11\2.5.10\jars\play-streams_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.11;2.5.10!play-streams_2.11.pom(pom.original) (910ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-streams_2.11\2.5.10\jars\play-streams_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-streams_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play_2.11;2.5.10->com.typesafe.play#play-streams_2.11;2.5.10 [compile->compile(*)]
@@ -486,7 +486,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.11;2.4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.akka#akka-stream_2.11;2.4.12 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.11;2.4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.akka\akka-stream_2.11\2.4.12\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-stream_2.11\2.4.12\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.akka#akka-stream_2.11;2.4.12
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.pom
 [debug] 	public: found md file for com.typesafe.akka#akka-stream_2.11;2.4.12
@@ -495,8 +495,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.12!akka-stream_2.11.pom(pom.original) (799ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.akka\akka-stream_2.11\2.4.12\jars\akka-stream_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.12!akka-stream_2.11.pom(pom.original) (946ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-stream_2.11\2.4.12\jars\akka-stream_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.jar
 [debug] 	found com.typesafe.akka#akka-stream_2.11;2.4.12 in public
 [debug] 	[2.4.12] com.typesafe.akka#akka-stream_2.11;2.4.12
@@ -508,7 +508,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.12 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.4.12\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.4.12\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.akka#akka-actor_2.11;2.4.12
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.pom
 [debug] 	public: found md file for com.typesafe.akka#akka-actor_2.11;2.4.12
@@ -517,8 +517,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.12!akka-actor_2.11.pom(pom.original) (841ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.4.12\jars\akka-actor_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.12!akka-actor_2.11.pom(pom.original) (883ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.4.12\jars\akka-actor_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.jar
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.12 in public
 [debug] 	[2.4.12] com.typesafe.akka#akka-actor_2.11;2.4.12
@@ -578,7 +578,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-slf4j_2.11;2.4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.4.12 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-slf4j_2.11;2.4.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.akka\akka-slf4j_2.11\2.4.12\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-slf4j_2.11\2.4.12\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.akka#akka-slf4j_2.11;2.4.12
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.pom
 [debug] 	public: found md file for com.typesafe.akka#akka-slf4j_2.11;2.4.12
@@ -587,8 +587,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.11;2.4.12!akka-slf4j_2.11.pom(pom.original) (789ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.akka\akka-slf4j_2.11\2.4.12\jars\akka-slf4j_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.11;2.4.12!akka-slf4j_2.11.pom(pom.original) (884ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.akka\akka-slf4j_2.11\2.4.12\jars\akka-slf4j_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.jar
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.4.12 in public
 [debug] 	[2.4.12] com.typesafe.akka#akka-slf4j_2.11;2.4.12
@@ -866,7 +866,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-netty-server_2.11;2.5.10 {compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-netty-server_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-netty-server_2.11;2.5.10 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-netty-server_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-netty-server_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-netty-server_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-netty-server_2.11;2.5.10
@@ -875,8 +875,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.11;2.5.10!play-netty-server_2.11.pom(pom.original) (846ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-netty-server_2.11\2.5.10\jars\play-netty-server_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.11;2.5.10!play-netty-server_2.11.pom(pom.original) (865ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-netty-server_2.11\2.5.10\jars\play-netty-server_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-netty-server_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-netty-server_2.11;2.5.10 [compile->runtime]
@@ -1008,7 +1008,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-jdbc_2.11;2.5.10 {compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-jdbc_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-jdbc_2.11;2.5.10 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-jdbc_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-jdbc_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-jdbc_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-jdbc_2.11;2.5.10
@@ -1017,8 +1017,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.11;2.5.10!play-jdbc_2.11.pom(pom.original) (882ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-jdbc_2.11\2.5.10\jars\play-jdbc_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.11;2.5.10!play-jdbc_2.11.pom(pom.original) (905ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-jdbc_2.11\2.5.10\jars\play-jdbc_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-jdbc_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.5.10 [compile->runtime]
@@ -1032,7 +1032,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-jdbc-api_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-jdbc-api_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-jdbc-api_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-jdbc-api_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-jdbc-api_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-jdbc-api_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-jdbc-api_2.11;2.5.10
@@ -1041,8 +1041,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.11;2.5.10!play-jdbc-api_2.11.pom(pom.original) (774ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-jdbc-api_2.11\2.5.10\jars\play-jdbc-api_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.11;2.5.10!play-jdbc-api_2.11.pom(pom.original) (884ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-jdbc-api_2.11\2.5.10\jars\play-jdbc-api_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-jdbc-api_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.typesafe.play#play-jdbc-api_2.11;2.5.10 [compile->compile(*)]
@@ -1082,7 +1082,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.zaxxer#HikariCP;2.5.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.zaxxer#HikariCP;2.5.1 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.zaxxer#HikariCP;2.5.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.zaxxer\HikariCP\2.5.1\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.zaxxer\HikariCP\2.5.1\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.zaxxer#HikariCP;2.5.1
 [debug] 		tried https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom
 [debug] 	public: found md file for com.zaxxer#HikariCP;2.5.1
@@ -1091,11 +1091,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom
-[debug] 	[SUCCESSFUL ] com.zaxxer#HikariCP;2.5.1!HikariCP.pom(pom.original) (852ms)
+[debug] 	[SUCCESSFUL ] com.zaxxer#HikariCP;2.5.1!HikariCP.pom(pom.original) (954ms)
 [info] Resolving org.sonatype.oss#oss-parent;9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.zaxxer\HikariCP\2.5.1\bundles\HikariCP.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.zaxxer\HikariCP\2.5.1\bundles\HikariCP.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar
 [debug] 	found com.zaxxer#HikariCP;2.5.1 in public
 [debug] == resolving dependencies com.typesafe.play#play-jdbc_2.11;2.5.10->com.zaxxer#HikariCP;2.5.1 [compile->compile(*)]
@@ -1157,7 +1157,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-cache_2.11;2.5.10 {compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-cache_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-cache_2.11;2.5.10 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-cache_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-cache_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-cache_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-cache_2.11;2.5.10
@@ -1166,8 +1166,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.11;2.5.10!play-cache_2.11.pom(pom.original) (790ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-cache_2.11\2.5.10\jars\play-cache_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.11;2.5.10!play-cache_2.11.pom(pom.original) (905ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-cache_2.11\2.5.10\jars\play-cache_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-cache_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.5.10 [compile->runtime]
@@ -1206,7 +1206,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-ws_2.11;2.5.10 {compile=[default(compile)]}
 [info] Resolving com.typesafe.play#play-ws_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-ws_2.11;2.5.10 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-ws_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-ws_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-ws_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-ws_2.11;2.5.10
@@ -1215,8 +1215,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.11;2.5.10!play-ws_2.11.pom(pom.original) (803ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-ws_2.11\2.5.10\jars\play-ws_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.11;2.5.10!play-ws_2.11.pom(pom.original) (906ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-ws_2.11\2.5.10\jars\play-ws_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-ws_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.5.10 [compile->runtime]
@@ -1422,7 +1422,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.websudos#phantom-dsl_2.11;1.29.6 {compile=[default(compile)]}
 [info] Resolving com.websudos#phantom-dsl_2.11;1.29.6 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.websudos#phantom-dsl_2.11;1.29.6 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.websudos\phantom-dsl_2.11\1.29.6\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-dsl_2.11\1.29.6\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.websudos#phantom-dsl_2.11;1.29.6
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.pom
 [debug] 	public: found md file for com.websudos#phantom-dsl_2.11;1.29.6
@@ -1431,8 +1431,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.pom
-[debug] 	[SUCCESSFUL ] com.websudos#phantom-dsl_2.11;1.29.6!phantom-dsl_2.11.pom(pom.original) (859ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.websudos\phantom-dsl_2.11\1.29.6\jars\phantom-dsl_2.11.jar
+[debug] 	[SUCCESSFUL ] com.websudos#phantom-dsl_2.11;1.29.6!phantom-dsl_2.11.pom(pom.original) (986ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-dsl_2.11\1.29.6\jars\phantom-dsl_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.jar
 [debug] 	found com.websudos#phantom-dsl_2.11;1.29.6 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.websudos#phantom-dsl_2.11;1.29.6 [compile->runtime]
@@ -1444,7 +1444,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.websudos#phantom-connectors_2.11;1.29.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.websudos#phantom-connectors_2.11;1.29.6 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.websudos#phantom-connectors_2.11;1.29.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.websudos\phantom-connectors_2.11\1.29.6\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-connectors_2.11\1.29.6\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.websudos#phantom-connectors_2.11;1.29.6
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.pom
 [debug] 	public: found md file for com.websudos#phantom-connectors_2.11;1.29.6
@@ -1453,8 +1453,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.pom
-[debug] 	[SUCCESSFUL ] com.websudos#phantom-connectors_2.11;1.29.6!phantom-connectors_2.11.pom(pom.original) (837ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.websudos\phantom-connectors_2.11\1.29.6\jars\phantom-connectors_2.11.jar
+[debug] 	[SUCCESSFUL ] com.websudos#phantom-connectors_2.11;1.29.6!phantom-connectors_2.11.pom(pom.original) (1005ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-connectors_2.11\1.29.6\jars\phantom-connectors_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.jar
 [debug] 	found com.websudos#phantom-connectors_2.11;1.29.6 in public
 [debug] == resolving dependencies com.websudos#phantom-dsl_2.11;1.29.6->com.websudos#phantom-connectors_2.11;1.29.6 [compile->compile(*)]
@@ -1500,7 +1500,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-core;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.datastax.cassandra#cassandra-driver-core;3.1.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-core;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.datastax.cassandra\cassandra-driver-core\3.1.0\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-core\3.1.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.datastax.cassandra#cassandra-driver-core;3.1.0
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.pom
 [debug] 	public: found md file for com.datastax.cassandra#cassandra-driver-core;3.1.0
@@ -1509,12 +1509,12 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.pom
-[debug] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-core;3.1.0!cassandra-driver-core.pom(pom.original) (853ms)
+[debug] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-core;3.1.0!cassandra-driver-core.pom(pom.original) (948ms)
 [info] Resolving com.datastax.cassandra#cassandra-driver-parent;3.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-parent;3.1.0 {}
 [info] Resolving com.datastax.cassandra#cassandra-driver-parent;3.1.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-parent;3.1.0 {}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.datastax.cassandra\cassandra-driver-parent\3.1.0\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-parent\3.1.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.datastax.cassandra#cassandra-driver-parent;3.1.0
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.pom
 [debug] 	public: found md file for com.datastax.cassandra#cassandra-driver-parent;3.1.0
@@ -1523,11 +1523,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.pom
-[debug] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-parent;3.1.0!cassandra-driver-parent.pom(pom.original) (818ms)
+[debug] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-parent;3.1.0!cassandra-driver-parent.pom(pom.original) (945ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.datastax.cassandra\cassandra-driver-parent\3.1.0\jars\cassandra-driver-parent.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-parent\3.1.0\jars\cassandra-driver-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.jar
 [debug] 		tried http://repo.typesafe.com/typesafe/snapshots/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.jar
@@ -1557,7 +1557,7 @@
 [debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.jar
 [debug] 		tried https://oss.sonatype.org/content/repositories/snapshots/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.jar
 [debug] CLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/snapshots/com/datastax/cassandra/cassandra-driver-parent/3.1.0/cassandra-driver-parent-3.1.0.jar
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.datastax.cassandra\cassandra-driver-core\3.1.0\bundles\cassandra-driver-core.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-core\3.1.0\bundles\cassandra-driver-core.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar
 [debug] 	found com.datastax.cassandra#cassandra-driver-core;3.1.0 in public
 [debug] == resolving dependencies com.websudos#phantom-connectors_2.11;1.29.6->com.datastax.cassandra#cassandra-driver-core;3.1.0 [compile->compile(*)]
@@ -1584,7 +1584,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.github.jnr#jnr-ffi;2.0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.github.jnr#jnr-ffi;2.0.7 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.github.jnr#jnr-ffi;2.0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-ffi\2.0.7\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-ffi\2.0.7\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.github.jnr#jnr-ffi;2.0.7
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.pom
 [debug] 	public: found md file for com.github.jnr#jnr-ffi;2.0.7
@@ -1593,20 +1593,20 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.pom
-[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-ffi;2.0.7!jnr-ffi.pom(pom.original) (892ms)
+[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-ffi;2.0.7!jnr-ffi.pom(pom.original) (925ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-ffi\2.0.7\jars\jnr-ffi.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-ffi\2.0.7\jars\jnr-ffi.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar
 [debug] 	found com.github.jnr#jnr-ffi;2.0.7 in public
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.1.0->com.github.jnr#jnr-ffi;2.0.7 [compile->compile(*)]
 [debug] == resolving dependencies com.github.jnr#jnr-ffi;2.0.7->com.github.jnr#jffi;1.2.10 [compile->master(compile)]
 [info] Resolving com.github.jnr#jffi;1.2.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28f5a61f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2730ffea
 [info] Resolving com.github.jnr#jffi;1.2.10 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@28f5a61f
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jffi\1.2.10\ivys\ivy.xml
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2730ffea
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jffi\1.2.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.github.jnr#jffi;1.2.10
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.pom
 [debug] 	public: found md file for com.github.jnr#jffi;1.2.10
@@ -1615,11 +1615,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.pom
-[debug] 	[SUCCESSFUL ] com.github.jnr#jffi;1.2.10!jffi.pom(pom.original) (808ms)
+[debug] 	[SUCCESSFUL ] com.github.jnr#jffi;1.2.10!jffi.pom(pom.original) (940ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jffi\1.2.10\jars\jffi.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jffi\1.2.10\jars\jffi.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar
 [debug] 	found com.github.jnr#jffi;1.2.10 in public
 [debug] == resolving dependencies com.github.jnr#jnr-ffi;2.0.7->com.github.jnr#jffi;1.2.10 [compile->compile(*)]
@@ -1634,7 +1634,7 @@
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-commons;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.ow2.asm#asm-commons;5.0.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-commons;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-commons\5.0.3\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-commons\5.0.3\ivys\ivy.xml
 [debug] 	local: no ivy file found for org.ow2.asm#asm-commons;5.0.3
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom
 [debug] 	public: found md file for org.ow2.asm#asm-commons;5.0.3
@@ -1643,11 +1643,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.0.3!asm-commons.pom(pom.original) (786ms)
+[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.0.3!asm-commons.pom(pom.original) (951ms)
 [info] Resolving org.ow2.asm#asm-parent;5.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.3 {}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.0.3
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-commons\5.0.3\jars\asm-commons.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-commons\5.0.3\jars\asm-commons.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
 [debug] 	found org.ow2.asm#asm-commons;5.0.3 in public
 [debug] == resolving dependencies com.github.jnr#jnr-ffi;2.0.7->org.ow2.asm#asm-commons;5.0.3 [compile->compile(*)]
@@ -1656,7 +1656,7 @@
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-tree;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.ow2.asm#asm-tree;5.0.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-tree;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-tree\5.0.3\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-tree\5.0.3\ivys\ivy.xml
 [debug] 	local: no ivy file found for org.ow2.asm#asm-tree;5.0.3
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
 [debug] 	public: found md file for org.ow2.asm#asm-tree;5.0.3
@@ -1665,11 +1665,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.3!asm-tree.pom(pom.original) (826ms)
+[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.3!asm-tree.pom(pom.original) (887ms)
 [info] Resolving org.ow2.asm#asm-parent;5.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.3 {}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.0.3
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-tree\5.0.3\jars\asm-tree.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-tree\5.0.3\jars\asm-tree.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
 [debug] 	found org.ow2.asm#asm-tree;5.0.3 in public
 [debug] == resolving dependencies org.ow2.asm#asm-commons;5.0.3->org.ow2.asm#asm-tree;5.0.3 [compile->compile(*)]
@@ -1680,7 +1680,7 @@
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-analysis;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.ow2.asm#asm-analysis;5.0.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-analysis;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-analysis\5.0.3\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-analysis\5.0.3\ivys\ivy.xml
 [debug] 	local: no ivy file found for org.ow2.asm#asm-analysis;5.0.3
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
 [debug] 	public: found md file for org.ow2.asm#asm-analysis;5.0.3
@@ -1689,11 +1689,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.pom(pom.original) (820ms)
+[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.pom(pom.original) (889ms)
 [info] Resolving org.ow2.asm#asm-parent;5.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.3 {}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.0.3
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-analysis\5.0.3\jars\asm-analysis.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-analysis\5.0.3\jars\asm-analysis.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
 [debug] 	found org.ow2.asm#asm-analysis;5.0.3 in public
 [debug] == resolving dependencies com.github.jnr#jnr-ffi;2.0.7->org.ow2.asm#asm-analysis;5.0.3 [compile->compile(*)]
@@ -1706,7 +1706,7 @@
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-util;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.ow2.asm#asm-util;5.0.3 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-util;5.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-util\5.0.3\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-util\5.0.3\ivys\ivy.xml
 [debug] 	local: no ivy file found for org.ow2.asm#asm-util;5.0.3
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom
 [debug] 	public: found md file for org.ow2.asm#asm-util;5.0.3
@@ -1715,11 +1715,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-util;5.0.3!asm-util.pom(pom.original) (841ms)
+[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-util;5.0.3!asm-util.pom(pom.original) (889ms)
 [info] Resolving org.ow2.asm#asm-parent;5.0.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.3 {}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.0.3
-[debug] 		tried C:\Users\Quest\.ivy2\local\org.ow2.asm\asm-util\5.0.3\jars\asm-util.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\org.ow2.asm\asm-util\5.0.3\jars\asm-util.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar
 [debug] 	found org.ow2.asm#asm-util;5.0.3 in public
 [debug] == resolving dependencies com.github.jnr#jnr-ffi;2.0.7->org.ow2.asm#asm-util;5.0.3 [compile->compile(*)]
@@ -1730,7 +1730,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.github.jnr#jnr-x86asm;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.github.jnr#jnr-x86asm;1.0.2 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.github.jnr#jnr-x86asm;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-x86asm\1.0.2\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-x86asm\1.0.2\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.github.jnr#jnr-x86asm;1.0.2
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom
 [debug] 	public: found md file for com.github.jnr#jnr-x86asm;1.0.2
@@ -1739,11 +1739,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom
-[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-x86asm;1.0.2!jnr-x86asm.pom(pom.original) (869ms)
+[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-x86asm;1.0.2!jnr-x86asm.pom(pom.original) (885ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-x86asm\1.0.2\jars\jnr-x86asm.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-x86asm\1.0.2\jars\jnr-x86asm.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar
 [debug] 	found com.github.jnr#jnr-x86asm;1.0.2 in public
 [debug] == resolving dependencies com.github.jnr#jnr-ffi;2.0.7->com.github.jnr#jnr-x86asm;1.0.2 [compile->compile(*)]
@@ -1752,7 +1752,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.github.jnr#jnr-posix;3.0.27 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.github.jnr#jnr-posix;3.0.27 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.github.jnr#jnr-posix;3.0.27 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-posix\3.0.27\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-posix\3.0.27\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.github.jnr#jnr-posix;3.0.27
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.pom
 [debug] 	public: found md file for com.github.jnr#jnr-posix;3.0.27
@@ -1761,11 +1761,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.pom
-[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-posix;3.0.27!jnr-posix.pom(pom.original) (856ms)
+[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-posix;3.0.27!jnr-posix.pom(pom.original) (946ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-posix\3.0.27\jars\jnr-posix.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-posix\3.0.27\jars\jnr-posix.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar
 [debug] 	found com.github.jnr#jnr-posix;3.0.27 in public
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.1.0->com.github.jnr#jnr-posix;3.0.27 [compile->compile(*)]
@@ -1776,7 +1776,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.github.jnr#jnr-constants;0.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.github.jnr#jnr-constants;0.9.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.github.jnr#jnr-constants;0.9.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-constants\0.9.0\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-constants\0.9.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.github.jnr#jnr-constants;0.9.0
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.pom
 [debug] 	public: found md file for com.github.jnr#jnr-constants;0.9.0
@@ -1785,11 +1785,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.pom
-[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-constants;0.9.0!jnr-constants.pom(pom.original) (814ms)
+[debug] 	[SUCCESSFUL ] com.github.jnr#jnr-constants;0.9.0!jnr-constants.pom(pom.original) (890ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.github.jnr\jnr-constants\0.9.0\jars\jnr-constants.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.github.jnr\jnr-constants\0.9.0\jars\jnr-constants.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar
 [debug] 	found com.github.jnr#jnr-constants;0.9.0 in public
 [debug] == resolving dependencies com.github.jnr#jnr-posix;3.0.27->com.github.jnr#jnr-constants;0.9.0 [compile->compile(*)]
@@ -1885,7 +1885,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.outworkers#diesel-reflection_2.11;0.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.outworkers#diesel-reflection_2.11;0.5.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.outworkers#diesel-reflection_2.11;0.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.outworkers\diesel-reflection_2.11\0.5.0\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.outworkers\diesel-reflection_2.11\0.5.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.outworkers#diesel-reflection_2.11;0.5.0
 [debug] 		tried https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.pom
 [debug] 	public: found md file for com.outworkers#diesel-reflection_2.11;0.5.0
@@ -1894,8 +1894,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.pom
-[debug] 	[SUCCESSFUL ] com.outworkers#diesel-reflection_2.11;0.5.0!diesel-reflection_2.11.pom(pom.original) (868ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.outworkers\diesel-reflection_2.11\0.5.0\jars\diesel-reflection_2.11.jar
+[debug] 	[SUCCESSFUL ] com.outworkers#diesel-reflection_2.11;0.5.0!diesel-reflection_2.11.pom(pom.original) (916ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.outworkers\diesel-reflection_2.11\0.5.0\jars\diesel-reflection_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.jar
 [debug] 	found com.outworkers#diesel-reflection_2.11;0.5.0 in public
 [debug] == resolving dependencies com.websudos#phantom-dsl_2.11;1.29.6->com.outworkers#diesel-reflection_2.11;0.5.0 [compile->compile(*)]
@@ -1906,7 +1906,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.outworkers#diesel-engine_2.11;0.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.outworkers#diesel-engine_2.11;0.5.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.outworkers#diesel-engine_2.11;0.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.outworkers\diesel-engine_2.11\0.5.0\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.outworkers\diesel-engine_2.11\0.5.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.outworkers#diesel-engine_2.11;0.5.0
 [debug] 		tried https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.pom
 [debug] 	public: found md file for com.outworkers#diesel-engine_2.11;0.5.0
@@ -1915,8 +1915,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.pom
-[debug] 	[SUCCESSFUL ] com.outworkers#diesel-engine_2.11;0.5.0!diesel-engine_2.11.pom(pom.original) (879ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.outworkers\diesel-engine_2.11\0.5.0\jars\diesel-engine_2.11.jar
+[debug] 	[SUCCESSFUL ] com.outworkers#diesel-engine_2.11;0.5.0!diesel-engine_2.11.pom(pom.original) (915ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.outworkers\diesel-engine_2.11\0.5.0\jars\diesel-engine_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.jar
 [debug] 	found com.outworkers#diesel-engine_2.11;0.5.0 in public
 [debug] == resolving dependencies com.outworkers#diesel-reflection_2.11;0.5.0->com.outworkers#diesel-engine_2.11;0.5.0 [compile->compile(*)]
@@ -1963,7 +1963,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-extras;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.datastax.cassandra#cassandra-driver-extras;3.1.0 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-extras;3.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.datastax.cassandra\cassandra-driver-extras\3.1.0\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-extras\3.1.0\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.datastax.cassandra#cassandra-driver-extras;3.1.0
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.pom
 [debug] 	public: found md file for com.datastax.cassandra#cassandra-driver-extras;3.1.0
@@ -1972,11 +1972,11 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.pom
-[debug] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-extras;3.1.0!cassandra-driver-extras.pom(pom.original) (849ms)
+[debug] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-extras;3.1.0!cassandra-driver-extras.pom(pom.original) (954ms)
 [info] Resolving com.datastax.cassandra#cassandra-driver-parent;3.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.datastax.cassandra#cassandra-driver-parent;3.1.0 {}
 [debug] sbt-chain: module revision found in cache: com.datastax.cassandra#cassandra-driver-parent;3.1.0
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.datastax.cassandra\cassandra-driver-extras\3.1.0\bundles\cassandra-driver-extras.jar
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.datastax.cassandra\cassandra-driver-extras\3.1.0\bundles\cassandra-driver-extras.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.jar
 [debug] 	found com.datastax.cassandra#cassandra-driver-extras;3.1.0 in public
 [debug] == resolving dependencies com.websudos#phantom-dsl_2.11;1.29.6->com.datastax.cassandra#cassandra-driver-extras;3.1.0 [compile->compile(*)]
@@ -2024,7 +2024,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.websudos#phantom-reactivestreams_2.11;1.29.6 {compile=[default(compile)]}
 [info] Resolving com.websudos#phantom-reactivestreams_2.11;1.29.6 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.websudos#phantom-reactivestreams_2.11;1.29.6 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.websudos\phantom-reactivestreams_2.11\1.29.6\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-reactivestreams_2.11\1.29.6\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.websudos#phantom-reactivestreams_2.11;1.29.6
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.pom
 [debug] 	public: found md file for com.websudos#phantom-reactivestreams_2.11;1.29.6
@@ -2033,8 +2033,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.pom
-[debug] 	[SUCCESSFUL ] com.websudos#phantom-reactivestreams_2.11;1.29.6!phantom-reactivestreams_2.11.pom(pom.original) (822ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.websudos\phantom-reactivestreams_2.11\1.29.6\jars\phantom-reactivestreams_2.11.jar
+[debug] 	[SUCCESSFUL ] com.websudos#phantom-reactivestreams_2.11;1.29.6!phantom-reactivestreams_2.11.pom(pom.original) (963ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.websudos\phantom-reactivestreams_2.11\1.29.6\jars\phantom-reactivestreams_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.jar
 [debug] 	found com.websudos#phantom-reactivestreams_2.11;1.29.6 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.websudos#phantom-reactivestreams_2.11;1.29.6 [compile->runtime]
@@ -3034,7 +3034,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#filters-helpers_2.11;2.5.10 {compile=[default(compile)]}
 [info] Resolving com.typesafe.play#filters-helpers_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#filters-helpers_2.11;2.5.10 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\filters-helpers_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\filters-helpers_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#filters-helpers_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#filters-helpers_2.11;2.5.10
@@ -3043,8 +3043,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.11;2.5.10!filters-helpers_2.11.pom(pom.original) (811ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\filters-helpers_2.11\2.5.10\jars\filters-helpers_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.11;2.5.10!filters-helpers_2.11.pom(pom.original) (914ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\filters-helpers_2.11\2.5.10\jars\filters-helpers_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#filters-helpers_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.5.10 [compile->runtime]
@@ -6451,7 +6451,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.10 {test=[default(compile)]}
 [info] Resolving com.typesafe.play#play-test_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.5.10 {test=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-test_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-test_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-test_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-test_2.11;2.5.10
@@ -6460,8 +6460,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.11;2.5.10!play-test_2.11.pom(pom.original) (796ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-test_2.11\2.5.10\jars\play-test_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.11;2.5.10!play-test_2.11.pom(pom.original) (886ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-test_2.11\2.5.10\jars\play-test_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-test_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.5.10 [test->runtime]
@@ -12548,7 +12548,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-omnidoc_2.11;2.5.10 {docs=[default(compile)]}
 [info] Resolving com.typesafe.play#play-omnidoc_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-omnidoc_2.11;2.5.10 {docs=[default(compile)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-omnidoc_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-omnidoc_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-omnidoc_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-omnidoc_2.11;2.5.10
@@ -12557,8 +12557,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.11;2.5.10!play-omnidoc_2.11.pom(pom.original) (902ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-omnidoc_2.11\2.5.10\jars\play-omnidoc_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.11;2.5.10!play-omnidoc_2.11.pom(pom.original) (919ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-omnidoc_2.11\2.5.10\jars\play-omnidoc_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-omnidoc_2.11;2.5.10 in public
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->com.typesafe.play#play-omnidoc_2.11;2.5.10 [docs->runtime]
@@ -12577,7 +12577,7 @@
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-docs_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving com.typesafe.play#play-docs_2.11;2.5.10 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.typesafe.play#play-docs_2.11;2.5.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-docs_2.11\2.5.10\ivys\ivy.xml
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-docs_2.11\2.5.10\ivys\ivy.xml
 [debug] 	local: no ivy file found for com.typesafe.play#play-docs_2.11;2.5.10
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.pom
 [debug] 	public: found md file for com.typesafe.play#play-docs_2.11;2.5.10
@@ -12586,8 +12586,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.11;2.5.10!play-docs_2.11.pom(pom.original) (780ms)
-[debug] 		tried C:\Users\Quest\.ivy2\local\com.typesafe.play\play-docs_2.11\2.5.10\jars\play-docs_2.11.jar
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.11;2.5.10!play-docs_2.11.pom(pom.original) (893ms)
+[debug] 		tried C:\Users\Bonga\.ivy2\local\com.typesafe.play\play-docs_2.11\2.5.10\jars\play-docs_2.11.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.jar
 [debug] 	found com.typesafe.play#play-docs_2.11;2.5.10 in public
 [debug] == resolving dependencies com.typesafe.play#play-omnidoc_2.11;2.5.10->com.typesafe.play#play-docs_2.11;2.5.10 [compile->compile(*)]
@@ -13267,43 +13267,43 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.5.10/play-server_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.11;2.5.10!play-server_2.11.jar (1465ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.11;2.5.10!play-server_2.11.jar (2010ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.5.10/play-netty-server_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.11;2.5.10!play-netty-server_2.11.jar (1066ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.11;2.5.10!play-netty-server_2.11.jar (1360ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.5.10/play-jdbc_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.11;2.5.10!play-jdbc_2.11.jar (957ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.11;2.5.10!play-jdbc_2.11.jar (1155ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.5.10/play-cache_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.11;2.5.10!play-cache_2.11.jar (999ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.11;2.5.10!play-cache_2.11.jar (1057ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.5.10/play-ws_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.11;2.5.10!play-ws_2.11.jar (1526ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.11;2.5.10!play-ws_2.11.jar (2215ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.jar
 [info] downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-dsl_2.11/1.29.6/phantom-dsl_2.11-1.29.6.jar
-[info] 	[SUCCESSFUL ] com.websudos#phantom-dsl_2.11;1.29.6!phantom-dsl_2.11.jar (1795ms)
+[info] 	[SUCCESSFUL ] com.websudos#phantom-dsl_2.11;1.29.6!phantom-dsl_2.11.jar (2417ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.jar
 [info] downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-reactivestreams_2.11/1.29.6/phantom-reactivestreams_2.11-1.29.6.jar
-[info] 	[SUCCESSFUL ] com.websudos#phantom-reactivestreams_2.11;1.29.6!phantom-reactivestreams_2.11.jar (913ms)
+[info] 	[SUCCESSFUL ] com.websudos#phantom-reactivestreams_2.11;1.29.6!phantom-reactivestreams_2.11.jar (1103ms)
 [debug] 	[NOT REQUIRED] io.getclump#clump_2.11;0.0.11!clump_2.11.jar
 [debug] 	[NOT REQUIRED] io.monix#monix_2.11;2.0.0!monix_2.11.jar
 [debug] 	[NOT REQUIRED] com.jason-goodwin#authentikat-jwt_2.11;0.4.3!authentikat-jwt_2.11.jar
@@ -13326,7 +13326,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.5.10/filters-helpers_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.11;2.5.10!filters-helpers_2.11.jar (1290ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.11;2.5.10!filters-helpers_2.11.jar (1434ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.jar
@@ -13334,32 +13334,32 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.5.10/play_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.5.10!play_2.11.jar (3994ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.5.10!play_2.11.jar (4622ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.5.10/play-iteratees_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.11;2.5.10!play-iteratees_2.11.jar (1631ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.11;2.5.10!play-iteratees_2.11.jar (1538ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.5.10!build-link.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.5.10/play-json_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.5.10!play-json_2.11.jar (1418ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.5.10!play-json_2.11.jar (1450ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.5.10/play-netty-utils-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-utils;2.5.10!play-netty-utils.jar (906ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-utils;2.5.10!play-netty-utils.jar (893ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.5.10/play-streams_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.11;2.5.10!play-streams_2.11.jar (1088ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.11;2.5.10!play-streams_2.11.jar (1124ms)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.21!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.21!jul-to-slf4j.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.21!jcl-over-slf4j.jar
@@ -13368,43 +13368,43 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.12/akka-actor_2.11-2.4.12.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.12!akka-actor_2.11.jar (3547ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.12!akka-actor_2.11.jar (3856ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.12/akka-slf4j_2.11-2.4.12.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.11;2.4.12!akka-slf4j_2.11.jar (998ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.11;2.4.12!akka-slf4j_2.11.jar (908ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.7.8/jackson-core-2.7.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.7.8!jackson-core.jar(bundle) (1049ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.7.8!jackson-core.jar(bundle) (1126ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.7.8/jackson-annotations-2.7.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.7.8!jackson-annotations.jar(bundle) (1053ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.7.8!jackson-annotations.jar(bundle) (954ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.7.8!jackson-databind.jar(bundle) (1838ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.7.8!jackson-databind.jar(bundle) (1947ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.8/jackson-datatype-jdk8-2.7.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8!jackson-datatype-jdk8.jar(bundle) (896ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.7.8!jackson-datatype-jdk8.jar(bundle) (911ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.7.8/jackson-datatype-jsr310-2.7.8.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8!jackson-datatype-jsr310.jar(bundle) (1001ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.7.8!jackson-datatype-jsr310.jar(bundle) (956ms)
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar
@@ -13412,7 +13412,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.6/joda-time-2.9.6.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.6!joda-time.jar (1319ms)
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.6!joda-time.jar (1437ms)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.8.1!joda-convert.jar
 [debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar
 [debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar
@@ -13428,20 +13428,20 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.5.10/play-functional_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.5.10!play-functional_2.11.jar (1112ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.5.10!play-functional_2.11.jar (1278ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.5.10/play-datacommons_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.11;2.5.10!play-datacommons_2.11.jar (903ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.11;2.5.10!play-datacommons_2.11.jar (883ms)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.12/akka-stream_2.11-2.4.12.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.12!akka-stream_2.11.jar (3899ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.4.12!akka-stream_2.11.jar (4745ms)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.2.1!ssl-config-core_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar
@@ -13461,14 +13461,14 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.5.10/play-jdbc-api_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.11;2.5.10!play-jdbc-api_2.11.jar (852ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.11;2.5.10!play-jdbc-api_2.11.jar (936ms)
 [debug] 	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)
 [debug] 		tried https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar
-[info] 	[SUCCESSFUL ] com.zaxxer#HikariCP;2.5.1!HikariCP.jar(bundle) (1004ms)
+[info] 	[SUCCESSFUL ] com.zaxxer#HikariCP;2.5.1!HikariCP.jar(bundle) (999ms)
 [debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar
 [debug] 	[NOT REQUIRED] com.h2database#h2;1.4.192!h2.jar
 [debug] 	[NOT REQUIRED] tyrex#tyrex;1.0.1!tyrex.jar
@@ -13488,7 +13488,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/websudos/phantom-connectors_2.11/1.29.6/phantom-connectors_2.11-1.29.6.jar
-[info] 	[SUCCESSFUL ] com.websudos#phantom-connectors_2.11;1.29.6!phantom-connectors_2.11.jar (909ms)
+[info] 	[SUCCESSFUL ] com.websudos#phantom-connectors_2.11;1.29.6!phantom-connectors_2.11.jar (1016ms)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.7!logback-classic.jar
 [debug] 	[NOT REQUIRED] org.slf4j#log4j-over-slf4j;1.7.21!log4j-over-slf4j.jar
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.1!macro-compat_2.11.jar
@@ -13498,20 +13498,20 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/outworkers/diesel-reflection_2.11/0.5.0/diesel-reflection_2.11-0.5.0.jar
-[info] 	[SUCCESSFUL ] com.outworkers#diesel-reflection_2.11;0.5.0!diesel-reflection_2.11.jar (835ms)
+[info] 	[SUCCESSFUL ] com.outworkers#diesel-reflection_2.11;0.5.0!diesel-reflection_2.11.jar (933ms)
 [debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.11;2.3.2!shapeless_2.11.jar(bundle)
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.jar
-[info] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-core;3.1.0!cassandra-driver-core.jar(bundle) (1677ms)
+[info] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-core;3.1.0!cassandra-driver-core.jar(bundle) (1833ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-extras/3.1.0/cassandra-driver-extras-3.1.0.jar
-[info] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-extras;3.1.0!cassandra-driver-extras.jar(bundle) (844ms)
+[info] 	[SUCCESSFUL ] com.datastax.cassandra#cassandra-driver-extras;3.1.0!cassandra-driver-extras.jar(bundle) (931ms)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.7!logback-core.jar
 [debug] 	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(bundle)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar
@@ -13519,68 +13519,68 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.jar
-[info] 	[SUCCESSFUL ] com.github.jnr#jnr-ffi;2.0.7!jnr-ffi.jar (1391ms)
+[info] 	[SUCCESSFUL ] com.github.jnr#jnr-ffi;2.0.7!jnr-ffi.jar (1492ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.jar
-[info] 	[SUCCESSFUL ] com.github.jnr#jnr-posix;3.0.27!jnr-posix.jar (1010ms)
+[info] 	[SUCCESSFUL ] com.github.jnr#jnr-posix;3.0.27!jnr-posix.jar (1055ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.jar
-[info] 	[SUCCESSFUL ] com.github.jnr#jffi;1.2.10!jffi.jar (1009ms)
+[info] 	[SUCCESSFUL ] com.github.jnr#jffi;1.2.10!jffi.jar (1046ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar
-[info] 	[SUCCESSFUL ] com.github.jnr#jffi;1.2.10!jffi.jar (1729ms)
+[info] 	[SUCCESSFUL ] com.github.jnr#jffi;1.2.10!jffi.jar (1514ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.0.3!asm-commons.jar (895ms)
+[info] 	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.0.3!asm-commons.jar (954ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar (878ms)
+[info] 	[SUCCESSFUL ] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar (887ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar (861ms)
+[info] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar (929ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar
 [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-util;5.0.3!asm-util.jar (887ms)
+[info] 	[SUCCESSFUL ] org.ow2.asm#asm-util;5.0.3!asm-util.jar (904ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar
-[info] 	[SUCCESSFUL ] com.github.jnr#jnr-x86asm;1.0.2!jnr-x86asm.jar (1030ms)
+[info] 	[SUCCESSFUL ] com.github.jnr#jnr-x86asm;1.0.2!jnr-x86asm.jar (1057ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.jar
-[info] 	[SUCCESSFUL ] com.github.jnr#jnr-constants;0.9.0!jnr-constants.jar (1096ms)
+[info] 	[SUCCESSFUL ] com.github.jnr#jnr-constants;0.9.0!jnr-constants.jar (1199ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/outworkers/diesel-engine_2.11/0.5.0/diesel-engine_2.11-0.5.0.jar
-[info] 	[SUCCESSFUL ] com.outworkers#diesel-engine_2.11;0.5.0!diesel-engine_2.11.jar (880ms)
+[info] 	[SUCCESSFUL ] com.outworkers#diesel-engine_2.11;0.5.0!diesel-engine_2.11.jar (920ms)
 [debug] 	[NOT REQUIRED] com.twitter#util-core_2.11;6.22.0!util-core_2.11.jar
 [debug] 	[NOT REQUIRED] io.monix#monix-types_2.11;2.0.0!monix-types_2.11.jar
 [debug] 	[NOT REQUIRED] io.monix#monix-execution_2.11;2.0.0!monix-execution_2.11.jar
@@ -13628,7 +13628,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.5.10/play-test_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.11;2.5.10!play-test_2.11.jar (950ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.11;2.5.10!play-test_2.11.jar (1060ms)
 [debug] 	[NOT REQUIRED] org.scalatestplus.play#scalatestplus-play_2.11;1.5.1!scalatestplus-play_2.11.jar
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.1!jsr305.jar
@@ -13673,13 +13673,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.5.10/play-omnidoc_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.11;2.5.10!play-omnidoc_2.11.jar (11826ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.11;2.5.10!play-omnidoc_2.11.jar (11209ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.5.10/play-docs_2.11-2.5.10.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.11;2.5.10!play-docs_2.11.jar (13455ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.11;2.5.10!play-docs_2.11.jar (9984ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.11;1.2.2!play-doc_2.11.jar
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.0!pegdown.jar
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(bundle)
@@ -13691,29 +13691,29 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 82196ms :: artifacts dl 81173ms
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-docs produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-docs.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-src produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-src.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docker produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docker.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT linux produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-linux.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT provided produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-provided.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT optional produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-optional.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT windows produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-windows.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT debian produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-debian.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT rpm produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-rpm.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile-internal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime-internal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test-internal.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT plugin produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-plugin.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT sources produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-sources.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docs produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docs.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT pom produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-pom.xml
-[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Quest\TPproject\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-scala-tool.xml
-[debug] 	resolve done (82196ms resolve - 81173ms download)
+[debug] :: resolution report :: resolve 86250ms :: artifacts dl 82644ms
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-docs produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-docs.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-src produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-universal-src.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docker produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docker.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT linux produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-linux.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT provided produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-provided.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT optional produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-optional.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT windows produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-windows.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT debian produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-debian.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT rpm produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-rpm.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-compile-internal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-runtime-internal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-test-internal.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT plugin produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-plugin.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT sources produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-sources.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docs produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-docs.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT pom produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-pom.xml
+[debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Bonga\Pictures\commentsapi\target\resolution-cache\reports\commentsapi-commentsapi_2.11-scala-tool.xml
+[debug] 	resolve done (86250ms resolve - 82644ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Here are some of the libraries that were evicted:
