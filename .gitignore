@@ -2,6 +2,7 @@ logs
 .idea
 bin/
 libexec/
+target
 project
 /.idea_modules
 /.classpath
