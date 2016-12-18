@@ -10,7 +10,7 @@ import play.api.test.Helpers._
 /**
   * Created by Bonga on 12/2/2016.
   */
-class  ResponseStatusControllerTest extends PlaySpec with OneAppPerTest {
+class  ResponseItemStatusControllerTest extends PlaySpec with OneAppPerTest {
 
   val response = Response("100", "200", "300", "400", "wwew",DateTime)
 

@@ -3,6 +3,7 @@ package repositories.sites
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.RootConnector
 import com.websudos.phantom.dsl._
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.sites.Site
 
@@ -13,7 +14,7 @@ import scala.concurrent.Future
   */
 class SiteRepository extends CassandraTable[SiteRepository, Site] {
 
-  object siteId extends StringColumn(this) with PrimaryKey[String]
+  object siteId extends StringColumn(this) with PartitionKey[String]
 
   object name extends StringColumn(this)
 
@@ -47,6 +48,6 @@ object SiteRepository extends SiteRepository with RootConnector {
   }
 
   def getAllSites: Future[Seq[Site]] = {
-    select.all().fetch()
+    select.fetchEnumerator() run Iteratee.collect()
   }
 }

@@ -9,7 +9,7 @@ import scala.concurrent.Await
 /**
   * Created by Bonga on 11/20/2016.
   */
-class CommentStatusTest  extends FeatureSpec with GivenWhenThen{
+class CommentItemStatusTest  extends FeatureSpec with GivenWhenThen{
 
 
   feature("Create commentstatus") {

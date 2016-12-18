@@ -29,7 +29,7 @@ class VoteDownTest extends FeatureSpec with GivenWhenThen
       val displayAllstatuses = Await.result(voteDownRepo.getAllkeys, 2 minutes)
       displayAllstatuses.foreach(i => println("Vote Down=======>", i))
       val displayIdStatus = Await.result(voteDownRepo.getVoteDownById(commentIdOrResponseId), 2 minutes)
-      displayIdStatus.foreach(i => println("Status=======>", i))
+      displayIdStatus.foreach(i => println("ItemStatus=======>", i))
     }
   }
 

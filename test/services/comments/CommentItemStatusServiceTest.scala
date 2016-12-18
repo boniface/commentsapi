@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 /**
   * Created by Bonga on 11/17/2016.
   */
-class CommentStatusServiceTest  extends FunSuite {
+class CommentItemStatusServiceTest  extends FunSuite {
 
 
   test("testSave") {

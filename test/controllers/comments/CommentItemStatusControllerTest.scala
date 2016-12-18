@@ -9,7 +9,7 @@ import play.api.test.Helpers._
 /**
   * Created by Bonga on 12/16/2016.
   */
-class CommentStatusControllerTest extends PlaySpec with OneAppPerTest{
+class CommentItemStatusControllerTest extends PlaySpec with OneAppPerTest{
 
 
   val commentStatus = CommentStatus("100", "200",DateTime)

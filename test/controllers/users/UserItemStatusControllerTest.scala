@@ -10,7 +10,7 @@ import play.api.test.Helpers._
 /**
  * Created by Rosie on 2016/12/15.
  */
-class UserStatusControllerTest extends PlaySpec with OneAppPerTest {
+class UserItemStatusControllerTest extends PlaySpec with OneAppPerTest {
   val userStatus = UserStatus(
     "github", "102", "offline",new DateTime(2016,5,12))
 

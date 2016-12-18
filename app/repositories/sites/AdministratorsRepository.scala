@@ -4,6 +4,7 @@ import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.sites.Administrators
 
@@ -38,16 +39,12 @@ object AdministratorsRepository extends AdministratorsRepository with RootConnec
       .future()
   }
 
-  def deleteAdministratorBySiteId(siteId: String): Future[ResultSet] = {
-    delete.where(_.siteId eqs siteId).future()
+  def getSiteAdministrator(siteId: String, emailId: String): Future[Option[Administrators]]  = {
+    select.where(_.siteId eqs siteId).and(_.emailId eqs emailId).one()
   }
 
-  def getAdministratorsBySiteId(siteId: String, email: String): Future[Option[Administrators]] = {
-    select.where(_.emailId eqs email).and(_.siteId eqs siteId).one()
-  }
-
-  def getAdministrators: Future[List[Administrators]] = {
-    select.all().fetch()
+  def getSiteAdministrators(siteId: String): Future[Seq[Administrators]] = {
+    select.where(_.siteId eqs siteId)fetchEnumerator() run Iteratee.collect()
   }
 
 }

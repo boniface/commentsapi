@@ -19,14 +19,15 @@ extends SimpleRouter{
 
   override def routes: Routes = {
 
-
     //----Keys routes-----//
     case POST(p"/key/create") =>
       keys.createOrUpdate
     case GET(p"/get/key/all") =>
       keys.getAllKeys
-    case GET(p"/get/key/$id") =>
+    case GET(p"/get/$id") =>
       keys.getKey(id)
+    case GET(p"/revoke/$id") =>
+      keys.revokeKey(id)
 
     //-------mail-------//
     case POST(p"/mail/create") =>

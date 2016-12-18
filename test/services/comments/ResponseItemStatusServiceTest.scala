@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 /**
   * Created by Bonga on 11/17/2016.
   */
-class ResponseStatusServiceTest extends FunSuite {
+class ResponseItemStatusServiceTest extends FunSuite {
 
   test("testSave") {
     val responseStatus = ResponseStatus("400", "Hayi",DateTime)

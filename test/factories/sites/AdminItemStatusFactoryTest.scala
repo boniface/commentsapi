@@ -6,7 +6,7 @@ import org.scalatest.FunSuite
 /**
   * Created by Quest on 2016/09/27.
   */
-class AdminStatusFactoryTest extends FunSuite{
+class AdminItemStatusFactoryTest extends FunSuite{
 
   test("getAdminStatus"){
 

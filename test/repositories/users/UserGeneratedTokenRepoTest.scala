@@ -25,7 +25,7 @@ class UserGeneratedTokenRepoTest extends FeatureSpec with GivenWhenThen{
       TokenRepo.save(titletext)
       Then("Display All ")
       val displayStatusById = Await.result(UserGeneratedTokenRepository.getStatusBySiteId(token), 1 minutes)
-      displayStatusById.foreach(i => println("Status=======>",i))
+      displayStatusById.foreach(i => println("ItemStatus=======>",i))
     }
   }
 

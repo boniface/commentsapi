@@ -11314,7 +11314,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 7465ms :: artifacts dl 211ms
+[debug] :: resolution report :: resolve 8899ms :: artifacts dl 131ms
 [debug] 	report for default#commentsapi-build;0.1-SNAPSHOT compile produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-compile.xml
 [debug] 	report for default#commentsapi-build;0.1-SNAPSHOT runtime produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-runtime.xml
 [debug] 	report for default#commentsapi-build;0.1-SNAPSHOT test produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-test.xml
@@ -11328,5 +11328,5 @@
 [debug] 	report for default#commentsapi-build;0.1-SNAPSHOT docs produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-docs.xml
 [debug] 	report for default#commentsapi-build;0.1-SNAPSHOT pom produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-pom.xml
 [debug] 	report for default#commentsapi-build;0.1-SNAPSHOT scala-tool produced in /home/hashcode/hashprojects/backend/commentsapi/project/target/resolution-cache/reports/default-commentsapi-build-scala-tool.xml
-[debug] 	resolve done (7465ms resolve - 211ms download)
+[debug] 	resolve done (8899ms resolve - 131ms download)
 [info] Done updating.

@@ -17,7 +17,7 @@
 [debug] == resolving dependencies for commentsapi#commentsapi_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies commentsapi#commentsapi_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32248905
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9cc11b9
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -12817,7 +12817,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 6300ms :: artifacts dl 80ms
+[debug] :: resolution report :: resolve 12718ms :: artifacts dl 84ms
 [debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal produced in /home/hashcode/hashprojects/backend/commentsapi/target/resolution-cache/reports/commentsapi-commentsapi_2.11-universal.xml
 [debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-docs produced in /home/hashcode/hashprojects/backend/commentsapi/target/resolution-cache/reports/commentsapi-commentsapi_2.11-universal-docs.xml
 [debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT universal-src produced in /home/hashcode/hashprojects/backend/commentsapi/target/resolution-cache/reports/commentsapi-commentsapi_2.11-universal-src.xml
@@ -12839,7 +12839,7 @@
 [debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT docs produced in /home/hashcode/hashprojects/backend/commentsapi/target/resolution-cache/reports/commentsapi-commentsapi_2.11-docs.xml
 [debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT pom produced in /home/hashcode/hashprojects/backend/commentsapi/target/resolution-cache/reports/commentsapi-commentsapi_2.11-pom.xml
 [debug] 	report for commentsapi#commentsapi_2.11;1.0-SNAPSHOT scala-tool produced in /home/hashcode/hashprojects/backend/commentsapi/target/resolution-cache/reports/commentsapi-commentsapi_2.11-scala-tool.xml
-[debug] 	resolve done (6300ms resolve - 80ms download)
+[debug] 	resolve done (12718ms resolve - 84ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Here are some of the libraries that were evicted:

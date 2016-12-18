@@ -26,7 +26,7 @@ class VoteUpTest  extends FeatureSpec with GivenWhenThen
       val displayAllstatuses = Await.result(voteUpRepo.getAllkeys, 2 minutes)
       displayAllstatuses.foreach(i => println("Vote Up=======>", i))
       val displayIdStatus = Await.result(voteUpRepo.getVoteUpById(commentIdOrResponseId), 2 minutes)
-      displayIdStatus.foreach(i => println("Status=======>", i))
+      displayIdStatus.foreach(i => println("ItemStatus=======>", i))
     }
 }
 

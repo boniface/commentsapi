@@ -8,7 +8,7 @@ import scala.concurrent.Await
 /**
   * Created by Quest on 2016/11/20.
   */
-class AdminStatusRepoTest extends FeatureSpec with GivenWhenThen{
+class AdminItemStatusRepoTest extends FeatureSpec with GivenWhenThen{
 
   feature("Create adminStatus") {
     info("Admin add a adminStatus")

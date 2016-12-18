@@ -4,6 +4,7 @@ import conf.security.{AuthUtil, RolesID}
 import domain.sites.Site
 import domain.users.{User, UserRole}
 import org.joda.time.DateTime
+import repositories.sites.{AdministratorsRepository, SiteRepository}
 import repositories.util.{KeysRepository, MailRepository, RoleRepository, TokenRepository}
 import services.Service
 
@@ -35,6 +36,9 @@ object SetupService extends Service {
     createTable <- MailRepository.create.ifNotExists().future()
     createTable <- RoleRepository.create.ifNotExists().future()
     createTable <- TokenRepository.create.ifNotExists().future()
+
+    createTable <- SiteRepository.create.ifNotExists().future()
+    createTable <- AdministratorsRepository.create.ifNotExists()
 
   } yield createTable
 

@@ -1,6 +1,6 @@
 package controllers.comments
 import javax.inject.Inject
-import controllers.sites.{AdministratorHistoryController, AdministratorsController, AdminStatusController, SitesController}
+import controllers.sites.{AdministratorsController, SitesController}
 import play.api.routing.Router.Routes
 import play.api.routing.SimpleRouter
 import play.api.routing.sird._
@@ -34,7 +34,7 @@ class CommentRouter@Inject()
       commentController.createOrUpdate
 
 
-    // Comment Status
+    // Comment ItemStatus
 
     case GET(p"/get/comment") =>
       commentStatusController.getCommentStatus(subjectId = "200")
@@ -50,7 +50,7 @@ class CommentRouter@Inject()
     case POST(p"/create") =>
       responseController.createOrUpdate
 
-    // Response Status
+    // Response ItemStatus
 
     case GET(p"/get/comment") =>
       responseStatusController.getResponseStatus(subjectId = "200")

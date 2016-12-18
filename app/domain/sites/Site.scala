@@ -10,7 +10,5 @@ case class Site(siteId: String,
                 url: String)
 
 object Site {
-
   implicit val siteFmt = Json.format[Site]
-
 }

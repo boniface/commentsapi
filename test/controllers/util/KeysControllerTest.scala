@@ -12,37 +12,37 @@ import play.api.test.Helpers._
 class KeysControllerTest extends PlaySpec with OneAppPerTest{
 
 
-  val keys = new Keys("ID","VALUE")
-
-  "Routes" should {
-
-    "KeysController" should {
-
-      "Create Keys Object in Controller" in {
-        val request =  route(app, FakeRequest(POST, "/Keys/create")
-          .withJsonBody(Json.toJson(keys)))
-          .get
-        status(request) mustBe OK
-        contentType(request) mustBe Some("application/json")
-        println(" The Content is ", contentAsString(request))
-      }
-
-      "Get All Keys From Controller" in {
-        val request = route(app, FakeRequest(GET, "/Keys/get/all")
-        ).get
-        status(request) mustBe OK
-        contentType(request) mustBe Some("application/json")
-        println(" The Output", contentAsJson(request))
-      }
-
-      "Get Keys From Controller" in {
-        val request = route(app, FakeRequest(GET, "/Keys/get/id")
-        ).get
-        status(request) mustBe OK
-        contentType(request) mustBe Some("application/json")
-        println(" The Output", contentAsJson(request))
-      }
-
-    }
-  }
+//  val keys = new Keys("ID","VALUE")
+//
+//  "Routes" should {
+//
+//    "KeysController" should {
+//
+//      "Create Keys Object in Controller" in {
+//        val request =  route(app, FakeRequest(POST, "/Keys/create")
+//          .withJsonBody(Json.toJson(keys)))
+//          .get
+//        status(request) mustBe OK
+//        contentType(request) mustBe Some("application/json")
+//        println(" The Content is ", contentAsString(request))
+//      }
+//
+//      "Get All Keys From Controller" in {
+//        val request = route(app, FakeRequest(GET, "/Keys/get/all")
+//        ).get
+//        status(request) mustBe OK
+//        contentType(request) mustBe Some("application/json")
+//        println(" The Output", contentAsJson(request))
+//      }
+//
+//      "Get Keys From Controller" in {
+//        val request = route(app, FakeRequest(GET, "/Keys/get/id")
+//        ).get
+//        status(request) mustBe OK
+//        contentType(request) mustBe Some("application/json")
+//        println(" The Output", contentAsJson(request))
+//      }
+//
+//    }
+//  }
 }

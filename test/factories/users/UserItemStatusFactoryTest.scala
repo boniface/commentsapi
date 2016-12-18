@@ -7,7 +7,7 @@ import org.scalatest.FunSuite
 /**
  * Created by Rosie on 2016/11/27.
  */
-class UserStatusFactoryTest extends FunSuite{
+class UserItemStatusFactoryTest extends FunSuite{
 
   test ("getUserStatus"){
     val dates = new DateTime(2016,9,28,10,25,2,0)
