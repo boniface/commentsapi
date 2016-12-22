@@ -7,11 +7,11 @@ import org.joda.time.DateTime
   */
 class ResponseStatusFactoryTest {
 
-  test("testCreateResponseStauts") {
-
-    val values = Map("responseId" -> "id", "responseId" -> "Terrorism", "status" -> "shem")
-    val dates = new DateTime
-
-  }
+//  test("testCreateResponseStauts") {
+//
+//    val values = Map("responseId" -> "id", "responseId" -> "Terrorism", "status" -> "shem")
+//    val dates = new DateTime
+//
+//  }
 
 }

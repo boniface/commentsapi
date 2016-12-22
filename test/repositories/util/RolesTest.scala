@@ -24,10 +24,10 @@ class RolesTest extends FeatureSpec with GivenWhenThen{
       val roleRepo = RoleRepository
       roleRepo.save(roletext)
       Then("Display All ")
-      val displayAllroles= Await.result(roleRepo.getAllRoles, 2 minutes)
-      displayAllroles.foreach(i => println("Roles=======>",i))
-      val displayIdRoles = Await.result(roleRepo.getRoleById(id), 2 minutes)
-      displayIdRoles.foreach(i => println("Roles=======>",i))
+//      val displayAllroles= Await.result(roleRepo.getAllRoles, 2 minutes)
+//      displayAllroles.foreach(i => println("Roles=======>",i))
+//      val displayIdRoles = Await.result(roleRepo.getRoleById(id), 2 minutes)
+//      displayIdRoles.foreach(i => println("Roles=======>",i))
 
 
     }

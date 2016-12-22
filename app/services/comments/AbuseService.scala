@@ -1,8 +1,7 @@
 package services.comments
 
-import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Abuse
-import services.Service
 import services.comments.Impl.AbuseServiceImpl
 
 import scala.concurrent.Future
@@ -13,13 +12,13 @@ import scala.concurrent.Future
 trait AbuseService {
 
 
-  def getAbuseBySubjectId(id:String): Future[Option[Abuse]]
-  def save(abuse: Abuse):Future[ResultSet]
-  def getAllAbuse: Future[Seq[Abuse]]
-  def deleteAll:Future[ResultSet]
+  def save(abuse: Abuse): Future[ResultSet]
 
+  def getItemAbuse(siteId: String, commentIdOrResponseId: String): Future[Seq[Abuse]]
+
+  def getUserAbusiveComments(siteId: String, commentIdOrResponseId: String, emailId: String): Future[Seq[Abuse]]
 }
 
-object AbuseService extends Service {
+object AbuseService {
   def apply(): AbuseService = new AbuseServiceImpl
 }

@@ -73,8 +73,4 @@ object UserRepository extends UserRepository with RootConnector {
   def getSiteUsers(siteId: String): Future[Seq[User]] = {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
   }
-
-  def getAllUsers: Future[Seq[User]] = {
-    select.all().fetch()
-  }
 }

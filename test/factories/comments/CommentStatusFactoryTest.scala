@@ -8,10 +8,10 @@ import org.joda.time.DateTime
 class CommentStatusFactoryTest {
 
 
-  test("testCreateCommentStatus") {
-
-    val values = Map("commentId" -> "id", "commentId" -> "Terrorism", "status" -> "shem")
-    val dates = new DateTime
-
-  }
+//  test("testCreateCommentStatus") {
+//
+//    val values = Map("commentId" -> "id", "commentId" -> "Terrorism", "status" -> "shem")
+//    val dates = new DateTime
+//
+//  }
 }

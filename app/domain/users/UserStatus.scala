@@ -1,6 +1,7 @@
 package domain.users
 
-import com.websudos.phantom.dsl.DateTime
+import org.joda.time.DateTime
+
 
 /**
   * Created by hashcode on 2016/10/19.

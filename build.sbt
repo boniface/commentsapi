@@ -43,6 +43,7 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  "com.chuusai" %% "shapeless" % "2.3.2",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
   "com.websudos" % "phantom-dsl_2.11" % PhantomVersion,
   "com.websudos" % "phantom-reactivestreams_2.11" % PhantomVersion,
@@ -56,7 +57,6 @@ libraryDependencies += "me.lessis" % "base64_2.11" % "0.2.0"
 libraryDependencies += "junit" % "junit" % "4.12"
 libraryDependencies += "com.github.t3hnar" % "scala-bcrypt_2.11" % "2.5"
 libraryDependencies += "org.apache.commons" % "commons-lang3" % "3.4"
-libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.6"
 // https://mvnrepository.com/artifact/com.google.guava/guava
 libraryDependencies += "com.google.guava" % "guava" % "19.0"
 // https://mvnrepository.com/artifact/org.apache.commons/commons-email

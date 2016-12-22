@@ -28,7 +28,6 @@ class SubjectRepository  extends CassandraTable[SubjectRepository, Subject]{
       name(r),
       url(r),
       date(r)
-
     )
   }
 }
@@ -52,11 +51,13 @@ object SubjectRepository extends SubjectRepository with RootConnector {
   }
 
   def getSubjectById(siteId: String, subjectId: String): Future[Option[Subject]] = {
-    select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
+    select
+      .where(_.siteId eqs siteId)
+      .and(_.subjectId eqs subjectId)
+      .one()
   }
 
   def getSiteSubjects(siteId: String): Future[Seq[Subject]] = {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
   }
-
 }

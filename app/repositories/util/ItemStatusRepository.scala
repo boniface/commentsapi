@@ -22,7 +22,7 @@ class ItemStatusRepository extends CassandraTable[ItemStatusRepository, ItemStat
 
   object itemId extends StringColumn(this) with PartitionKey[String]
 
-  object date extends DateTimeColumn(this) with PrimaryKey[DateTime] with ClusteringOrder[DateTime] with Descending
+  object date extends DateTimeColumn(this) with PrimaryKey[DateTime] with ClusteringOrder[DateTime] with Ascending
 
   object status extends StringColumn(this)
 

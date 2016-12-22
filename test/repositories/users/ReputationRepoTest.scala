@@ -19,13 +19,13 @@ class ReputationRepoTest extends FeatureSpec with GivenWhenThen{
       val emailId ="user1@gmail.com"
       val date = new DateTime(2016,11,27,6,0,0,0)
       val value = 1
-      Then("Add Reputation ")
-      val titletext = Reputation(emailId,date,value)
-      val reputationRepo = ReputationRepository
-      reputationRepo.save(titletext)
+//      Then("Add Reputation ")
+//      val titletext = Reputation(emailId,date,value)
+//      val reputationRepo = ReputationRepository
+//      reputationRepo.save(titletext)
       Then("Display All ")
-      val displayTokenId = Await.result(ReputationRepository.getReputationByEmailId(emailId), 2 minutes)
-      displayTokenId.foreach(i => println("Reputation=======>",i))
+//      val displayTokenId = Await.result(ReputationRepository.getReputationByEmailId(emailId), 2 minutes)
+//      displayTokenId.foreach(i => println("Reputation=======>",i))
     }
   }
 

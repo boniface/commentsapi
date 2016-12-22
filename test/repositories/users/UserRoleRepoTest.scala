@@ -21,15 +21,15 @@ class UserRoleRepoTest extends FeatureSpec with GivenWhenThen{
       val date = new DateTime(2016,11,27,6,1,0,0)
 
       Then("Add User Role ")
-      val titletext = UserRole(emailId,roleId,date)
-      val userRoleRepo = UserRoleRepository
-      userRoleRepo.save(titletext)
-      Then("Display All ")
-      val displayRoleByEmailId = Await.result(UserRoleRepository.getRoleByEmailId(emailId), 2 minutes)
-      displayRoleByEmailId.foreach(i => println("Result=======>",i))
-
-      val displayRoleId = Await.result(UserRoleRepository.getRoleId,1 minute)
-      displayRoleId.foreach(i=>println("Role ======>",i))
+//      val titletext = UserRole(emailId,roleId,date)
+//      val userRoleRepo = UserRoleRepository
+//      userRoleRepo.save(titletext)
+//      Then("Display All ")
+//      val displayRoleByEmailId = Await.result(UserRoleRepository.getRoleByEmailId(emailId), 2 minutes)
+//      displayRoleByEmailId.foreach(i => println("Result=======>",i))
+//
+//      val displayRoleId = Await.result(UserRoleRepository.getRoleId,1 minute)
+//      displayRoleId.foreach(i=>println("Role ======>",i))
     }
   }
 

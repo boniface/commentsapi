@@ -13,8 +13,8 @@ class ReputationFactoryTest extends FunSuite{
     val date = new DateTime(2016,9,27,6,0,0,0)
     val value = 4
 
-    val reputation = ReputationFactory.getReputation(emailId,date,value)
-    assert (reputation == Reputation(emailId="myemail@gmail.com",date= new DateTime(2016,9,27,6,0,0,0),4) )
+//    val reputation = ReputationFactory.getReputation(emailId,date,value)
+//    assert (reputation == Reputation(emailId="myemail@gmail.com",date= new DateTime(2016,9,27,6,0,0,0),4) )
   }
 
 }

@@ -7,7 +7,8 @@ import play.api.libs.json.Json
 /**
   * Created by hashcode on 2016/08/12.
   */
-case class UserRole( emailId: String,
+case class UserRole( siteId:String,
+                     emailId: String,
                      roleId: String,
                      date:DateTime
                    )

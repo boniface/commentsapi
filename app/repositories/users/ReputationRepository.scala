@@ -5,6 +5,7 @@ import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.RootConnector
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PrimaryKey
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection._
 import domain.users.Reputation
 
@@ -15,14 +16,14 @@ import scala.concurrent.Future
  */
 class ReputationRepository extends CassandraTable[ReputationRepository, Reputation]{
 
-
+  object siteId extends StringColumn(this) with PartitionKey[String]
   object emailId extends StringColumn(this) with PrimaryKey[String]
-  object date extends DateTimeColumn(this)
+  object date extends DateTimeColumn(this) with PrimaryKey[DateTime]
   object value extends IntColumn(this)
 
   override def fromRow(r:Row): Reputation = {
 
-    Reputation (emailId(r),date(r),value(r))
+    Reputation ( siteId(r),emailId(r),date(r),value(r))
   }
 
 }
@@ -37,26 +38,27 @@ object ReputationRepository extends ReputationRepository with RootConnector {
 
   def save(reputation: Reputation): Future[ResultSet] = {
     insert
+      .value(_.siteId, reputation.siteId)
       .value(_.emailId, reputation.emailId)
       .value(_.date, reputation.date)
       .value(_.value, reputation.value)
       .future()
   }
 
-  /*def getReputationByEmailId(emailId: String): SelectQuery[ReputationRepository, Reputation, Unlimited, Unordered, Unspecified, Chainned, HNil] = {
-    select.where(_.emailId eqs emailId)
-  }*/
 
-  def getReputationByEmailId(emailId: String): Future[Option[Reputation]] = {
-    select.where(_.emailId eqs emailId).one()
+  def getDayReputation(siteId: String, emailId:String, date:DateTime): Future[Option[Reputation]] = {
+    select
+      .where(_.siteId eqs siteId)
+      .where(_.emailId eqs emailId)
+      .where(_.date eqs date)
+      .one()
   }
 
-  def deleteById(emailId: String):Future[ResultSet] = {
-    delete.where(_.emailId eqs emailId).future()
-  }
 
-  def getAllReputations: Future[Seq[Reputation]] = {
-    select.all().fetch()
+  def getUserReputations(siteId: String, emailId:String): Future[Seq[Reputation]] = {
+    select
+      .where(_.siteId eqs siteId)
+      .and(_.emailId eqs emailId)
+      .fetchEnumerator() run Iteratee.collect()
   }
-
 }

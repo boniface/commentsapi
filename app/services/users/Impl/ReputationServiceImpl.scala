@@ -1,6 +1,6 @@
 package services.users.Impl
 
-import com.websudos.phantom.dsl.ResultSet
+import com.websudos.phantom.dsl.{DateTime, ResultSet}
 import domain.users.Reputation
 import repositories.users.ReputationRepository
 import services.users.ReputationService
@@ -13,21 +13,14 @@ import scala.concurrent.Future
  */
 class ReputationServiceImpl extends ReputationService with Service{
   override def save(reputation: Reputation): Future[ResultSet] = {
-    val reputationService = Reputation(reputation.emailId, reputation.date, reputation.value)
-    for{
-      result <-ReputationRepository.save(reputation)
-    }yield result
+    ReputationRepository.save(reputation)
   }
 
-  override def deleteById(emailId: String): Future[ResultSet] = {
-    ReputationRepository.deleteById(emailId)
+  override def getDayReputation(siteId: String, emailId: String, date: DateTime): Future[Option[Reputation]] = {
+    ReputationRepository.getDayReputation(siteId,emailId,date)
   }
 
-  override def getReputationById(emailId: String): Future[Option[Reputation]] = {
-    ReputationRepository.getReputationByEmailId(emailId)
-  }
-
-  override def getAllReputation: Future[Seq[Reputation]] = {
-    ReputationRepository.getAllReputations
+  override def getUserReputations(siteId: String, emailId: String): Future[Seq[Reputation]] = {
+    ReputationRepository.getUserReputations(siteId,emailId)
   }
 }

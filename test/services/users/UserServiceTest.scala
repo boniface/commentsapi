@@ -11,27 +11,27 @@ import scala.concurrent.duration._
  */
 class UserServiceTest extends FunSuite{
 
-  test("testSave"){
-    val user = User("user1","email@hotmail.com","scream",Some("coco"),Some("loco"),"Mdp1")
-    val result = Await.result(UserService.apply().createUser(user), 2minutes)
-
-    assert(result.isExhausted)
-  }
-
-  test("getUser"){
-
-    val result = Await.result(UserService.apply().getUser("email@hotmail.com"),2 minutes)
-    assert(result === "test")
-  }
-
-  test("testUpdate"){
-    val user = User("user1","email@hotmail.com","scream!",Some("coco"),Some("loco"),"Mdp1")
-
-    val result = Await.result(UserService.apply().updateUser(user), 2.minutes)
-
-    assert(result === "test")
-  }
-
+//  test("testSave"){
+//    val user = User("user1","email@hotmail.com","scream",Some("coco"),Some("loco"),"Mdp1")
+//    val result = Await.result(UserService.apply().createUser(user), 2minutes)
+//
+//    assert(result.isExhausted)
+//  }
+//
+//  test("getUser"){
+//
+//    val result = Await.result(UserService.apply().getUser("email@hotmail.com"),2 minutes)
+//    assert(result === "test")
+//  }
+//
+//  test("testUpdate"){
+//    val user = User("user1","email@hotmail.com","scream!",Some("coco"),Some("loco"),"Mdp1")
+//
+//    val result = Await.result(UserService.apply().updateUser(user), 2.minutes)
+//
+//    assert(result === "test")
+//  }
+//
 
 
 }

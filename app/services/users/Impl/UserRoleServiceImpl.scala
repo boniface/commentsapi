@@ -5,6 +5,7 @@ import domain.users.UserRole
 import repositories.users.UserRoleRepository
 import services.Service
 import services.users.UserRoleService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 import scala.concurrent.Future
 
@@ -12,23 +13,15 @@ import scala.concurrent.Future
  * Created by Rosie on 2016/11/28.
  */
 class UserRoleServiceImpl extends UserRoleService with Service {
-  override def save(emailId: UserRole): Future[ResultSet] = {
-    val roleService = UserRole(emailId.emailId, emailId.roleId, emailId.date)
-    for{
-      result <-UserRoleRepository.save(emailId)
-    }yield result
+  override def save(role: UserRole): Future[ResultSet] = {
+    UserRoleRepository.save(role)
   }
 
-  override def getRoleById(emailId: String): Future[Option[UserRole]]  = {
-    //AdminStatusRepository.getAdminStatusById(adminStatusId)
-    UserRoleRepository.getRoleByEmailId(emailId)
+  override def getUserRoles(siteId: String, emailId: String): Future[Seq[UserRole]] = {
+    UserRoleRepository.getRoleByEmailId(siteId,emailId)
   }
 
-  override def getAllRoles: Future[Seq[UserRole]] = {
-    UserRoleRepository.getRoleId
-  }
-
-  override def deleteById(emailId: String): Future[ResultSet] = {
-    UserRoleRepository.deleteById(emailId)
+  override def getUserRole(siteId: String, emailId: String): Future[UserRole] = {
+    UserRoleRepository.getRoleByEmailId(siteId,emailId) map ( role => role.head)
   }
 }

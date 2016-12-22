@@ -17,14 +17,13 @@ import scala.concurrent.Future
   */
 
 class ResponseRepository  extends CassandraTable[ResponseRepository,Response]{
-
-
   object commentId extends StringColumn(this) with PartitionKey[String]
   object responseId extends StringColumn(this) with PrimaryKey[String]
   object response extends StringColumn(this)
   object emailId extends StringColumn(this)
   object ipaddress extends StringColumn(this)
   object date extends DateTimeColumn(this)
+
 
   override def fromRow(r: Row): Response = {
     Response(
@@ -58,12 +57,18 @@ object ResponseRepository extends ResponseRepository with RootConnector {
       .future()
   }
 
-  def getResponseByCommentId(commentId: String, responseId: String): Future[Option[Response]] = {
-    select.where(_.commentId eqs commentId).and(_.responseId eqs responseId).one()
+  def getCommentResponses(commentId: String): Future[Seq[Response]] = {
+    select
+      .where(_.commentId eqs commentId)
+      .fetchEnumerator() run Iteratee.collect()
   }
 
-  def getSiteResponse(commentId: String): Future[Seq[Response]] = {
-    select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+
+  def getResponse(commentId: String, responseId:String): Future[Option[Response]] = {
+    select
+      .where(_.commentId eqs commentId)
+      .and(_.responseId eqs responseId)
+      .one()
   }
 
 }

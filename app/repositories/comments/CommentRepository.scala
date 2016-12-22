@@ -15,15 +15,7 @@ import scala.concurrent.Future
   */
 
 
-//siteId: String,
-//subjectId: String,
-//commentId: String,
-//comment: String,
-//emailId: String,
-//ipaddress: String,
-//date: DateTime
 class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
-
 
   object siteId extends StringColumn(this) with PartitionKey[String]
 
@@ -55,7 +47,7 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
 
   object CommentRepository extends CommentRepository with RootConnector {
 
-    override lazy val tableName = "abuse"
+    override lazy val tableName = "comments"
 
     override implicit def space: KeySpace = DataConnection.keySpace
 
@@ -74,12 +66,25 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
     }
 
 
-    def getCommentBySubjectId(siteId: String, subjectId: String): Future[Option[Comment]] = {
-      select.where(_.siteId eqs siteId).and(_.subjectId eqs subjectId).one()
+    def getSiteComments(siteId: String): Future[Seq[Comment]] = {
+      select
+        .where(_.siteId eqs siteId)
+        .fetchEnumerator() run Iteratee.collect()
     }
 
-    def getSiteComment(siteId: String): Future[Seq[Comment]] = {
-      select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
+    def getSubjectComments(siteId: String,subjectId:String): Future[Seq[Comment]] = {
+      select
+        .where(_.siteId eqs siteId)
+        .and(_.subjectId eqs subjectId)
+        .fetchEnumerator() run Iteratee.collect()
+    }
+
+    def getComment(siteId: String, subjectId: String, commentId:String): Future[Option[Comment]] = {
+      select
+        .where(_.siteId eqs siteId)
+        .and(_.subjectId eqs subjectId)
+        .and(_.commentId eqs commentId)
+        .one()
     }
 
 

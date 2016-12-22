@@ -4,10 +4,11 @@ package repositories.comments
 import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
-import com.websudos.phantom.keys.PartitionKey
+import com.websudos.phantom.keys.{PartitionKey, PrimaryKey}
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.comments.ResponseStatus
+import org.joda.time.DateTime
 
 import scala.concurrent.Future
 
@@ -15,19 +16,20 @@ import scala.concurrent.Future
   * Created by Bonga on 10/28/2016.
   */
 
-class ResponseStatusRepository  extends CassandraTable[ResponseStatusRepository, ResponseStatus]{
-
+class ResponseStatusRepository extends CassandraTable[ResponseStatusRepository, ResponseStatus] {
 
   object responseId extends StringColumn(this) with PartitionKey[String]
+
+  object date extends DateTimeColumn(this) with PrimaryKey[DateTime] with ClusteringOrder[DateTime] with Ascending
+
   object status extends StringColumn(this)
-  object date extends DateTimeColumn(this)
+
 
   override def fromRow(r: Row): ResponseStatus = {
     ResponseStatus(
       responseId(r),
       status(r),
       date(r)
-
     )
   }
 }
@@ -43,17 +45,15 @@ object ResponseStatusRepository extends ResponseStatusRepository with RootConnec
   def save(responseStatus: ResponseStatus): Future[ResultSet] = {
     insert
       .value(_.responseId, responseStatus.responseId)
-      .value(_. status, responseStatus.status)
+      .value(_.status, responseStatus.status)
       .value(_.date, responseStatus.date)
       .future()
   }
 
-  def getResponsetByResponseId(responsetId: String): Future[Option[ResponseStatus]] = {
-    select.where(_.responseId eqs responsetId).one()
-  }
-
-  def getSiteResponsetId(responseId: String): Future[Seq[ResponseStatus]] = {
-    select.where(_.responseId eqs responseId).fetchEnumerator() run Iteratee.collect()
+  def getResponseStatus(responseId: String): Future[Seq[ResponseStatus]] = {
+    select
+      .where(_.responseId eqs responseId)
+      .fetchEnumerator() run Iteratee.collect()
   }
 
 }

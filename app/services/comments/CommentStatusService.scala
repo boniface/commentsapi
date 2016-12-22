@@ -1,8 +1,7 @@
 package services.comments
 
-import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.dsl.ResultSet
 import domain.comments.CommentStatus
-import services.Service
 import services.comments.Impl.CommentStatusServiceImpl
 
 import scala.concurrent.Future
@@ -11,15 +10,12 @@ import scala.concurrent.Future
   * Created by Bonga on 11/12/2016.
   */
 trait CommentStatusService {
+  def save(commentStatus: CommentStatus): Future[ResultSet]
 
-
-  def getCommentStatusBySubjectId(id:String): Future[Option[CommentStatus]]
-  def save(commentstatus: CommentStatus):Future[ResultSet]
-  def getAllCommentStatus: Future[Seq[CommentStatus]]
-  def deleteAll:Future[ResultSet]
+  def getCommentStatus(commentsId: String): Future[Seq[CommentStatus]]
 }
 
-object CommentStatusService extends Service {
+object CommentStatusService {
   def apply(): CommentStatusService = new CommentStatusServiceImpl
 
 }

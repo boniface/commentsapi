@@ -5,8 +5,10 @@ import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.RootConnector
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PrimaryKey
+import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection._
 import domain.users.UserRole
+import org.joda.time.DateTime
 
 import scala.concurrent.Future
 
@@ -14,20 +16,21 @@ import scala.concurrent.Future
  * Created by Rosie on 2016/11/14.
  */
 class UserRoleRepository extends CassandraTable[UserRoleRepository,UserRole]{
-
-  object emailId extends StringColumn(this) with PrimaryKey[String]
+  object siteId extends StringColumn(this) with PartitionKey[String]
+  object emailId extends StringColumn(this) with PartitionKey[String]
+  object date extends DateTimeColumn(this) with PrimaryKey[DateTime] with ClusteringOrder[DateTime] with Ascending
   object roleId extends StringColumn(this)
-  object date extends DateTimeColumn(this)
+
 
   override def fromRow(r:Row): UserRole = {
 
-    UserRole(emailId(r),roleId(r),date(r))
+    UserRole(siteId(r), emailId(r),roleId(r),date(r))
   }
 }
 
 object UserRoleRepository extends UserRoleRepository with RootConnector {
 
-  override lazy val tableName = "userRole"
+  override lazy val tableName = "userroles"
 
   override implicit def space: KeySpace = keySpace
 
@@ -35,23 +38,17 @@ object UserRoleRepository extends UserRoleRepository with RootConnector {
 
   def save(role: UserRole): Future[ResultSet] = {
     insert
+      .value(_.siteId, role.siteId)
       .value(_.emailId, role.emailId)
       .value(_.roleId, role.roleId)
       .value(_.date,role.date)
       .future()
   }
 
-  def getRoleByEmailId(emailId: String): Future[Option[UserRole]] = {
-    select.where(_.emailId eqs emailId).one()
+  def getRoleByEmailId(siteId:String, emailId: String): Future[Seq[UserRole]] = {
+    select
+      .where(_.siteId eqs siteId)
+      .and(_.emailId eqs emailId)
+      .fetchEnumerator() run Iteratee.collect()
   }
-
-  def getRoleId:Future[Seq[UserRole]] = {
-    select.all().fetch()
-  }
-
-  def deleteById(emailId: String):Future[ResultSet] = {
-    delete.where(_.emailId eqs emailId).future()
-  }
-
-
 }

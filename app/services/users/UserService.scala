@@ -12,30 +12,28 @@ import scala.concurrent.Future
   * Created by hashcode on 2016/08/28.
   */
 trait UserService {
-  def getOrganisationUsers(orgCode: String): Future[Seq[User]]
 
-  def getUser(email: String): Future[Seq[User]]
+  def getSiteUser(siteId: String, email: String): Future[Option[User]]
+
+  def getSiteUsers(siteId: String): Future[Seq[User]]
 
   def createUser(user: User): Future[dsl.ResultSet]
 
   def updateUser(user: User): Future[dsl.ResultSet]
 
-  def getUserByEmail(orgCode: String, email: String): Future[Option[User]]
-
-  def checkUserAvailability(user: User): Future[Boolean]
-
-  def getAllUsers: Future[Seq[User]]
+  def checkUserAvailability(siteId:String, emaild: String): Future[Boolean]
 
   // User Role
-  def saveUserRole(userrole: UserRole): Future[ResultSet]
+  def save(role: UserRole): Future[ResultSet]
 
-  def getUserRole(orgCode: String, email: String): Future[Seq[UserRole]]
+  def getUserRoles(siteId: String, emailId: String): Future[Seq[UserRole]]
 
+  def getUserRole(siteId: String, emailId: String): Future[Option[UserRole]]
 
 }
 
 
-object UserService extends Service {
-  def apply(): UserService = new UserServiceImpl
+object UserService{
+  def apply: UserService = new UserServiceImpl
 }
 

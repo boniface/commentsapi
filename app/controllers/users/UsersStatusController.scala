@@ -4,6 +4,7 @@ import domain.users.UserStatus
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
 import services.users.UserStatusService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
  * Created by Rosie on 2016/12/02.

@@ -1,8 +1,7 @@
 package services.comments
 
-import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Subject
-import services.Service
 import services.comments.Impl.SubjectServiceImpl
 
 import scala.concurrent.Future
@@ -12,13 +11,13 @@ import scala.concurrent.Future
   */
 trait SubjectService {
 
-  def getSubjectBySubjectId(id:String): Future[Option[Subject]]
-  def save(subject: Subject):Future[ResultSet]
-  def getAllSubject: Future[Seq[Subject]]
-  def deleteAll:Future[ResultSet]
+  def save(subject: Subject): Future[ResultSet]
 
+  def getSubjectById(siteId: String, subjectId: String): Future[Option[Subject]]
+
+  def getSiteSubjects(siteId: String): Future[Seq[Subject]]
 }
 
-object SubjectService extends Service {
+object SubjectService {
   def apply(): SubjectService = new SubjectServiceImpl
 }

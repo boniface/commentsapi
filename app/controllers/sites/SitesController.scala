@@ -7,6 +7,7 @@ import org.joda.time.DateTime
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
 import services.sites.SitesService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by hashcode on 2015/11/28.

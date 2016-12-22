@@ -1,6 +1,7 @@
 package services.comments.Impl
 
 import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Abuse
 import repositories.comments.AbuseRepository
 import services.Service
@@ -12,30 +13,9 @@ import scala.concurrent.Future
   * Created by Bonga on 11/12/2016.
   */
 class AbuseServiceImpl extends AbuseService with Service{
+  override def save(abuse: Abuse): Future[ResultSet] = ???
 
-  override def getAbuseBySubjectId(id: String): Future[Option[Abuse]] = {
-    AbuseRepository.getSiteAbuse(id)
-  }
-  override def save(abuse: Abuse): Future[ResultSet] = {
-    val abuseService = Abuse(abuse.subjectId,
-      abuse.siteId,
-      abuse.commentIdOrResponseId,
-      abuse.emailId,
-      abuse.details,
-      abuse.emailId,
-      abuse.date)
-    for {
-      result <- AbuseRepository.save(abuseService)
-    } yield result
-  }
+  override def getItemAbuse(siteId: String, commentIdOrResponseId: String): Future[Seq[Abuse]] = ???
 
-  override def getAllAbuse: Future[Seq[Abuse]] = {
-    AbuseRepository.getAllAbuse
-  }
-
-  override def deleteAll: Future[ResultSet] = {
-    AbuseRepository.deleteAll
-  }
-
-
+  override def getUserAbusiveComments(siteId: String, commentIdOrResponseId: String, emailId: String): Future[Seq[Abuse]] = ???
 }
