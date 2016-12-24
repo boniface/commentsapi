@@ -12,7 +12,7 @@ import scala.concurrent.Future
 object LoggedInUser {
   def user(token: String): Future[Option[User]] = {
     val email = TokenService.apply().getEmail(token)
-    val orgCode = TokenService.apply().getOrgCode(token)
-    UserService.apply().getUserByEmail(orgCode, email)
+    val siteId = TokenService.apply().getOrgCode(token)
+    UserService.apply.getSiteUser(siteId, email)
   }
 }

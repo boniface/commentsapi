@@ -71,18 +71,18 @@ class AdministratorsController extends Controller {
         site <- AdministratorsService.apply.getSiteAdministrator(siteId,emailId)
         results <-AdministratorsService.apply.saveAdministratorStatus(status)
       } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
+      response.map(ans => Ok(Json.toJson(ans.isExhausted)))
         .recover { case e: Exception => InternalServerError }
   }
 
   def activatedAdministrator(siteId: String, emailId:String) = Action.async {
-    val status = ItemStatus(emailId,new DateTime,SiteMessages.ACTIVE,SiteMessages.REINSTATED)
     request =>
+      val status = ItemStatus(emailId,new DateTime,SiteMessages.ACTIVE,SiteMessages.REINSTATED)
       val response = for {
         site <- AdministratorsService.apply.getSiteAdministrator(siteId,emailId)
         results <-AdministratorsService.apply.saveAdministratorStatus(status)
       } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
+      response.map(ans => Ok(Json.toJson(ans.isExhausted)))
         .recover { case e: Exception => InternalServerError }
   }
 

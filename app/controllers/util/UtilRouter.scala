@@ -51,7 +51,7 @@ extends SimpleRouter{
     case POST(p"/token/save")=>
       token.save
     case POST(p"/token/create")=>
-      token.createNewToken(new Credential("email","password"))
+      token.createNewToken
     case GET(p"/get/token/hasTokenExpired/$tokens")=>
       token.hasTokenExpired(tokens)
     case GET(p"/get/token/revokeToken/$tokens")=>

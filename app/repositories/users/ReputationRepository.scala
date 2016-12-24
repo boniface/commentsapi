@@ -6,6 +6,7 @@ import com.websudos.phantom.connectors.RootConnector
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PrimaryKey
 import com.websudos.phantom.reactivestreams._
+import conf.connection.DataConnection
 import conf.connection.DataConnection._
 import domain.users.Reputation
 
@@ -32,9 +33,9 @@ object ReputationRepository extends ReputationRepository with RootConnector {
 
   override lazy val tableName = "reputation"
 
-  override implicit def space: KeySpace = keySpace
+  override implicit def space: KeySpace = DataConnection.keySpace
 
-  override implicit def session: Session = session
+  override implicit def session: Session = DataConnection.session
 
   def save(reputation: Reputation): Future[ResultSet] = {
     insert

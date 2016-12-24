@@ -13,15 +13,10 @@ import play.api.routing.sird._
 class LogsRouter @Inject()(systemEvents:SystemLogEventsController) extends SimpleRouter{
 
   override def routes: Routes = {
-    case GET(p"/get/SystemLogEvent/$id") =>
-      systemEvents.getEventById(id)
-    case GET(p"/get/SystemLogEvent/all") =>
-      systemEvents.getAllEvents
-    case POST(p"/SystemLogEvent/create") =>
-      systemEvents.createOrUpdate
-    case DELETE(p"/del/SystemLogEvent/$id") =>
-      systemEvents.deleteById(id)
-    case GET(p"/get/SystemLogEvent/$date") =>
-      systemEvents.getEventsByDate(new DateTime(date))
+    case GET(p"/logs/site/$siteId") =>
+      systemEvents.getSiteLogs(siteId)
+    case GET(p"/logs/site/$siteId/i$id") =>
+      systemEvents.getEventById(siteId, id)
+
   }
 }

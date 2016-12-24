@@ -11,20 +11,6 @@ import scala.concurrent.ExecutionContext.Implicits.global
   */
 class SystemLogEventsController extends Controller {
 
-  def createOrUpdate = Action.async(parse.json) {
-    request =>
-      val input = request.body
-      val entity = Json.fromJson[SystemLogEvents](input).get
-      val response = for {
-        results <- SystemLogEventsService.apply.save(entity)
-      } yield results
-      response.map(ans => Ok(Json.toJson(entity)))
-        .recover {
-          case e: Exception => InternalServerError
-        }
-  }
-
-
   def getEventById(siteId: String, id: String) = Action.async {
     request =>
       val response = for {

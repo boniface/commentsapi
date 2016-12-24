@@ -5,6 +5,7 @@ import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.connectors.RootConnector
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.{PartitionKey, PrimaryKey}
+import conf.connection.DataConnection
 import conf.connection.DataConnection._
 import domain.users.UserStatus
 
@@ -32,9 +33,9 @@ object UserStatusRepository extends UserStatusRepository with RootConnector {
 
   override lazy val tableName = "userStatus"
 
-  override implicit def space: KeySpace = keySpace
+  override implicit def space: KeySpace = DataConnection.keySpace
 
-  override implicit def session: Session = session
+  override implicit def session: Session = DataConnection.session
 
   def save(userstatus: UserStatus): Future[ResultSet] = {
     insert

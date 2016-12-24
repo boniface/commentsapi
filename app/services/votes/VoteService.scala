@@ -15,7 +15,7 @@ trait VoteService {
   // Upvotes
   def castUpVote(vote: VoteUp): Future[Seq[VoteUp]]
 
-  def getUserUpVotes(itemOwnerId: String): Future[Seq[VoteDown]]
+  def getUserUpVotes(itemOwnerId: String): Future[Seq[VoteUp]]
 
   def getUpVotes(itemId: String): Future[Seq[VoteUp]]
 

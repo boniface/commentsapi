@@ -55,7 +55,7 @@ class UserServiceImpl extends UserService with Service {
     UserRoleService.apply.getUserRoles(siteId,emailId)
   }
 
-  override def getUserRole(siteId: String, emailId: String): Future[Option[UserRole]] = {
+  override def getUserRole(siteId: String, emailId: String): Future[UserRole] = {
     UserRoleService.apply.getUserRole(siteId,emailId)
   }
 }

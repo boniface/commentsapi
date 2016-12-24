@@ -25,13 +25,17 @@ class TokenController extends Controller{
         }
   }
 
-  def createNewToken(credential: Credential) = Action.async {
+  def createNewToken=Action.async(parse.json) {
     request =>
+      val input = request.body
+      val entity = Json.fromJson[Credential](input).get
       val response = for {
-        results <- TokenService.apply().createNewToken(credential)
+        results <- TokenService.apply().createNewToken(entity)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
-        .recover { case e: Exception => InternalServerError }
+        .recover {
+          case e: Exception => InternalServerError
+        }
   }
 
   def revokeToken(token:String) = Action.async {
@@ -39,7 +43,7 @@ class TokenController extends Controller{
       val response = for {
         results <- TokenService.apply().revokeToken(token)
       } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
+      response.map(ans => Ok(Json.toJson(ans.isExhausted)))
         .recover { case e: Exception => InternalServerError }
   }
 
@@ -61,19 +65,19 @@ class TokenController extends Controller{
         .recover { case e: Exception => InternalServerError }
   }
 
-  def getTokenRoles(token: String) = String.valueOf({
+  private def getTokenRoles(token: String) = String.valueOf({
     for{
         results<- TokenService.apply().getTokenRoles(token)
         }yield results
   })
 
-  def getEmail(token: String) = String.valueOf({
+  private def getEmail(token: String) = String.valueOf({
     for{
       results<- TokenService.apply().getEmail(token)
     }yield results
   })
 
-  def getOrgCode(token: String) = String.valueOf({
+  private def getOrgCode(token: String) = String.valueOf({
     for{
       results<- TokenService.apply().getOrgCode(token)
     }yield results

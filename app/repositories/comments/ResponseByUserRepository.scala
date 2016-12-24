@@ -36,7 +36,7 @@ class ResponseByUserRepository extends CassandraTable[ResponseByUserRepository,R
   }
 }
 
-object ResponseByUserRepository extends ResponseRepository with RootConnector {
+object ResponseByUserRepository extends ResponseByUserRepository with RootConnector {
 
   override lazy val tableName = "userresponse"
 

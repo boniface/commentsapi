@@ -5,7 +5,7 @@ import java.util.Date
 import org.joda.time.{DateTime, DateTimeConstants}
 
 import scala.util.{Failure, Success, Try}
-import scalaz.Value
+
 
 
 /**
@@ -13,7 +13,20 @@ import scalaz.Value
   */
 object DateUtil {
 
-  val SPAM, PENDING, APPROVED, QUESTION, RESPONSE, SMFEED,FEED, POST, ENABLED, DISABLED, TODAY,YESTERDAY,WEEK,MONTH = Value
+  def  SPAM = "SPAM"
+  def PENDING="PENDING"
+  def APPROVED="APPROVED"
+  def QUESTION="QUESTION"
+  def RESPONSE="RESPONSE"
+  def SMFEED="SMFEED"
+  def FEED="FEED"
+  def POST="POST"
+  def ENABLED="ENABLED"
+  def DISABLED="DISABLE"
+  def TODAY="TODAY"
+  def YESTERDAY="YESTERDAY"
+  def WEEK="WEEK"
+  def MONTH="MONTH"
 
   def getDate(date: String): Date = {
     date match{

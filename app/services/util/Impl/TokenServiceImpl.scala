@@ -127,9 +127,7 @@ class TokenServiceImpl extends TokenService with Service {
     val signature = Future {
       credential.email
     }
-    val userRole = UserService.apply.getUserRole(user.siteId,user.email) map (role => {
-      role map (e => e.roleId)
-    })
+    val userRole = UserService.apply.getUserRole(user.siteId,user.email) map (role => role.roleId)
 
     val tokenSignatureAndRoles = for {
       tokenSignature <- signature

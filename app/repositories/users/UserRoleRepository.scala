@@ -6,6 +6,7 @@ import com.websudos.phantom.connectors.RootConnector
 import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PrimaryKey
 import com.websudos.phantom.reactivestreams._
+import conf.connection.DataConnection
 import conf.connection.DataConnection._
 import domain.users.UserRole
 import org.joda.time.DateTime
@@ -32,9 +33,9 @@ object UserRoleRepository extends UserRoleRepository with RootConnector {
 
   override lazy val tableName = "userroles"
 
-  override implicit def space: KeySpace = keySpace
+  override implicit def space: KeySpace = DataConnection.keySpace
 
-  override implicit def session: Session = session
+  override implicit def session: Session = DataConnection.session
 
   def save(role: UserRole): Future[ResultSet] = {
     insert

@@ -14,7 +14,7 @@ trait UserRoleService {
 
   def getUserRoles(siteId: String, emailId: String): Future[Seq[UserRole]]
 
-  def getUserRole(siteId: String, emailId: String): Future[Option[UserRole]]
+  def getUserRole(siteId: String, emailId: String): Future[UserRole]
 }
 
 object UserRoleService {
