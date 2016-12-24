@@ -2,7 +2,6 @@ package services.syslog
 
 import com.websudos.phantom.dsl._
 import domain.syslog.SystemLogEvents
-import services.Service
 import services.syslog.Impl.SystemLogEventsServiceImpl
 
 import scala.concurrent.Future
@@ -12,13 +11,14 @@ import scala.concurrent.Future
   */
 trait SystemLogEventsService {
 
-  def save(systemLogEvents: SystemLogEvents) : Future[ResultSet]
-  def getEventById(id:String): Future[Option[SystemLogEvents]]
-  def getEventsByDate(date:DateTime):Future[Option[SystemLogEvents]]
-  def getEvents:Future[Seq[SystemLogEvents]]
-  def deleteById(id: String):Future[ResultSet]
+  def save(systemLogEvents: SystemLogEvents): Future[ResultSet]
+
+  def getEventById(siteId: String, id: String): Future[Option[SystemLogEvents]]
+
+  def getSiteLogs(siteId: String): Future[Seq[SystemLogEvents]]
+
 }
 
-object SystemLogEventsService extends Service{
+object SystemLogEventsService {
   def apply():SystemLogEventsService = new SystemLogEventsServiceImpl
 }

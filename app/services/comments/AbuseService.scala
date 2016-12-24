@@ -16,7 +16,7 @@ trait AbuseService {
 
   def getItemAbuse(siteId: String, commentIdOrResponseId: String): Future[Seq[Abuse]]
 
-  def getUserAbusiveComments(siteId: String, commentIdOrResponseId: String, emailId: String): Future[Seq[Abuse]]
+  def getUserAbusiveComments(siteId: String, emailId: String): Future[Seq[Abuse]]
 }
 
 object AbuseService {

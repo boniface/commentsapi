@@ -8,8 +8,8 @@ import com.github.nscala_time.time.Imports._
 import conf.security.Credential
 import com.github.t3hnar.bcrypt._
 import conf.util.Util
-import domain.users.{User, UserGeneratedToken}
-import domain.util.Token
+import domain.users.User
+import domain.util.{Token, UserGeneratedToken}
 import repositories.util.TokenRepository
 import services.Service
 import services.users.UserService
@@ -28,12 +28,12 @@ class TokenServiceImpl extends TokenService with Service {
   }
 
   override def createNewToken(credential: Credential): Future[UserGeneratedToken] = {
-    val useraccounts = UserService.apply().getUser(credential.email)
-    val results = useraccounts map {
-      case Nil => Future {
+    val useraccount = UserService.apply.getSiteUser(credential.siteId,credential.email)
+    val results = useraccount map {
+      case None => Future {
         UserGeneratedToken("NONE", "FAILED", "USER NOT FOUND", "NONE")
       }
-      case user :: Nil =>
+      case Some(user)=>
         if (credential.password.isBcrypted(user.password)) {
           val checkAccounts = Try {
             for {
@@ -52,12 +52,6 @@ class TokenServiceImpl extends TokenService with Service {
             UserGeneratedToken("NONE", "FAILED", "WRONG PASSWORD", "NONE")
           }
         }
-
-      case accounts@(user :: tail) =>
-        Future {
-          UserGeneratedToken("NONE", "MULTIPLE", "MULTIPLE ACCOUNTS FOUND", user.siteId)
-
-      }
     }
     results flatMap (result => result)
 
@@ -133,7 +127,7 @@ class TokenServiceImpl extends TokenService with Service {
     val signature = Future {
       credential.email
     }
-    val userRole = UserService.apply().getUserRole(user.siteId,user.email) map (role => {
+    val userRole = UserService.apply.getUserRole(user.siteId,user.email) map (role => {
       role map (e => e.roleId)
     })
 

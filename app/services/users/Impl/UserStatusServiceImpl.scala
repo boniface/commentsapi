@@ -7,6 +7,7 @@ import services.users.UserStatusService
 import services.Service
 
 import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
  * Created by Rosie on 2016/11/28.

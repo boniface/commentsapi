@@ -1,11 +1,11 @@
 package services.comments.Impl
 
-import com.datastax.driver.core.ResultSet
-import com.websudos.phantom.dsl._
+import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Response
-import repositories.comments.ResponseRepository
+import repositories.comments.{ResponseByUserRepository, ResponseRepository}
 import services.Service
 import services.comments.ResponseService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 import scala.concurrent.Future
 
@@ -13,29 +13,22 @@ import scala.concurrent.Future
   * Created by Bonga on 11/13/2016.
   */
 class ResponseServiceImpl  extends ResponseService with Service{
-
-  override def getResponseByCommentId(id: String): Future[Option[Response]] = {
-    ResponseRepository.getSiteResponse(id)
+  override def save(response: Response): Future[ResultSet] = {
+    for{
+      save <-ResponseRepository.save(response)
+      save <- ResponseByUserRepository.save(response)
+    } yield save
   }
 
-   def save(response: Response):Future[ResultSet] = {
-    val responseService = Response(response.commentId,
-      response.responseId,
-      response.response,
-      response.emailId,
-      response.ipaddress,
-      response.date)
-    for {
-      result <- ResponseRepository.save(responseService)
-    } yield result
+  override def getCommentResponses(commentId: String): Future[Seq[Response]] = {
+    ResponseRepository.getCommentResponses(commentId)
   }
 
-  override def getAllResponse: Future[Seq[Response]] = {
-    ResponseRepository.getAllResponse
+  override def getResponse(commentId: String, responseId: String): Future[Option[Response]] = {
+    ResponseRepository.getResponse(commentId,responseId)
   }
 
-  override def deleteAll: Future[ResultSet] = {
-    ResponseRepository.deleteAll
+  override def getUserResponses(emailId: String): Future[Seq[Response]] = {
+    ResponseByUserRepository.getUserResponses(emailId)
   }
-
 }

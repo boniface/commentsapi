@@ -8,10 +8,10 @@ import org.joda.time.DateTime
 
 object ResponseFactory {
 
-  def getResponse(value:Map[String,String],dates:DateTime):Response = {
-    Response(commentId = value("commentId"),responseId = value("responseId"),
-      response = value("response"),emailId = value("emailId"),
-      ipaddress = value("ipaddress"),date = dates)
-  }
+//  def getResponse(value:Map[String,String],dates:DateTime):Response = {
+//    Response(commentId = value("commentId"),responseId = value("responseId"),
+//      response = value("response"),emailId = value("emailId"),
+//      ipaddress = value("ipaddress"),date = dates)
+//  }
 
 }

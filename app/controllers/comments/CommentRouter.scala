@@ -1,71 +1,69 @@
 package controllers.comments
 import javax.inject.Inject
-import controllers.sites.{AdministratorsController, SitesController}
+
 import play.api.routing.Router.Routes
 import play.api.routing.SimpleRouter
 import play.api.routing.sird._
 /**
   * Created by Bonga on 12/15/2016.
   */
-class CommentRouter@Inject()
+class CommentRouter @Inject()
 (abuseController: AbuseController)
 (commentController: CommentController)
-(commentStatusController: CommentStatusController)
 (responseController: ResponseController)
-(responseStatusController: ResponseStatusController)
 (subjectController: SubjectController)
   extends SimpleRouter {
+
   override def routes: Routes = {
     //Abuse
-    case GET(p"/get/abuse") =>
-      abuseController.getAbuse(subjectId = "100")
-    case GET(p"/get/all") =>
-      abuseController.getAllAbuse
-    case POST(p"/create") =>
+    case GET(p"/abuse/$siteId/$itemId") =>
+      abuseController.getItemAbuse(siteId,itemId)
+    case GET(p"/abuse/user/$siteId/$emailId") =>
+      abuseController.getUserAbusiveComments(siteId,emailId)
+    case POST(p"/abuse/create") =>
       abuseController.createOrUpdate
 
     // Comment
 
-    case GET(p"/get/comment") =>
-      commentController.getComment(subjectId = "200")
-    case GET(p"/get/all") =>
-      commentController.getAllComment
-    case POST(p"/create") =>
+    case GET(p"/comment/$siteId/$subjectId/$commentId") =>
+      commentController.getComment(siteId,subjectId,commentId)
+    case GET(p"/comment/status/$commentsId") =>
+      commentController.getCommentStatus(commentsId)
+    case POST(p"/comment/create") =>
       commentController.createOrUpdate
-
-
-    // Comment ItemStatus
-
-    case GET(p"/get/comment") =>
-      commentStatusController.getCommentStatus(subjectId = "200")
-    case POST(p"/create") =>
-      commentStatusController.createOrUpdate
+    case POST(p"/comment/site/$siteId") =>
+      commentController.getSiteComments(siteId)
+    case POST(p"/comment/subject/$siteId/$subjectId") =>
+      commentController.getSubjectComments(siteId,subjectId)
+    case POST(p"/comment/user/$siteId/$emailId") =>
+      commentController.getUserComments(siteId,emailId)
+    case POST(p"/comment/status/create") =>
+      commentController.saveStatus
 
     // Response
 
-    case GET(p"/get/comment") =>
-      responseController.getResponse(subjectId = "200")
-    case GET(p"/get/all") =>
-      responseController.getAllResponse
-    case POST(p"/create") =>
+    case GET(p"/response/$commentId/$responseId") =>
+      responseController.getResponse(commentId,responseId)
+    case GET(p"/response/status/$commentsId") =>
+      responseController.getResponseStatus(commentsId)
+    case POST(p"/response/create") =>
       responseController.createOrUpdate
+    case POST(p"/response/site/$commentId") =>
+      responseController.getCommentResponses(commentId)
+    case POST(p"/response/user/$emailId") =>
+      responseController.getUserResponses(emailId)
+    case POST(p"/response/status/create") =>
+      responseController.saveStatus
 
-    // Response ItemStatus
 
-    case GET(p"/get/comment") =>
-      responseStatusController.getResponseStatus(subjectId = "200")
-    case GET(p"/get/all") =>
-      responseStatusController.getAllResponseStatus
-    case POST(p"/create") =>
-      responseStatusController.createOrUpdate
 
     //Subject
 
-    case GET(p"/get/subject") =>
-      subjectController.getSubject(subjectId = "300")
-    case GET(p"/get/all") =>
-      subjectController.getAllSubject
-    case POST(p"/create") =>
+    case GET(p"/subject/$siteId") =>
+      subjectController.getSiteSubjects(siteId)
+    case GET(p"/subject/$siteId/$subjectId") =>
+      subjectController.getSubjectById(siteId,subjectId)
+    case POST(p"/subject/create") =>
       subjectController.createOrUpdate
 
   }

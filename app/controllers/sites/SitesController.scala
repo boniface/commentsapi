@@ -86,18 +86,18 @@ class SitesController extends Controller {
         site <- SitesService.apply.getSiteById(siteId)
         results <-SitesService.apply.createOrUpdate(site.get,status)
       } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
+      response.map(ans => Ok(Json.toJson(ans.isExhausted)))
         .recover { case e: Exception => InternalServerError }
   }
 
   def activateSite(siteId: String) = Action.async {
-    val status = ItemStatus(siteId,new DateTime,StatusMessages.ACTIVE,StatusMessages.ACTIVATED)
     request =>
+      val status = ItemStatus(siteId,new DateTime,StatusMessages.ACTIVE,StatusMessages.ACTIVATED)
       val response = for {
         site <- SitesService.apply.getSiteById(siteId)
         results <-SitesService.apply.createOrUpdate(site.get,status)
       } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
+      response.map(ans => Ok(Json.toJson(ans.isExhausted)))
         .recover { case e: Exception => InternalServerError }
   }
 }

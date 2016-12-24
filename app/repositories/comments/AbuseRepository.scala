@@ -53,11 +53,4 @@ object AbuseRepository extends AbuseRepository with RootConnector {
       .fetchEnumerator() run Iteratee.collect()
   }
 
-  def getUserAbusiveComments(siteId: String, commentIdOrResponseId: String,emailId:String): Future[Seq[Abuse]] = {
-    select
-      .where(_.siteId eqs siteId)
-      .and(_.commentIdOrResponseId eqs commentIdOrResponseId)
-      .and(_.emailId eqs emailId)
-      .fetchEnumerator() run Iteratee.collect()
-  }
 }

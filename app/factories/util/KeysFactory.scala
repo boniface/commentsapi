@@ -7,8 +7,6 @@ import domain.util.Keys
   */
 object KeysFactory {
 
-  def getKeys(values:Map[String,String]): Keys ={
-    Keys(id =values("id"),value = values("value") )
-  }
+
 
 }

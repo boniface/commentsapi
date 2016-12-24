@@ -40,7 +40,6 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
       ipaddress(r),
       comment(r),
       date(r)
-
     )
   }
 }

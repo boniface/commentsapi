@@ -7,7 +7,7 @@ import domain.util.Token
   */
 object TokenFactory {
 
-  def getToken(values:Map[String,String]): Token ={
-    Token(id = values("id"),tokenValue = values("tokenValue"))
-  }
+//  def getToken(values:Map[String,String]): Token ={
+//    Token(id = values("id"),tokenValue = values("tokenValue"))
+//  }
 }

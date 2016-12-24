@@ -4,6 +4,7 @@ import domain.util.Roles
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
 import services.util.RoleService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by Quest on 2016/12/05.

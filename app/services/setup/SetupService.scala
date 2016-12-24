@@ -16,7 +16,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
   */
 object SetupService extends Service {
 
-  val organisation = Site("HASHCODE", "Hashcode", "hash-code.com")
+  val site = Site("HASHCODE", "Hashcode", "hash-code.com")
 
 
   val testUser = User(
@@ -28,7 +28,7 @@ object SetupService extends Service {
     AuthUtil.encode("admin"))
 
 
-  val userRole = UserRole("admin@test.com", RolesID.ADMIN, new DateTime())
+  val userRole = UserRole("hashcode.zm","admin@test.com", RolesID.ADMIN, new DateTime())
 
   def runSetUp = for {
   // Add Your respositories to create Tables Here
@@ -38,7 +38,7 @@ object SetupService extends Service {
     createTable <- TokenRepository.create.ifNotExists().future()
 
     createTable <- SiteRepository.create.ifNotExists().future()
-    createTable <- AdministratorsRepository.create.ifNotExists()
+    createTable <- AdministratorsRepository.create.ifNotExists().future()
 
   } yield createTable
 

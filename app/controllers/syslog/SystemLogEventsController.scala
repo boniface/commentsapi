@@ -1,16 +1,15 @@
 package controllers.syslog
 
 import domain.syslog.SystemLogEvents
-import org.joda.time.DateTime
 import play.api.libs.json.Json
-import play.api.mvc.{Controller, Action}
-import play.api.mvc.BodyParsers.parse
+import play.api.mvc.{Action, Controller}
 import services.syslog.SystemLogEventsService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by Quest on 2016/12/01.
   */
-class SystemLogEventsController extends Controller{
+class SystemLogEventsController extends Controller {
 
   def createOrUpdate = Action.async(parse.json) {
     request =>
@@ -25,37 +24,20 @@ class SystemLogEventsController extends Controller{
         }
   }
 
-  def getEventById(id: String) = Action.async {
+
+  def getEventById(siteId: String, id: String) = Action.async {
     request =>
       val response = for {
-        results <- SystemLogEventsService.apply.getEventById(id)
+        results <- SystemLogEventsService.apply.getEventById(siteId, id)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
   }
 
-  def getAllEvents = Action.async {
+  def getSiteLogs(siteId: String) = Action.async {
     request =>
       val response = for {
-        results <- SystemLogEventsService.apply.getEvents
-      } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
-        .recover { case e: Exception => InternalServerError }
-  }
-
-  def deleteById(id:String) = Action.async {
-    request =>
-      val response = for {
-        results <- SystemLogEventsService.apply.deleteById(id)
-      } yield results
-      response.map(ans => Ok(Json.toJson(ans)))
-        .recover { case e: Exception => InternalServerError }
-  }
-
-  def getEventsByDate(date: DateTime) = Action.async {
-    request =>
-      val response = for {
-        results <- SystemLogEventsService.apply.getEventsByDate(date)
+        results <- SystemLogEventsService.apply.getSiteLogs(siteId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }

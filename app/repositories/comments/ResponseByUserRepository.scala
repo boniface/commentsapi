@@ -10,10 +10,11 @@ import domain.comments.Response
 
 import scala.concurrent.Future
 
+
 /**
   * Created by hashcode on 2016/12/22.
   */
-class ResponseByUserRepository extends CassandraTable[ResponseRepository,Response]{
+class ResponseByUserRepository extends CassandraTable[ResponseByUserRepository,Response]{
   object emailId extends StringColumn(this) with PartitionKey[String]
   object responseId extends StringColumn(this) with PrimaryKey[String]
   object commentId extends StringColumn(this)
@@ -35,7 +36,7 @@ class ResponseByUserRepository extends CassandraTable[ResponseRepository,Respons
   }
 }
 
-object ResponseRepository extends ResponseRepository with RootConnector {
+object ResponseByUserRepository extends ResponseRepository with RootConnector {
 
   override lazy val tableName = "userresponse"
 
@@ -56,7 +57,7 @@ object ResponseRepository extends ResponseRepository with RootConnector {
 
   def getUserResponses(emailId: String): Future[Seq[Response]] = {
     select
-      .where(_.emailId eqs emailId)
+      .where(_.emailId eqs  emailId)
       .fetchEnumerator() run Iteratee.collect()
   }
 }

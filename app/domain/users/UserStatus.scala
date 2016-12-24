@@ -1,6 +1,7 @@
 package domain.users
 
 import org.joda.time.DateTime
+import play.api.libs.json.Json
 
 
 /**
@@ -11,5 +12,6 @@ case class UserStatus(siteId:String,
                       status:String,
                       date: DateTime)
 object UserStatus{
+  implicit val userFmt = Json.format[UserStatus]
 
 }

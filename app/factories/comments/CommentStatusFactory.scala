@@ -8,8 +8,8 @@ import org.joda.time.DateTime
   */
 object CommentStatusFactory {
 
-  def getCommentStatus (value:Map[String,String],dates:DateTime):CommentStatus = {
-    CommentStatus(commentId = value("commentId"),status = value("status"),date = dates)
-  }
+//  def getCommentStatus (value:Map[String,String],dates:DateTime):CommentStatus = {
+//    CommentStatus(commentId = value("commentId"),status = value("status"),date = dates)
+//  }
 
 }

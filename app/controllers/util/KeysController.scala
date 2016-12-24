@@ -6,6 +6,7 @@ import org.joda.time.DateTime
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
 import services.util.KeyService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by Quest on 2016/12/05.

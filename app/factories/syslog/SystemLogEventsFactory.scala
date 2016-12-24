@@ -8,11 +8,11 @@ import org.joda.time.DateTime
   */
 object SystemLogEventsFactory {
 
-    def getSystemLogEvents(values:Map[String,String],dates:DateTime): SystemLogEvents ={
-
-      SystemLogEvents(orgCode = values("orgCode"),
-        id = values("id"),eventName = values("eventName"),
-        eventType = values("eventType"),message = values("message")
-        ,date = dates)
-    }
+//    def getSystemLogEvents(values:Map[String,String],dates:DateTime): SystemLogEvents ={
+//
+//      SystemLogEvents(orgCode = values("orgCode"),
+//        id = values("id"),eventName = values("eventName"),
+//        eventType = values("eventType"),message = values("message")
+//        ,date = dates)
+//    }
 }

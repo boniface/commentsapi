@@ -5,6 +5,7 @@ import domain.util.Token
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
 import services.util.TokenService
+import scala.concurrent.ExecutionContext.Implicits.global
 
 /**
   * Created by Quest on 2016/12/05.

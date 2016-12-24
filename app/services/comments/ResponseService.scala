@@ -16,7 +16,6 @@ trait ResponseService {
 
   def getCommentResponses(commentId: String): Future[Seq[Response]]
 
-
   def getResponse(commentId: String, responseId: String): Future[Option[Response]]
 
   def getUserResponses(emailId: String): Future[Seq[Response]]

@@ -15,7 +15,7 @@ GET        /assets/*file        controllers.Assets.versioned(path="/public", fil
 #Site Routes
 ->         /admin               controllers.sites.AdminRouter
 #Comments Routes
-->         /comments            controllers.comments.CommentsRouter
+->         /comments            controllers.comments.CommentRouter
 #Users Routes
 ->         /users               controllers.users.UsersRouter
 #Util Routes

@@ -1,42 +1,39 @@
 package services.comments.Impl
 
-import com.datastax.driver.core.ResultSet
+import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Comment
-import repositories.comments.CommentRepository
+import repositories.comments.{CommentRepository, CommentsByUserRepository}
 import services.Service
 import services.comments.CommentService
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
   * Created by Bonga on 10/29/2016.
   */
 class CommentServiceImpl extends CommentService with Service {
+  override def saveComment(comment: Comment): Future[ResultSet] = {
+    for{
+      save <-CommentRepository.save(comment)
+      save <- CommentsByUserRepository.save(comment)
+    } yield save
 
-  override def getCommentBySubjectId(id: String): Future[Option[Comment]] = {
-    CommentRepository.getSiteComment(id)
   }
 
-  override def save(comment: Comment): Future[ResultSet] = {
-    val commentService = Comment(comment.subjectId,
-      comment.siteId,
-      comment.commentId,
-      comment.emailId,
-      comment.ipaddress,
-      comment.comment,
-      comment.date)
-    for {
-      result <- CommentRepository.save(commentService)
-    } yield result
+  override def getSiteComments(siteId: String): Future[Seq[Comment]] = {
+    CommentRepository.getSiteComments(siteId)
   }
 
-  override def getAllComment: Future[Seq[Comment]] = {
-    CommentRepository.getAllComment
+  override def getSubjectComments(siteId: String, subjectId: String): Future[Seq[Comment]] = {
+    CommentRepository.getSubjectComments(siteId,subjectId)
   }
 
-  override def deleteAll: Future[ResultSet] = {
-    CommentRepository.deleteAll
+  override def getComment(siteId: String, subjectId: String, commentId: String): Future[Option[Comment]] = {
+    CommentRepository.getComment(siteId,subjectId,commentId)
   }
 
-
+  override def getUserComments(siteId: String, emailId: String): Future[Seq[Comment]] = {
+    CommentsByUserRepository.getUserComments(siteId,emailId)
+  }
 }

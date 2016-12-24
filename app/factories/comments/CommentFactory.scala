@@ -9,10 +9,10 @@ import org.joda.time.DateTime
 object CommentFactory {
 
 
-  def getComment (value:Map[String,String],dates:DateTime): Comment ={
-    Comment(siteId = value("siteId"),subjectId = value("subjectId"),
-      commentId = value("commentId"),emailId = value("emailId"),
-      ipaddress = value("ipaddress"),comment = value("comment"),date = dates)
-
-  }
+//  def getComment (value:Map[String,String],dates:DateTime): Comment ={
+//    Comment(siteId = value("siteId"),subjectId = value("subjectId"),
+//      commentId = value("commentId"),emailId = value("emailId"),
+//      ipaddress = value("ipaddress"),comment = value("comment"),date = dates)
+//
+//  }
 }

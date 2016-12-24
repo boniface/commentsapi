@@ -3,7 +3,6 @@ package controllers.votes
 import domain.votes.VoterRegister
 import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
-import services.votes.VoterRegisterService
 
 /**
   * Created by fatimam on 04/12/2016.

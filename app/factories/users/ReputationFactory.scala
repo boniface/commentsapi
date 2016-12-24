@@ -8,8 +8,6 @@ import org.joda.time.DateTime
  */
 object ReputationFactory {
 
-  def getReputation(values:String, dates:DateTime, number:Int):Reputation={
-    Reputation(emailId = values,date= dates,value = number)
-  }
+
 
 }

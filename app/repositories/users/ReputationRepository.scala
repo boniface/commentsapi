@@ -49,8 +49,8 @@ object ReputationRepository extends ReputationRepository with RootConnector {
   def getDayReputation(siteId: String, emailId:String, date:DateTime): Future[Option[Reputation]] = {
     select
       .where(_.siteId eqs siteId)
-      .where(_.emailId eqs emailId)
-      .where(_.date eqs date)
+      .and(_.emailId eqs emailId)
+      .and(_.date eqs date)
       .one()
   }
 

@@ -4,6 +4,8 @@ import play.api.libs.json.Json
 import play.api.mvc.{Action, Controller}
 import services.comments.AbuseService
 
+import scala.concurrent.ExecutionContext.Implicits.global
+
 /**
   * Created by Bonga on 12/1/2016.
   */
@@ -23,19 +25,20 @@ class AbuseController extends Controller {
         }
   }
 
-  def getAbuse(subjectId: String) = Action.async {
+
+  def getItemAbuse(siteId: String, commentIdOrResponseId: String) = Action.async {
     request =>
       val response = for {
-        results <- AbuseService.apply.getAbuseBySubjectId(subjectId)
+        results <- AbuseService.apply.getItemAbuse(siteId,commentIdOrResponseId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
   }
 
-  def getAllAbuse = Action.async {
+  def getUserAbusiveComments(siteId: String, emailId: String) = Action.async {
     request =>
       val response = for {
-        results <- AbuseService.apply.getAllAbuse
+        results <- AbuseService.apply.getUserAbusiveComments(siteId,emailId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
