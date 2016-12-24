@@ -1,4 +1,4 @@
-[debug] Copy resource mappings: 
-[debug] 	(C:\Users\Bonga\Desktop\commentsapi\conf\application.conf,C:\Users\Bonga\Desktop\commentsapi\target\scala-2.11\classes\application.conf)
-[debug] 	(C:\Users\Bonga\Desktop\commentsapi\conf\logback.xml,C:\Users\Bonga\Desktop\commentsapi\target\scala-2.11\classes\logback.xml)
-[debug] 	(C:\Users\Bonga\Desktop\commentsapi\conf\routes,C:\Users\Bonga\Desktop\commentsapi\target\scala-2.11\classes\routes)
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/hashcode/hashprojects/backend/commentsapi/conf/application.conf,/home/hashcode/hashprojects/backend/commentsapi/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/hashcode/hashprojects/backend/commentsapi/conf/routes,/home/hashcode/hashprojects/backend/commentsapi/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/hashcode/hashprojects/backend/commentsapi/conf/logback.xml,/home/hashcode/hashprojects/backend/commentsapi/target/scala-2.11/classes/logback.xml)[0m

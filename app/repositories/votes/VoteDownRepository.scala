@@ -19,6 +19,8 @@ import scala.concurrent.Future
 
 sealed class VoteDownRepository extends CassandraTable[VoteDownRepository, VoteDown] {
 
+  object siteId extends StringColumn(this) with PartitionKey[String]
+
   object itemId extends StringColumn(this) with PartitionKey[String]
 
   object ipAddress extends StringColumn(this) with PrimaryKey[String]
@@ -29,6 +31,7 @@ sealed class VoteDownRepository extends CassandraTable[VoteDownRepository, VoteD
 
   override def fromRow(row: Row): VoteDown = {
     VoteDown(
+      siteId(row),
       itemId(row),
       ipAddress(row),
       itemOwnerId(row),
@@ -47,6 +50,7 @@ object VoteDownRepository extends VoteDownRepository with RootConnector {
 
   def save(vote: VoteDown): Future[ResultSet] = {
     insert
+      .value(_.siteId, vote.siteId)
       .value(_.itemId, vote.itemId)
       .value(_.ipAddress, vote.ipAddress)
       .value(_.itemOwnerId, vote.itemOwnerId)
