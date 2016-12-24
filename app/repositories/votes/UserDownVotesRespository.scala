@@ -15,17 +15,20 @@ import scala.concurrent.Future
   */
 class UserDownVotesRepository extends CassandraTable[UserDownVotesRepository, VoteDown] {
 
-  object itemOwnerId extends StringColumn(this) with  PartitionKey[String]
+  object itemOwnerId extends StringColumn(this) with PartitionKey[String]
 
   object itemId extends StringColumn(this) with PrimaryKey[String]
 
   object ipAddress extends StringColumn(this) with PrimaryKey[String]
 
+  object date extends DateTimeColumn(this)
+
   override def fromRow(row: Row): VoteDown = {
     VoteDown(
       itemId(row),
       ipAddress(row),
-      itemOwnerId(row)
+      itemOwnerId(row),
+      date(row)
     )
   }
 }
@@ -38,30 +41,26 @@ object UserDownVotesRepository extends UserDownVotesRepository with RootConnecto
   override implicit def session: Session = DataConnection.session
 
 
-  def save(votedown: VoteDown): Future[ResultSet] = {
+  def save(vote: VoteDown): Future[ResultSet] = {
     insert
-      .value(_.itemId, votedown.itemId)
-      .value(_.ipAddress, votedown.ipAddress)
-      .value(_.itemOwnerId, votedown.itemOwnerId)
+      .value(_.itemId, vote.itemId)
+      .value(_.ipAddress, vote.ipAddress)
+      .value(_.itemOwnerId, vote.itemOwnerId)
+      .value(_.date, vote.date)
       .future()
   }
 
-  def getVoteId(itemId: String, ipAddress: String): Future[Option[VoteDown]] = {
-    select
-      .where(_.itemId eqs itemId)
-      .and(_.ipAddress eqs ipAddress)
-      .one()
-  }
 
-  def getVotes(itemId: String): Future[Seq[VoteDown]] = {
+  def getUserVotes(itemOwnerId: String): Future[Seq[VoteDown]] = {
     select
-      .where(_.itemId eqs itemId)
+      .where(_.itemOwnerId eqs itemOwnerId)
       .fetchEnumerator() run Iteratee.collect()
   }
 
-  def deleteVote(itemId: String, ipAddress: String): Future[ResultSet] = {
+  def deleteVote(itemOwnerId:String,itemId: String, ipAddress: String): Future[ResultSet] = {
     delete
-      .where(_.itemId eqs itemId)
+      .where(_.itemOwnerId eqs itemOwnerId)
+      .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .future()
   }

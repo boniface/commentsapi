@@ -25,11 +25,14 @@ sealed class VoteDownRepository extends CassandraTable[VoteDownRepository, VoteD
 
   object itemOwnerId extends StringColumn(this)
 
+  object date extends DateTimeColumn(this)
+
   override def fromRow(row: Row): VoteDown = {
     VoteDown(
       itemId(row),
       ipAddress(row),
-      itemOwnerId(row)
+      itemOwnerId(row),
+      date(row)
     )
   }
 }
@@ -42,11 +45,12 @@ object VoteDownRepository extends VoteDownRepository with RootConnector {
   override implicit def session: Session = DataConnection.session
 
 
-  def save(votedown: VoteDown): Future[ResultSet] = {
+  def save(vote: VoteDown): Future[ResultSet] = {
     insert
-      .value(_.itemId, votedown.itemId)
-      .value(_.ipAddress, votedown.ipAddress)
-      .value(_.itemOwnerId, votedown.itemOwnerId)
+      .value(_.itemId, vote.itemId)
+      .value(_.ipAddress, vote.ipAddress)
+      .value(_.itemOwnerId, vote.itemOwnerId)
+      .value(_.date, vote.date)
       .future()
   }
 

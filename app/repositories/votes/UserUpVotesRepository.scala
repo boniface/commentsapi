@@ -5,15 +5,14 @@ import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
-import domain.votes.VoteDown
-
+import domain.votes.VoteUp
 
 import scala.concurrent.Future
 
 /**
   * Created by hashcode on 2016/12/24.
   */
-class UserUpVotesRepository extends CassandraTable[UserDownVotesRepository, VoteDown] {
+class UserUpVotesRepository extends CassandraTable[UserUpVotesRepository, VoteUp] {
 
   object itemOwnerId extends StringColumn(this) with  PartitionKey[String]
 
@@ -21,11 +20,14 @@ class UserUpVotesRepository extends CassandraTable[UserDownVotesRepository, Vote
 
   object ipAddress extends StringColumn(this) with PrimaryKey[String]
 
-  override def fromRow(row: Row): VoteDown = {
-    VoteDown(
+  object date extends DateTimeColumn(this)
+
+  override def fromRow(row: Row): VoteUp = {
+    VoteUp(
       itemId(row),
       ipAddress(row),
-      itemOwnerId(row)
+      itemOwnerId(row),
+      date(row)
     )
   }
 }
@@ -38,30 +40,25 @@ object UserUpVotesRepository extends UserUpVotesRepository with RootConnector {
   override implicit def session: Session = DataConnection.session
 
 
-  def save(votedown: VoteDown): Future[ResultSet] = {
+  def save(vote: VoteUp): Future[ResultSet] = {
     insert
-      .value(_.itemId, votedown.itemId)
-      .value(_.ipAddress, votedown.ipAddress)
-      .value(_.itemOwnerId, votedown.itemOwnerId)
+      .value(_.itemId, vote.itemId)
+      .value(_.ipAddress, vote.ipAddress)
+      .value(_.itemOwnerId, vote.itemOwnerId)
+      .value(_.date, vote.date)
       .future()
   }
 
-  def getVoteId(itemId: String, ipAddress: String): Future[Option[VoteDown]] = {
+  def getUserVotes(itemOwnerId: String): Future[Seq[VoteUp]] = {
     select
-      .where(_.itemId eqs itemId)
-      .and(_.ipAddress eqs ipAddress)
-      .one()
-  }
-
-  def getVotes(itemId: String): Future[Seq[VoteDown]] = {
-    select
-      .where(_.itemId eqs itemId)
+      .where(_.itemOwnerId eqs itemOwnerId)
       .fetchEnumerator() run Iteratee.collect()
   }
 
-  def deleteVote(itemId: String, ipAddress: String): Future[ResultSet] = {
+  def deleteVote(itemOwnerId:String,itemId: String, ipAddress: String): Future[ResultSet] = {
     delete
-      .where(_.itemId eqs itemId)
+      .where(_.itemOwnerId eqs itemOwnerId)
+      .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .future()
   }
