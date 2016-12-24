@@ -15,18 +15,18 @@ trait VoteService {
   // Upvotes
   def castUpVote(vote: VoteUp): Future[Seq[VoteUp]]
 
-  def getUserUpVotes(itemOwnerId: String): Future[Seq[VoteUp]]
+  def getUserUpVotes(siteId:String,itemOwnerId: String): Future[Seq[VoteUp]]
 
-  def getUpVotes(itemId: String): Future[Seq[VoteUp]]
+  def getUpVotes(siteId:String,itemId: String): Future[Seq[VoteUp]]
 
 
 
   // DownVotes
   def castDownVote(vote: VoteDown): Future[Seq[VoteDown]]
 
-  def getUserDownVotes(itemOwnerId: String): Future[Seq[VoteDown]]
+  def getUserDownVotes(siteId:String,itemOwnerId: String): Future[Seq[VoteDown]]
 
-  def getDownVotes(itemId: String): Future[Seq[VoteDown]]
+  def getDownVotes(siteId:String,itemId: String): Future[Seq[VoteDown]]
 }
 
 object VoteService{

@@ -2,7 +2,7 @@ package services.comments.Impl
 
 import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Comment
-import repositories.comments.{CommentRepository, CommentsByUserRepository}
+import repositories.comments.{CommentRepository, CommentsByUserRepository, SingleCommentRepository}
 import services.Service
 import services.comments.CommentService
 
@@ -17,6 +17,7 @@ class CommentServiceImpl extends CommentService with Service {
     for{
       save <-CommentRepository.save(comment)
       save <- CommentsByUserRepository.save(comment)
+      save <- SingleCommentRepository.save(comment)
     } yield save
 
   }
@@ -29,8 +30,8 @@ class CommentServiceImpl extends CommentService with Service {
     CommentRepository.getSubjectComments(siteId,subjectId)
   }
 
-  override def getComment(siteId: String, subjectId: String, commentId: String): Future[Option[Comment]] = {
-    CommentRepository.getComment(siteId,subjectId,commentId)
+  override def getComment(commentId: String): Future[Option[Comment]] = {
+    SingleCommentRepository.getComment(commentId)
   }
 
   override def getUserComments(siteId: String, emailId: String): Future[Seq[Comment]] = {

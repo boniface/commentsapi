@@ -25,8 +25,8 @@ class CommentRouter @Inject()
 
     // Comment
 
-    case GET(p"/comment/$siteId/$subjectId/$commentId") =>
-      commentController.getComment(siteId,subjectId,commentId)
+    case GET(p"/comment/single/$commentId") =>
+      commentController.getComment(commentId)
     case GET(p"/comment/status/$commentsId") =>
       commentController.getCommentStatus(commentsId)
     case POST(p"/comment/create") =>
@@ -42,8 +42,8 @@ class CommentRouter @Inject()
 
     // Response
 
-    case GET(p"/response/$commentId/$responseId") =>
-      responseController.getResponse(commentId,responseId)
+    case GET(p"/response/single/$responseId") =>
+      responseController.getResponse(responseId)
     case GET(p"/response/status/$commentsId") =>
       responseController.getResponseStatus(commentsId)
     case POST(p"/response/create") =>

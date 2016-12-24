@@ -1,6 +1,5 @@
 package repositories.comments
 
-
 import com.datastax.driver.core.Row
 import com.websudos.phantom.CassandraTable
 import com.websudos.phantom.dsl._
@@ -8,17 +7,15 @@ import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
 import domain.comments.Response
+
 import scala.concurrent.Future
 
-
-
 /**
-  * Created by Bonga on 10/28/2016.
+  * Created by hashcode on 2016/12/24.
   */
-
-class ResponseRepository  extends CassandraTable[ResponseRepository,Response]{
-  object commentId extends StringColumn(this) with PartitionKey[String]
-  object responseId extends StringColumn(this) with PrimaryKey[String]
+class SingleResponseRepository  extends CassandraTable[SingleResponseRepository,Response]{
+  object responseId extends StringColumn(this) with PartitionKey[String]
+  object commentId extends StringColumn(this) with PrimaryKey[String]
   object response extends StringColumn(this)
   object emailId extends StringColumn(this)
   object ipaddress extends StringColumn(this)
@@ -38,9 +35,9 @@ class ResponseRepository  extends CassandraTable[ResponseRepository,Response]{
   }
 }
 
-object ResponseRepository extends ResponseRepository with RootConnector {
+object SingleResponseRepository extends SingleResponseRepository with RootConnector {
 
-  override lazy val tableName = "response"
+  override lazy val tableName = "singleresponse"
 
   override implicit def space: KeySpace = DataConnection.keySpace
 
@@ -57,17 +54,12 @@ object ResponseRepository extends ResponseRepository with RootConnector {
       .future()
   }
 
-  def getCommentResponses(commentId: String): Future[Seq[Response]] = {
-    select
-      .where(_.commentId eqs commentId)
-      .fetchEnumerator() run Iteratee.collect()
-  }
 
 
-  def getResponse(commentId: String, responseId:String): Future[Option[Response]] = {
+  def getResponse(responseId:String): Future[Option[Response]] = {
     select
-      .where(_.commentId eqs commentId)
-      .and(_.responseId eqs responseId)
+      .where(_.responseId eqs responseId)
       .one()
   }
+
 }

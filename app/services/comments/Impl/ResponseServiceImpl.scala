@@ -2,11 +2,11 @@ package services.comments.Impl
 
 import com.websudos.phantom.dsl.ResultSet
 import domain.comments.Response
-import repositories.comments.{ResponseByUserRepository, ResponseRepository}
+import repositories.comments.{ResponseByUserRepository, ResponseRepository, SingleResponseRepository}
 import services.Service
 import services.comments.ResponseService
-import scala.concurrent.ExecutionContext.Implicits.global
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 /**
@@ -17,6 +17,7 @@ class ResponseServiceImpl  extends ResponseService with Service{
     for{
       save <-ResponseRepository.save(response)
       save <- ResponseByUserRepository.save(response)
+      save <-SingleResponseRepository.save(response)
     } yield save
   }
 
@@ -24,8 +25,8 @@ class ResponseServiceImpl  extends ResponseService with Service{
     ResponseRepository.getCommentResponses(commentId)
   }
 
-  override def getResponse(commentId: String, responseId: String): Future[Option[Response]] = {
-    ResponseRepository.getResponse(commentId,responseId)
+  override def getResponse(responseId: String): Future[Option[Response]] = {
+    SingleResponseRepository.getResponse(responseId)
   }
 
   override def getUserResponses(emailId: String): Future[Seq[Response]] = {

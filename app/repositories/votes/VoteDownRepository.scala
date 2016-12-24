@@ -58,22 +58,25 @@ object VoteDownRepository extends VoteDownRepository with RootConnector {
       .future()
   }
 
-  def getVoteId(itemId: String, ipAddress: String): Future[Option[VoteDown]] = {
+  def getVoteId(siteId:String,itemId: String, ipAddress: String): Future[Option[VoteDown]] = {
     select
-      .where(_.itemId eqs itemId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .one()
   }
 
-  def getVotes(itemId: String): Future[Seq[VoteDown]] = {
+  def getVotes(siteId:String,itemId: String): Future[Seq[VoteDown]] = {
     select
-      .where(_.itemId eqs itemId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemId eqs itemId)
       .fetchEnumerator() run Iteratee.collect()
   }
 
-  def deleteVote(itemId: String, ipAddress: String): Future[ResultSet] = {
+  def deleteVote(siteId:String,itemId: String, ipAddress: String): Future[ResultSet] = {
     delete
-      .where(_.itemId eqs itemId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .future()
   }

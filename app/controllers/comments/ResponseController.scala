@@ -36,10 +36,10 @@ class ResponseController extends Controller {
   }
 
 
-  def getResponse(commentId: String, responseId: String) = Action.async {
+  def getResponse(responseId: String) = Action.async {
     request =>
       val response = for {
-        results <- ResponseService.apply.getResponse(commentId, responseId)
+        results <- ResponseService.apply.getResponse(responseId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }

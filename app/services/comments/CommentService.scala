@@ -22,7 +22,7 @@ trait CommentService {
 
   def getSubjectComments(siteId: String, subjectId: String): Future[Seq[Comment]]
 
-  def getComment(siteId: String, subjectId: String, commentId: String): Future[Option[Comment]]
+  def getComment(commentId: String): Future[Option[Comment]]
 
   def getUserComments(siteId: String, emailId: String): Future[Seq[Comment]]
 

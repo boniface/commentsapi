@@ -53,24 +53,28 @@ object VoteUpRepository extends VoteUpRepository with RootConnector {
       .future()
   }
 
-  def getVoteId(itemId: String, ipAddress: String): Future[Option[VoteUp]] = {
+  def getVoteId(siteId:String,itemId: String, ipAddress: String): Future[Option[VoteUp]] = {
     select
-      .where(_.itemId eqs itemId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .one()
   }
 
-  def getVotes(itemId: String): Future[Seq[VoteUp]] = {
+  def getVotes(siteId:String,itemId: String): Future[Seq[VoteUp]] = {
     select
-      .where(_.itemId eqs itemId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemId eqs itemId)
       .fetchEnumerator() run Iteratee.collect()
   }
 
-  def deleteVote(itemId: String, ipAddress: String): Future[ResultSet] = {
+  def deleteVote(siteId:String,itemId: String, ipAddress: String): Future[ResultSet] = {
     delete
-      .where(_.itemId eqs itemId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .future()
   }
+
 
 }

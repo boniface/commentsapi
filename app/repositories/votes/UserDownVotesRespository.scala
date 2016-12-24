@@ -55,15 +55,17 @@ object UserDownVotesRepository extends UserDownVotesRepository with RootConnecto
   }
 
 
-  def getUserVotes(itemOwnerId: String): Future[Seq[VoteDown]] = {
+  def getUserVotes(siteId:String,itemOwnerId: String): Future[Seq[VoteDown]] = {
     select
-      .where(_.itemOwnerId eqs itemOwnerId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemOwnerId eqs itemOwnerId)
       .fetchEnumerator() run Iteratee.collect()
   }
 
-  def deleteVote(itemOwnerId:String,itemId: String, ipAddress: String): Future[ResultSet] = {
+  def deleteVote(siteId:String,itemOwnerId:String,itemId: String, ipAddress: String): Future[ResultSet] = {
     delete
-      .where(_.itemOwnerId eqs itemOwnerId)
+      .where(_.siteId eqs siteId)
+      .and(_.itemOwnerId eqs itemOwnerId)
       .and(_.itemId eqs itemId)
       .and(_.ipAddress eqs ipAddress)
       .future()

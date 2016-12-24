@@ -41,10 +41,10 @@ class CommentController extends Controller {
         .recover { case e: Exception => InternalServerError }
   }
 
-  def getComment(siteId: String, subjectId: String, commentId: String) = Action.async {
+  def getComment(commentId: String) = Action.async {
     request =>
       val response = for {
-        results <- CommentService.apply.getComment(siteId,subjectId,commentId)
+        results <- CommentService.apply.getComment(commentId)
       } yield results
       response.map(ans => Ok(Json.toJson(ans)))
         .recover { case e: Exception => InternalServerError }
