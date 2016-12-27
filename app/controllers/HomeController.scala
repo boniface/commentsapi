@@ -3,6 +3,7 @@ package controllers
 import javax.inject._
 
 import play.api.mvc._
+import services.setup.SetupService
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
@@ -19,6 +20,11 @@ class HomeController @Inject() extends Controller {
    */
   def index = Action {
     Ok(views.html.index("Your new application is ready."))
+  }
+
+  def setup = Action{
+    SetupService.runSetUp
+    Ok("Tables Created ")
   }
 
 }

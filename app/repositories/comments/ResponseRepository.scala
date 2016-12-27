@@ -17,6 +17,7 @@ import scala.concurrent.Future
   */
 
 class ResponseRepository  extends CassandraTable[ResponseRepository,Response]{
+
   object commentId extends StringColumn(this) with PartitionKey[String]
   object responseId extends StringColumn(this) with PrimaryKey[String]
   object response extends StringColumn(this)

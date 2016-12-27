@@ -46,7 +46,7 @@ class CommentRepository  extends CassandraTable[CommentRepository, Comment] {
 
   object CommentRepository extends CommentRepository with RootConnector {
 
-    override lazy val tableName = "comments"
+    override lazy val tableName = "sitecomments"
 
     override implicit def space: KeySpace = DataConnection.keySpace
 

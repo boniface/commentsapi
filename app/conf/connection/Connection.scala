@@ -12,7 +12,6 @@ import scala.collection.JavaConversions._
 /**
  * Created by hashcode on 2015/10/29.
  */
-
 object Config {
   val config = ConfigFactory.load()
 
