@@ -1,9 +1,5 @@
 package repositories.votes
-import domain.votes.VoteDown
-import repositories.Votes.VoteDownRepository
 import org.scalatest.{FeatureSpec, GivenWhenThen}
-import scala.concurrent.duration._
-import scala.concurrent.Await
 
 
 /**
@@ -12,25 +8,25 @@ import scala.concurrent.Await
 class VoteDownTest extends FeatureSpec with GivenWhenThen
 {
 
-  feature("Create Vote Down") {
-    info("Add a Vote Down")
-    scenario("Add new Voter Down ") {
-      Given("Given commentIdOrResponseId,emailId,ipaddress,count")
-      val commentIdOrResponseId = "1"
-      val emailId = "1"
-      val ipaddress = "1"
-      val count=1
-
-      Then("Add Voter Register ")
-      val admin = VoteDown(commentIdOrResponseId,emailId,ipaddress,count)
-      val voteDownRepo = VoteDownRepository
-      voteDownRepo.save(admin)
-      Then("Display All ")
-      val displayAllstatuses = Await.result(voteDownRepo.getAllkeys, 2 minutes)
-      displayAllstatuses.foreach(i => println("Vote Down=======>", i))
-      val displayIdStatus = Await.result(voteDownRepo.getVoteDownById(commentIdOrResponseId), 2 minutes)
-      displayIdStatus.foreach(i => println("ItemStatus=======>", i))
-    }
-  }
+//  feature("Create Vote Down") {
+//    info("Add a Vote Down")
+//    scenario("Add new Voter Down ") {
+//      Given("Given commentIdOrResponseId,emailId,ipaddress,count")
+//      val commentIdOrResponseId = "1"
+//      val emailId = "1"
+//      val ipaddress = "1"
+//      val count=1
+//
+//      Then("Add Voter Register ")
+//      val admin = VoteDown(commentIdOrResponseId,emailId,ipaddress,count)
+//      val voteDownRepo = VoteDownRepository
+//      voteDownRepo.save(admin)
+//      Then("Display All ")
+//      val displayAllstatuses = Await.result(voteDownRepo.getAllkeys, 2 minutes)
+//      displayAllstatuses.foreach(i => println("Vote Down=======>", i))
+//      val displayIdStatus = Await.result(voteDownRepo.getVoteDownById(commentIdOrResponseId), 2 minutes)
+//      displayIdStatus.foreach(i => println("ItemStatus=======>", i))
+//    }
+//  }
 
 }

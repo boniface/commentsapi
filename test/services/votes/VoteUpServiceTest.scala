@@ -10,23 +10,23 @@ import scala.concurrent.duration._
   */
 class VoteUpServiceTest extends FunSuite
 {
-  test("testSave"){
-    val voteUp = VoteUp("1","1","156.326.232",1)
-    val result = Await.result(VoteUpService.apply().saveOrUpdate(voteUp), 2minutes)
-
-    assert(result.isExhausted)
-  }
-
-  test("testGetVoteDownId"){
-    val result = Await.result(VoteUpService.apply().get("1"),2 minutes)
-    assert(result === "1")
-  }
-
-
-  test("testGetAll") {
-    val result = Await.result(VoteUpService.apply().getAll, 2.minutes)
-
-    assert(result === "test")
-  }
+//  test("testSave"){
+//    val voteUp = VoteUp("1","1","156.326.232",1)
+//    val result = Await.result(VoteUpService.apply().saveOrUpdate(voteUp), 2minutes)
+//
+//    assert(result.isExhausted)
+//  }
+//
+//  test("testGetVoteDownId"){
+//    val result = Await.result(VoteUpService.apply().get("1"),2 minutes)
+//    assert(result === "1")
+//  }
+//
+//
+//  test("testGetAll") {
+//    val result = Await.result(VoteUpService.apply().getAll, 2.minutes)
+//
+//    assert(result === "test")
+//  }
 
 }

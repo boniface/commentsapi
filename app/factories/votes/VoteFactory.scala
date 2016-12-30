@@ -1,7 +1,5 @@
 package factories.votes
 
-import domain.votes.{VoteDown, VoteUp, VoterRegister}
-
 /**
   * Created by hashcode on 2016/09/21.
   */

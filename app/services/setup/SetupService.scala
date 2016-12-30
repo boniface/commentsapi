@@ -24,16 +24,28 @@ object SetupService extends Service {
   val site = Site("HASHCODE", "Hashcode", "hash-code.com")
 
 
-  val testUser = User(
+  val testAdmin = User(
     "HASHCODE",
     "test@admin.com",
     "ADMINSTRATOR",
+    Some("System"),
+    Some("System"),
+    AuthUtil.encode("admin"),
+    new DateTime)
+
+  val testUser = User(
+    "HASHCODE",
+    "test@test.com",
+    "ANONYMOUS",
     None,
     None,
-    AuthUtil.encode("admin"))
+    AuthUtil.encode("admin"),
+    new DateTime)
 
 
-  val userRole = UserRole("hashcode.zm", "admin@test.com", RolesID.ADMIN, new DateTime())
+  val adminRole = UserRole("hashcode.zm", "admin@test.com", RolesID.ADMIN, new DateTime)
+
+  val userRole = UserRole("hashcode.zm", "test@test.com", RolesID.ANONYMOUS_USER, new DateTime)
 
   def runSetUp = for {
   //Comments
@@ -48,6 +60,8 @@ object SetupService extends Service {
     table <- SingleCommentRepository.create.ifNotExists().future()
     table <- SingleResponseRepository.create.ifNotExists().future()
     table <- SubjectRepository.create.ifNotExists().future()
+
+
 
     //SysLog
     table <- SystemLogEventsRepository.create.ifNotExists().future()
@@ -76,6 +90,11 @@ object SetupService extends Service {
     table <- UserUpVotesRepository.create.ifNotExists().future()
     table <- VoteDownRepository.create.ifNotExists().future()
     table <- VoteUpRepository.create.ifNotExists().future()
+
+    saveTable <- UserRepository.save(testAdmin)
+    saveRole <- UserRoleRepository.save(userRole)
+    saveTable <- UserRepository.save(testUser)
+    saveTable <- UserRoleRepository.save(adminRole)
 
   } yield table
 

@@ -6,9 +6,8 @@ import com.websudos.phantom.dsl._
 import com.websudos.phantom.keys.PartitionKey
 import com.websudos.phantom.reactivestreams._
 import conf.connection.DataConnection
-
 import domain.users.User
-
+import org.joda.time.DateTime
 
 import scala.concurrent.Future
 
@@ -35,6 +34,8 @@ class UserRepository extends CassandraTable[UserRepository, User] {
 
   object password extends StringColumn(this)
 
+  object date extends DateTimeColumn(this)
+
   override def fromRow(r: Row): User = {
     User(
       siteId(r),
@@ -42,7 +43,9 @@ class UserRepository extends CassandraTable[UserRepository, User] {
       screenName(r),
       firstname(r),
       lastName(r),
-      password(r)
+      password(r),
+      date(r)
+
     )
   }
 }
@@ -63,6 +66,7 @@ object UserRepository extends UserRepository with RootConnector {
       .value(_.firstname, user.firstname)
       .value(_.lastName, user.lastName)
       .value(_.password, user.password)
+      .value(_.date, user.date)
       .future()
   }
 
@@ -74,3 +78,4 @@ object UserRepository extends UserRepository with RootConnector {
     select.where(_.siteId eqs siteId).fetchEnumerator() run Iteratee.collect()
   }
 }
+

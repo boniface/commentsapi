@@ -6,7 +6,7 @@ import play.api.libs.json.Json
 /**
   * Created by hashcode on 2016/09/20.
   */
-case class Comment( siteId: String,
+case class Comment(siteId: String,
                    subjectId: String,
                    commentId: String,
                    comment: String,

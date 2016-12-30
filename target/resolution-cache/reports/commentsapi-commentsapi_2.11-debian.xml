@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="debian"
 		confs="universal, universal-docs, universal-src, docker, linux, compile, runtime, test, provided, optional, windows, debian, rpm, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161227132529"/>
+		date="20161230102729"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

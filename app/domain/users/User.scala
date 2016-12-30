@@ -1,5 +1,6 @@
 package domain.users
 
+import org.joda.time.DateTime
 import play.api.libs.json.Json
 
 /**
@@ -10,7 +11,8 @@ case class User( siteId:String,
                  screenName: String,
                  firstname:Option[String],
                  lastName:Option[String],
-                 password: String
+                 password: String,
+                 date:DateTime
                )
 
 object User {

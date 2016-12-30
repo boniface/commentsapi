@@ -11,38 +11,6 @@ import play.api.test.Helpers._
   */
 class VoteUpControllerTest extends PlaySpec with OneAppPerTest
 {
-  val voteUp = VoteUp("1","1","124.222.252",1)
 
-  "Routes" should {
-    "Comment" should {
-
-      "Create VoteUp Object in Controller" in {
-        val request =  route(app, FakeRequest(POST, "/VoteUp/create")
-          .withJsonBody(Json.toJson(voteUp)))
-          .get
-        status(request) mustBe OK
-        contentType(request) mustBe Some("application/json")
-        println(" The Content is ", contentAsString(request))
-      }
-
-      "Get VoteUp From Controller" in {
-        val request = route(app, FakeRequest(GET, "/VoteUp/get/date")
-        ).get
-        status(request) mustBe OK
-        contentType(request) mustBe Some("application/json")
-        println(" The Output", contentAsJson(request))
-      }
-
-      "Get VoteUp From Controller" in {
-        val request = route(app, FakeRequest(GET, "/VoteUp/get/all")
-        ).get
-        status(request) mustBe OK
-        contentType(request) mustBe Some("application/json")
-        println(" The Output", contentAsJson(request))
-      }
-
-
-    }
-  }
 
 }

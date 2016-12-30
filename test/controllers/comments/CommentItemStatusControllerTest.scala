@@ -1,10 +1,5 @@
 package controllers.comments
-import domain.comments.CommentStatus
-import org.joda.time.DateTime
 import org.scalatestplus.play.{OneAppPerTest, PlaySpec}
-import play.api.libs.json.Json
-import play.api.test.FakeRequest
-import play.api.test.Helpers._
 
 /**
   * Created by Bonga on 12/16/2016.

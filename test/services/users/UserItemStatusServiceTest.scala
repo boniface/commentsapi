@@ -13,7 +13,7 @@ class UserItemStatusServiceTest extends FunSuite{
 
   test("testSave"){
     val status = UserStatus("s002","001","available",new DateTime())
-    val result = Await.result(UserStatusService.apply().save(status), 2minutes)
+    val result = Await.result(UserStatusService.apply().save(status), 2 minutes)
 
     assert(result.isExhausted)
   }
